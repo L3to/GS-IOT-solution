@@ -1,12 +1,13 @@
 import json
+import os
 
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import PromptTemplate
-from langchain_ollama import OllamaEmbeddings
+from langchain_ollama import ChatOllama, OllamaEmbeddings
 
-from llm_config import llm
+from llm_config import llm, load_prompt
 
-embed_model = OllamaEmbeddings(model="nomic-embed-text")
+embed_model = OllamaEmbeddings(model="mistral-nemo:12b")
 
 
 def load_file_contents(file_path):
@@ -28,7 +29,7 @@ def chunks_formation(raw_paths, raw_contents, text_splitter, metadata_chunks):
             metadata_chunks.append(
                 {
                     "text": chunk,
-                    "source": file_path,
+                    "source": os.path.basename(file_path),
                     "chunk_index": i,
                 }
             )
@@ -52,8 +53,8 @@ def collection_embeding(collection_name, metadata_chunks, id_prefix):
 
 
 def expand_query(question, collection):
-    expansion_template = f"Gere 2 variantes da seguinte pergunta para melhorar a recuperação de informações, o output deve ser em formato JSON com o campo 'variantes' contendo uma lista das perguntas geradas ('variations': ['variation 1', 'variation 2']): {question}"
-    expansion_prompt = PromptTemplate.from_template(expansion_template)
+    template = load_prompt("expand_query")
+    expansion_prompt = PromptTemplate.from_template(template)
     expansion_llm_chain = expansion_prompt | llm | StrOutputParser()
     expansions = expansion_llm_chain.invoke({"question": question})
     data = json.loads(expansions)
@@ -63,7 +64,50 @@ def expand_query(question, collection):
         query_embedding = embed_model.embed_query(var)
         results = collection.query(
             query_embeddings=[query_embedding],
-            n_results=3,
+            n_results=5,
         )
         expanded_results.append((results))
     return expanded_results
+
+
+def law_question_filter(question: str, history: str) -> str:
+    """
+    Identifica qual(is) arquivo(s) de lei contém(ém) a resposta para a pergunta.
+    Retorna uma lista de nomes de arquivos em formato JSON.
+    """
+    filter_template = load_prompt("filter_law_files")
+    filter_prompt = PromptTemplate.from_template(filter_template)
+    llm = ChatOllama(model="gpt-oss:20b", format="json", temperature=0)
+    filter_chain = filter_prompt | llm | StrOutputParser()
+    result = filter_chain.invoke({"question": question, "history": history})
+
+    try:
+        data = json.loads(result)
+        return data.get("files", [])
+    except json.JSONDecodeError:
+        return ""
+
+
+def contract_filter(contract_type_name, question, history):
+    """
+    Verifica se o tipo de contrato selecionado corresponde ao que o usuário realmente quer.
+    Retorna um dicionário com match (bool), confidence (str), reason (str) e suggested_contract (str).
+    """
+    filter_template = load_prompt("filter_contract_fields")
+    filter_prompt = PromptTemplate.from_template(filter_template)
+    llm_filter = ChatOllama(model="gpt-oss:20b", format="json", temperature=0)
+    filter_chain = filter_prompt | llm_filter | StrOutputParser()
+    result = filter_chain.invoke(
+        {"contract_type": contract_type_name, "question": question, "history": history}
+    )
+
+    try:
+        data = json.loads(result)
+        return data
+    except json.JSONDecodeError:
+        return {
+            "match": True,
+            "confidence": "low",
+            "reason": "Erro ao processar validação",
+            "suggested_contract": "",
+        }

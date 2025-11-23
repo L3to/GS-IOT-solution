@@ -53,27 +53,87 @@ Priorize e implemente especificamente:
 
 ## FORMATO DE SAÍDA OBRIGATÓRIO (JSON)
 {{
-  "refactored_contract": "Texto completo do contrato reformulado com formatação markdown",
-  "changes_summary": {{
-    "additions": ["Lista de cláusulas adicionadas"],
-    "modifications": ["Lista de cláusulas modificadas com justificativa"],
-    "removals": ["Lista de cláusulas removidas com justificativa"]
-  }},
-  "legal_improvements": [
-    {{
-      "improvement": "Descrição da melhoria legal implementada",
-      "legal_basis": "Art. X da Lei Y",
-      "rationale": "Por que essa melhoria foi necessária"
+  "refactored_contract": {{
+    "title": "Título completo do contrato reformulado",
+    "summary": "Resumo executivo em 2-3 parágrafos explicando: (1) o que foi reformulado e por quê, (2) principais melhorias implementadas (correções, adições de cláusulas, adequações legais), (3) impacto prático das mudanças e conformidade legal alcançada",
+    "full_text": "TEXTO COMPLETO DO CONTRATO REFORMULADO\n\nCom todas as melhorias implementadas, formatação profissional em markdown, estrutura hierárquica clara, linguagem jurídica precisa e todas as cláusulas necessárias.\n\nIncluir:\n- Preâmbulo identificando as partes\n- Todas as cláusulas numeradas e organizadas\n- Subcláusulas quando necessário\n- Cláusulas adicionais de segurança jurídica\n- Foro, data e assinaturas",
+    "structure": {{
+      "parties": ["Lista das partes identificadas"],
+      "clauses_count": 15,
+      "has_lgpd_clause": true,
+      "has_confidentiality": true,
+      "has_dispute_resolution": true
     }}
-  ],
-  "compliance_status": {{
-    "lgpd": "Conforme/Não Aplicável/Requer Atenção",
-    "codigo_civil": "Conforme/Requer Atenção",
-    "cdc": "Conforme/Não Aplicável/Requer Atenção",
-    "notes": "Observações sobre conformidade"
   }},
-  "recommendations": ["Recomendações adicionais para o usuário"],
-  "confidence": 0.85
+  "changes_made": {{
+    "additions": [
+      {{
+        "clause": "Cláusula X - Título",
+        "content": "Texto completo da cláusula adicionada",
+        "reason": "Por que foi adicionada",
+        "legal_basis": "Art. X da Lei Y"
+      }}
+    ],
+    "modifications": [
+      {{
+        "clause": "Cláusula Y - Título",
+        "original": "Texto original resumido",
+        "modified": "Texto modificado completo",
+        "reason": "Por que foi modificada",
+        "legal_basis": "Art. X da Lei Y"
+      }}
+    ],
+    "removals": [
+      {{
+        "clause": "Cláusula Z - Título",
+        "content": "Texto removido",
+        "reason": "Por que foi removida (cláusula abusiva, ilegal, etc.)"
+      }}
+    ]
+  }},
+  "legal_analysis": {{
+    "improvements": [
+      {{
+        "area": "LGPD / Código Civil / CLT / CDC",
+        "improvement": "Descrição detalhada da melhoria",
+        "legal_basis": "Art. X da Lei Y",
+        "impact": "Como isso melhora o contrato"
+      }}
+    ],
+    "compliance_status": {{
+      "lgpd": {{
+        "status": "Conforme/Não Aplicável/Requer Atenção",
+        "details": "Detalhes sobre conformidade LGPD"
+      }},
+      "codigo_civil": {{
+        "status": "Conforme/Requer Atenção",
+        "details": "Detalhes sobre conformidade Código Civil"
+      }},
+      "cdc": {{
+        "status": "Conforme/Não Aplicável/Requer Atenção",
+        "details": "Detalhes sobre conformidade CDC"
+      }},
+      "clt": {{
+        "status": "Conforme/Não Aplicável/Requer Atenção",
+        "details": "Detalhes sobre conformidade CLT"
+      }}
+    }},
+    "risks_mitigated": ["Lista de riscos legais que foram mitigados"],
+    "remaining_considerations": ["Pontos que requerem atenção adicional"]
+  }},
+  "recommendations": {{
+    "immediate": ["Ações imediatas recomendadas"],
+    "future": ["Considerações para futuras revisões"],
+    "professional_review": "Recomendação sobre necessidade de revisão por advogado (sim/não/opcional)"
+  }},
+  "metadata": {{
+    "confidence": 0.85,
+    "processing_notes": "Observações sobre o processo de reformulação",
+    "clauses_added": 3,
+    "clauses_modified": 5,
+    "clauses_removed": 1,
+    "contract_type": "Tipo do contrato identificado"
+  }}
 }}
 
 **Nota sobre confidence (0.0 a 1.0):**

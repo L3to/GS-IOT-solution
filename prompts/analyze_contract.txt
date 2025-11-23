@@ -55,12 +55,21 @@ Mapeie sistematicamente:
 - **Obrigações mútuas**: liste responsabilidades compartilhadas
 
 ### 5. RESUMO EXECUTIVO
-Forneça uma síntese de 3-5 parágrafos com:
-- Natureza e objetivo do contrato
-- Principais termos comerciais
-- Pontos de atenção críticos
-- Conformidade legal geral
-- Recomendação final (aprovar, revisar ou rejeitar)
+Forneça uma síntese estruturada com:
+- **Nature**: Descrição clara do tipo e objetivo do contrato
+- **Main Terms**: Principais condições comerciais (valores, prazos, forma de pagamento)
+- **Critical Points**: Lista dos pontos mais importantes que exigem atenção
+- **Legal Compliance**: Avaliação da conformidade com a legislação brasileira
+- **Recommendation**: Classificação final (Aprovar/Revisar/Rejeitar)
+- **Rationale**: ANÁLISE DETALHADA em 3-5 parágrafos robustos contendo:
+  * Fundamentação jurídica completa da recomendação
+  * Análise aprofundada dos riscos identificados e seus impactos
+  * Avaliação da conformidade legal com citação de legislação aplicável
+  * Pontos fortes e fragilidades do contrato
+  * Consequências práticas e comerciais das cláusulas problemáticas
+  * Recomendações específicas e prioritárias de alteração
+  * Justificativa técnico-jurídica baseada no Código Civil, CDC, LGPD e demais leis pertinentes
+  * Orientação sobre próximos passos e urgência das correções necessárias
 
 ## FORMATO DE SAÍDA OBRIGATÓRIO (JSON)
 {{
@@ -113,7 +122,7 @@ Forneça uma síntese de 3-5 parágrafos com:
     "critical_points": ["string"],
     "legal_compliance": "Conforme/Parcialmente Conforme/Não Conforme",
     "recommendation": "Aprovar/Revisar/Rejeitar",
-    "rationale": "string"
+    "rationale": "string (DETALHADO: 3-5 parágrafos explicando a fundamentação completa da recomendação, incluindo análise de riscos jurídicos, conformidade legal, pontos fortes do contrato, vulnerabilidades identificadas, impacto comercial das cláusulas, recomendações específicas de alteração e justificativa baseada na legislação brasileira aplicável)"
   }},
   "confidence": 0.85
 }}

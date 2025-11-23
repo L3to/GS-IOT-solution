@@ -1,0 +1,18 @@
+Gere 2 variantes da seguinte pergunta para melhorar a recuperação de informações em um sistema RAG (Retrieval-Augmented Generation).
+
+## PERGUNTA ORIGINAL
+{question}
+
+## INSTRUÇÕES
+- Crie variações que mantenham o sentido original mas usem palavras diferentes
+- Use sinônimos e reformulações que possam aparecer em textos jurídicos
+- Mantenha o foco no tema jurídico da pergunta
+- As variações devem ajudar a encontrar mais documentos relevantes
+
+## FORMATO DE SAÍDA
+Retorne APENAS um JSON no seguinte formato:
+{{
+  "variations": ["variação 1 da pergunta", "variação 2 da pergunta"]
+}}
+
+Output (JSON format):

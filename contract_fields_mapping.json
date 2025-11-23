@@ -1,0 +1,1372 @@
+{
+  "CONTRATO DE CESSÃO DE DIREITOS DE IMAGEM": {
+    "description": "Contrato de cessão de direitos de uso de imagem",
+    "required_fields": {
+      "cedente": {
+        "nome": "Nome completo (artista/influencer/modelo)",
+        "nome_artistico": "Nome artístico (se houver)",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone",
+        "redes_sociais": "Perfis de redes sociais (Instagram, YouTube, TikTok, etc)"
+      },
+      "cessionario": {
+        "razao_social": "Razão social ou nome completo",
+        "tipo_pessoa": "PJ ou PF",
+        "cnpj_cpf": "CNPJ ou CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "cessao": {
+        "tipo": "Exclusiva ou Não-exclusiva",
+        "finalidade": "Finalidade do uso (publicidade, marketing, e-commerce, etc)",
+        "midias": "Mídias autorizadas (TV, rádio, internet, redes sociais, impressos, etc)",
+        "territorio": "Território de veiculação (Brasil, mundial, etc)",
+        "prazo_meses": "Prazo de vigência em meses",
+        "data_inicio": "Data de início (dd/mm/aaaa)",
+        "renovacao": "Renovação automática? Sim ou Não"
+      },
+      "remuneracao": {
+        "valor_total": "Valor total da cessão (R$)",
+        "forma_pagamento": "À vista, parcelado, por campanha, etc",
+        "royalties": "Há pagamento de royalties? Sim ou Não",
+        "percentual_royalties": "Se sim, percentual (%)"
+      },
+      "uso_imagem": {
+        "direito_aprovacao": "Cedente tem direito de aprovar materiais antes da veiculação? Sim ou Não",
+        "restricoes": "Restrições de uso (não pode aparecer com concorrentes, contextos negativos, etc)"
+      }
+    }
+  },
+  "CONTRATO DE CESSÃO DE QUOTAS SOCIAIS": {
+    "description": "Contrato de cessão/transferência de quotas sociais (M&A)",
+    "required_fields": {
+      "cedente": {
+        "nome": "Nome completo",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "cessionario": {
+        "nome": "Nome completo ou razão social",
+        "tipo_pessoa": "PF ou PJ",
+        "cpf_cnpj": "CPF ou CNPJ",
+        "nacionalidade": "Nacionalidade (se PF)",
+        "estado_civil": "Estado civil (se PF)",
+        "profissao": "Profissão (se PF)",
+        "rg": "RG (se PF)",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "empresa": {
+        "razao_social": "Razão social da empresa",
+        "cnpj": "CNPJ",
+        "sede": "Endereço da sede",
+        "capital_social_total": "Capital social total (R$)",
+        "numero_total_quotas": "Número total de quotas"
+      },
+      "cessao": {
+        "numero_quotas_cedidas": "Número de quotas a serem cedidas",
+        "percentual_cessao": "Percentual do capital social (%)",
+        "valor_cessao": "Valor da cessão (R$)",
+        "forma_pagamento": "À vista ou parcelado",
+        "data_transferencia": "Data da transferência (dd/mm/aaaa)"
+      },
+      "due_diligence": {
+        "realizada": "Sim ou Não",
+        "declaracoes_garantias": "Lista de declarações e garantias do cedente"
+      }
+    }
+  },
+  "CONTRATO DE COMODATO DE BEM IMÓVEL": {
+    "description": "Contrato de empréstimo gratuito de imóvel (comodato)",
+    "required_fields": {
+      "comodante": {
+        "nome": "Nome completo (proprietário que empresta)",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "comodatario": {
+        "nome": "Nome completo (quem recebe o imóvel)",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "imovel": {
+        "tipo": "Casa, apartamento, sala comercial, etc",
+        "endereco_completo": "Endereço completo do imóvel",
+        "area_total": "Área total em m²",
+        "matricula": "Número da matrícula no Registro de Imóveis",
+        "finalidade_uso": "Finalidade do uso (residencial, comercial, etc)"
+      },
+      "comodato": {
+        "tipo_prazo": "Determinado ou Indeterminado",
+        "prazo_meses": "Se determinado, prazo em meses",
+        "data_inicio": "Data de início (dd/mm/aaaa)",
+        "data_termino": "Data de término (dd/mm/aaaa) se prazo determinado",
+        "gratuito": "Sim (comodato é sempre gratuito)"
+      },
+      "obrigacoes_comodatario": {
+        "responsavel_iptu": "Sim ou Não",
+        "responsavel_condominio": "Sim ou Não",
+        "responsavel_energia": "Sim ou Não",
+        "responsavel_agua": "Sim ou Não",
+        "responsavel_manutencao": "Quais tipos de manutenção (ordinária, extraordinária, etc)"
+      },
+      "benfeitorias": {
+        "pode_realizar": "Sim ou Não",
+        "direito_indenizacao_necessarias": "Sim ou Não",
+        "direito_indenizacao_uteis": "Sim ou Não",
+        "direito_indenizacao_volutuparias": "Sim ou Não"
+      }
+    }
+  },
+  "CONTRATO DE COMPRA E VENDA DE VEÍCULO": {
+    "description": "Contrato de compra e venda de veículo automotor",
+    "required_fields": {
+      "vendedor": {
+        "nome": "Nome completo",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG número e órgão expedidor",
+        "cpf": "CPF",
+        "cnh": "Número da CNH",
+        "cnh_categoria": "Categoria da CNH",
+        "endereco_completo": "Endereço completo (rua, número, bairro, cidade, UF, CEP)",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "comprador": {
+        "nome": "Nome completo",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG número e órgão expedidor",
+        "cpf": "CPF",
+        "cnh": "Número da CNH",
+        "cnh_categoria": "Categoria da CNH",
+        "endereco_completo": "Endereço completo (rua, número, bairro, cidade, UF, CEP)",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "veiculo": {
+        "marca_modelo": "Marca e modelo completo",
+        "ano_fabricacao": "Ano de fabricação",
+        "ano_modelo": "Ano do modelo",
+        "cor": "Cor",
+        "placa": "Placa (AAA-0000)",
+        "renavam": "Número do RENAVAM",
+        "chassi": "Número do chassi",
+        "numero_motor": "Número do motor",
+        "combustivel": "Gasolina/Etanol/Flex/Diesel/Elétrico/Híbrido",
+        "quilometragem": "Quilometragem atual",
+        "estado_conservacao": "Excelente/Bom/Regular",
+        "tem_onus": "Sim ou Não - financiamento, multas, etc",
+        "acessorios": "Lista de acessórios incluídos"
+      },
+      "pagamento": {
+        "valor_total": "Valor total da venda (R$)",
+        "forma_pagamento": "À vista ou Parcelado",
+        "valor_entrada": "Se parcelado, valor da entrada",
+        "numero_parcelas": "Se parcelado, quantidade de parcelas",
+        "valor_parcela": "Se parcelado, valor de cada parcela",
+        "data_primeira_parcela": "Se parcelado, data da primeira parcela (dd/mm/aaaa)",
+        "origem_recursos": "Origem dos recursos (poupança, venda de imóvel, salário, etc)"
+      },
+      "transferencia": {
+        "prazo_transferencia_dias": "Prazo para transferência no DETRAN (ex: 30 dias)",
+        "responsavel_despesas": "COMPRADOR, VENDEDOR ou meio a meio"
+      }
+    }
+  },
+  "CONTRATO DE CONSTITUIÇÃO DE HOLDING FAMILIAR": {
+    "description": "Contrato de constituição de holding familiar para gestão patrimonial e sucessória",
+    "required_fields": {
+      "holding": {
+        "razao_social": "Razão social da holding",
+        "nome_fantasia": "Nome fantasia",
+        "sede": "Endereço completo da sede",
+        "objeto_social": "Objeto social (gestão de bens próprios, participações societárias, etc)"
+      },
+      "capital_social": {
+        "valor_total": "Valor total do capital social (R$)",
+        "forma_integralizacao": "Dinheiro, imóveis, quotas de outras empresas, etc",
+        "bens_integralizados": "Descrição detalhada dos bens que comporão o capital"
+      },
+      "socios_fundadores": [
+        {
+          "nome": "Nome completo do sócio",
+          "parentesco": "Parentesco (pai/mãe, filho/filha, cônjuge, etc)",
+          "nacionalidade": "Nacionalidade",
+          "estado_civil": "Estado civil",
+          "profissao": "Profissão",
+          "rg": "RG",
+          "cpf": "CPF",
+          "endereco_completo": "Endereço completo",
+          "email": "E-mail",
+          "telefone": "Telefone",
+          "quotas": "Número de quotas",
+          "percentual": "Percentual de participação (%)",
+          "valor_quotas": "Valor investido (R$)"
+        }
+      ],
+      "governanca": {
+        "tem_conselho_familia": "Sim ou Não",
+        "composicao_conselho": "Membros do Conselho de Família",
+        "administracao": "Quem administrará a holding",
+        "necessita_aprovacao_unanime": "Decisões que necessitam aprovação unânime dos sócios"
+      },
+      "sucessao": {
+        "clausula_doacao_usufruto": "Doação de nua-propriedade com reserva de usufruto? Sim ou Não",
+        "herdeiros_beneficiarios": "Lista de herdeiros beneficiários",
+        "clausulas_restritivas": "Inalienabilidade, impenhorabilidade, incomunicabilidade? Sim ou Não"
+      },
+      "distribuicao_resultados": {
+        "periodicidade": "Mensal, trimestral, semestral, anual",
+        "criterio": "Proporcional às quotas ou outro critério"
+      }
+    }
+  },
+  "CONTRATO DE CORRETAGEM IMOBILIÁRIA": {
+    "description": "Contrato de corretagem para intermediação de venda/locação de imóvel",
+    "required_fields": {
+      "corretor": {
+        "nome": "Nome completo ou razão social da imobiliária",
+        "tipo_pessoa": "PF ou PJ",
+        "cpf_cnpj": "CPF ou CNPJ",
+        "creci": "Número do CRECI",
+        "creci_uf": "UF do CRECI",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "proprietario": {
+        "nome": "Nome completo do proprietário do imóvel",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "imovel": {
+        "tipo": "Casa, apartamento, terreno, sala comercial, etc",
+        "endereco_completo": "Endereço completo do imóvel",
+        "area_total": "Área total em m²",
+        "numero_quartos": "Número de quartos (se aplicável)",
+        "numero_banheiros": "Número de banheiros",
+        "vagas_garagem": "Vagas de garagem",
+        "matricula": "Matrícula no Registro de Imóveis",
+        "iptu": "Número do IPTU"
+      },
+      "intermediacao": {
+        "tipo_negocio": "Venda ou Locação",
+        "valor_pretendido": "Valor de venda/aluguel pretendido (R$)",
+        "prazo_vigencia_meses": "Prazo do contrato de corretagem (meses)",
+        "exclusividade": "Exclusiva ou Não-exclusiva",
+        "data_inicio": "Data de início (dd/mm/aaaa)"
+      },
+      "comissao": {
+        "tipo_comissao": "Percentual sobre valor ou Valor fixo",
+        "percentual": "Se percentual, indicar % (ex: 6%)",
+        "valor_fixo": "Se valor fixo, indicar (R$)",
+        "responsavel_pagamento": "Vendedor, comprador ou rateado",
+        "momento_pagamento": "No fechamento, na assinatura do contrato, etc"
+      },
+      "obrigacoes_corretor": {
+        "divulgacao": "Portais, redes sociais, placa na fachada, anúncios, etc",
+        "vistorias": "Quantidade mínima de vistorias por mês",
+        "relatorios": "Periodicidade de relatórios ao proprietário"
+      }
+    }
+  },
+  "CONTRATO DE DESENVOLVIMENTO DE SOFTWARE": {
+    "description": "Contrato de desenvolvimento de software sob medida",
+    "required_fields": {
+      "contratante": {
+        "razao_social": "Razão social ou nome completo",
+        "tipo_pessoa": "PJ ou PF",
+        "cnpj_cpf": "CNPJ ou CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "contratada": {
+        "razao_social": "Razão social ou nome completo",
+        "tipo_pessoa": "PJ ou PF",
+        "cnpj_cpf": "CNPJ ou CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "software": {
+        "nome_projeto": "Nome do software/sistema",
+        "descricao": "Descrição detalhada do software",
+        "funcionalidades": "Lista de funcionalidades principais",
+        "tecnologias": "Tecnologias a serem utilizadas (linguagens, frameworks, banco de dados, etc)",
+        "plataformas": "Plataformas (Web, Mobile iOS/Android, Desktop, etc)",
+        "usuarios_estimados": "Número estimado de usuários",
+        "integracao": "Sistemas ou APIs para integração"
+      },
+      "projeto": {
+        "metodologia": "Metodologia de desenvolvimento (Scrum, Kanban, Waterfall, etc)",
+        "data_inicio": "Data de início (dd/mm/aaaa)",
+        "prazo_total_meses": "Prazo total em meses",
+        "etapas": "Descrição das etapas/sprints",
+        "entregas": "Lista de entregas (deliverables)"
+      },
+      "propriedade_intelectual": {
+        "transferencia_codigo": "Código-fonte será transferido? Sim ou Não",
+        "licenciamento": "Tipo de licença (propriedade total, licença de uso, etc)",
+        "restricoes_uso": "Restrições de uso"
+      },
+      "pagamento": {
+        "valor_total": "Valor total do projeto (R$)",
+        "forma_pagamento": "À vista, parcelado, por milestone, etc",
+        "cronograma_pagamentos": "Cronograma de pagamentos atrelado às entregas"
+      },
+      "suporte": {
+        "prazo_garantia_meses": "Prazo de garantia em meses",
+        "manutencao_incluida": "Manutenção incluída? Sim ou Não",
+        "sla": "SLA - tempo de resposta para bugs críticos"
+      }
+    }
+  },
+  "CONTRATO DE DOAÇÃO DE BEM IMÓVEL": {
+    "description": "Contrato de doação de bem imóvel",
+    "required_fields": {
+      "doador": {
+        "nome": "Nome completo",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "donatario": {
+        "nome": "Nome completo",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone",
+        "parentesco": "Grau de parentesco com doador (se houver)"
+      },
+      "imovel": {
+        "tipo": "Casa, apartamento, terreno, sala comercial, etc",
+        "endereco_completo": "Endereço completo do imóvel",
+        "area_total": "Área total em m²",
+        "matricula": "Número da matrícula no Registro de Imóveis",
+        "cartorio": "Nome do Cartório de Registro de Imóveis",
+        "valor_venal": "Valor venal para fins de ITCMD (R$)"
+      },
+      "doacao": {
+        "tipo_doacao": "Pura, Com encargo, Com cláusula de reversão, Com reserva de usufruto, Modal",
+        "encargo": "Se com encargo, descrever o encargo",
+        "usufruto": "Se com reserva de usufruto, especificar vitalício ou por prazo",
+        "clausula_reversao": "Se com cláusula de reversão, especificar condições",
+        "clausula_inalienabilidade": "Sim ou Não",
+        "clausula_impenhorabilidade": "Sim ou Não",
+        "clausula_incomunicabilidade": "Sim ou Não"
+      },
+      "despesas": {
+        "responsavel_itcmd": "Quem paga o ITCMD (doador ou donatário)",
+        "responsavel_cartorio": "Quem paga despesas de cartório"
+      }
+    }
+  },
+  "CONTRATO DE LOCAÇÃO DE IMÓVEL URBANO": {
+    "description": "Contrato de locação de imóvel urbano residencial ou comercial",
+    "required_fields": {
+      "locador": {
+        "nome": "Nome completo ou razão social",
+        "tipo_pessoa": "PF ou PJ",
+        "cpf_cnpj": "CPF ou CNPJ",
+        "nacionalidade": "Nacionalidade (se PF)",
+        "estado_civil": "Estado civil (se PF)",
+        "profissao": "Profissão (se PF)",
+        "rg": "RG (se PF)",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "locatario": {
+        "nome": "Nome completo ou razão social",
+        "tipo_pessoa": "PF ou PJ",
+        "cpf_cnpj": "CPF ou CNPJ",
+        "nacionalidade": "Nacionalidade (se PF)",
+        "estado_civil": "Estado civil (se PF)",
+        "profissao": "Profissão (se PF)",
+        "rg": "RG (se PF)",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "imovel": {
+        "tipo": "residencial, comercial, sala comercial, loja, etc",
+        "endereco_completo": "Endereço completo do imóvel",
+        "area_total": "Área total em m²",
+        "numero_quartos": "Quantidade de quartos (se residencial)",
+        "numero_banheiros": "Quantidade de banheiros",
+        "vagas_garagem": "Quantidade de vagas de garagem",
+        "mobiliado": "Sim ou Não",
+        "iptu": "Número do IPTU",
+        "matricula_registro": "Matrícula no Registro de Imóveis"
+      },
+      "locacao": {
+        "valor_aluguel": "Valor mensal do aluguel (R$)",
+        "dia_vencimento": "Dia do vencimento do aluguel",
+        "valor_condominio": "Valor do condomínio (R$) ou 'Não aplicável'",
+        "valor_iptu": "Valor anual do IPTU (R$)",
+        "inicio_locacao": "Data de início (dd/mm/aaaa)",
+        "prazo_meses": "Prazo em meses (ex: 30 meses)",
+        "reajuste": "Índice de reajuste (IGP-M, IPCA, etc) e periodicidade",
+        "garantia": "Tipo de garantia (caução, fiador, seguro-fiança, etc)"
+      }
+    }
+  },
+  "CONTRATO DE PARCERIA COMERCIAL E DISTRIBUIÇÃO": {
+    "description": "Contrato de parceria comercial para distribuição de produtos",
+    "required_fields": {
+      "fabricante": {
+        "razao_social": "Razão social do fabricante/fornecedor",
+        "cnpj": "CNPJ",
+        "endereco_completo": "Endereço completo",
+        "inscricao_estadual": "Inscrição estadual",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "distribuidor": {
+        "razao_social": "Razão social do distribuidor",
+        "cnpj": "CNPJ",
+        "endereco_completo": "Endereço completo",
+        "inscricao_estadual": "Inscrição estadual",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "produtos": {
+        "descricao": "Descrição dos produtos a serem distribuídos",
+        "categorias": "Categorias de produtos",
+        "marcas": "Marcas incluídas no acordo"
+      },
+      "territorio": {
+        "exclusividade": "Exclusiva ou Não-exclusiva",
+        "abrangencia": "Cidades, estados ou regiões de atuação",
+        "restricoes": "Restrições territoriais"
+      },
+      "comercial": {
+        "prazo_vigencia_meses": "Prazo de vigência em meses",
+        "data_inicio": "Data de início (dd/mm/aaaa)",
+        "metas_vendas": "Metas de vendas (quantidade ou valor)",
+        "desconto_comercial": "Percentual de desconto para o distribuidor (%)",
+        "prazo_pagamento": "Prazo de pagamento (ex: 30 dias)",
+        "comissao": "Percentual de comissão (se aplicável)"
+      },
+      "logistica": {
+        "responsavel_frete": "Fabricante ou Distribuidor",
+        "prazo_entrega_dias": "Prazo de entrega em dias",
+        "pedido_minimo": "Valor ou quantidade mínima por pedido",
+        "estoque_minimo": "Estoque mínimo que distribuidor deve manter"
+      }
+    }
+  },
+  "CONTRATO DE PARTICULAR DE PROMESSA DE COMPRA E VENDA DE IMÓVEL": {
+    "description": "Contrato de promessa de compra e venda de imóvel (pré-contrato)",
+    "required_fields": {
+      "promitente_vendedor": {
+        "nome": "Nome completo do vendedor",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "promitente_comprador": {
+        "nome": "Nome completo do comprador",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "imovel": {
+        "tipo": "Casa, apartamento, terreno, sala comercial, etc",
+        "endereco_completo": "Endereço completo do imóvel",
+        "area_total": "Área total em m²",
+        "area_construida": "Área construída em m² (se aplicável)",
+        "matricula": "Número da matrícula no Registro de Imóveis",
+        "cartorio": "Nome do Cartório de Registro de Imóveis",
+        "confrontacoes": "Confrontações do imóvel"
+      },
+      "venda": {
+        "valor_total": "Valor total da venda (R$)",
+        "valor_sinal": "Valor do sinal/arras (R$)",
+        "forma_pagamento": "À vista, financiamento, parcelado direto, etc",
+        "numero_parcelas": "Se parcelado, número de parcelas",
+        "valor_parcelas": "Valor de cada parcela (R$)",
+        "data_primeira_parcela": "Data da primeira parcela (dd/mm/aaaa)",
+        "financiamento": "Será financiado? Sim ou Não",
+        "banco_financiamento": "Se sim, qual banco"
+      },
+      "escritura": {
+        "prazo_lavratura_dias": "Prazo para lavratura da escritura definitiva (dias)",
+        "responsavel_despesas": "Quem paga despesas de escritura e registro"
+      },
+      "imovel_situacao": {
+        "tem_onus": "Possui ônus, hipoteca ou penhora? Sim ou Não",
+        "ocupado": "Imóvel ocupado? Sim ou Não",
+        "regularizado": "Documentação regularizada? Sim ou Não"
+      }
+    }
+  },
+  "CONTRATO DE PRESTAÇÃO DE SERVIÇOS": {
+    "description": "Contrato de prestação de serviços profissionais",
+    "required_fields": {
+      "contratada": {
+        "razao_social": "Razão social ou nome completo",
+        "tipo_pessoa": "PJ ou PF",
+        "cnpj_cpf": "CNPJ ou CPF",
+        "endereco_completo": "Endereço completo (rua, número, bairro, cidade, UF, CEP)",
+        "inscricao_estadual": "Inscrição estadual ou 'Isenta'",
+        "email": "E-mail",
+        "telefone": "Telefone",
+        "representante_legal": {
+          "nome": "Nome completo do representante (se PJ)",
+          "nacionalidade": "Nacionalidade",
+          "estado_civil": "Estado civil",
+          "profissao": "Profissão",
+          "rg": "RG número e órgão expedidor",
+          "cpf": "CPF",
+          "endereco_completo": "Endereço completo"
+        }
+      },
+      "contratante": {
+        "razao_social": "Razão social ou nome completo",
+        "tipo_pessoa": "PJ ou PF",
+        "cnpj_cpf": "CNPJ ou CPF",
+        "endereco_completo": "Endereço completo (rua, número, bairro, cidade, UF, CEP)",
+        "inscricao_estadual": "Inscrição estadual ou 'Isenta' (se PJ)",
+        "email": "E-mail",
+        "telefone": "Telefone",
+        "representante_legal": {
+          "nome": "Nome completo do representante (se PJ)",
+          "nacionalidade": "Nacionalidade",
+          "estado_civil": "Estado civil",
+          "profissao": "Profissão",
+          "rg": "RG número e órgão expedidor",
+          "cpf": "CPF",
+          "endereco_completo": "Endereço completo"
+        }
+      },
+      "servicos": {
+        "descricao_detalhada": "Descrição detalhada dos serviços a serem prestados",
+        "modalidade": "presencial, remota ou híbrida",
+        "local_execucao": "Endereço onde serão prestados (se presencial)",
+        "finalidade": "Objetivo e finalidade dos serviços",
+        "data_inicio_prevista": "Data de início (dd/mm/aaaa) ou prazo em dias",
+        "data_conclusao_prevista": "Data de conclusão (dd/mm/aaaa) ou prazo em dias",
+        "cronograma": "Descrição de etapas, marcos e entregas"
+      },
+      "pagamento": {
+        "valor_total": "Valor total dos serviços (R$)",
+        "forma_pagamento": "À vista, parcelado, por etapa, mensal, etc",
+        "periodicidade": "Mensal, quinzenal, por entrega, etc",
+        "data_pagamento": "Data ou prazo de pagamento",
+        "multa_atraso": "Percentual de multa por atraso",
+        "juros_mora": "Percentual de juros por atraso"
+      }
+    }
+  },
+  "CONTRATO DE SOCIEDADE EMPRESÁRIA LIMITADA": {
+    "description": "Contrato social de constituição de sociedade empresária limitada (Ltda)",
+    "required_fields": {
+      "empresa": {
+        "razao_social": "Razão social da empresa",
+        "nome_fantasia": "Nome fantasia",
+        "sede": "Endereço completo da sede",
+        "objeto_social": "Objeto social detalhado (atividades da empresa)",
+        "cnae": "CNAE principal e secundários"
+      },
+      "capital_social": {
+        "valor_total": "Valor total do capital social (R$)",
+        "forma_integralizacao": "Forma de integralização (dinheiro, bens, etc)",
+        "prazo_integralizacao": "Prazo para integralização"
+      },
+      "socios": [
+        {
+          "nome": "Nome completo do sócio",
+          "nacionalidade": "Nacionalidade",
+          "estado_civil": "Estado civil",
+          "profissao": "Profissão",
+          "rg": "RG",
+          "cpf": "CPF",
+          "endereco_completo": "Endereço completo",
+          "email": "E-mail",
+          "telefone": "Telefone",
+          "quotas": "Número de quotas",
+          "percentual": "Percentual de participação (%)",
+          "valor_quotas": "Valor investido (R$)"
+        }
+      ],
+      "administracao": {
+        "tipo": "Individual (um sócio) ou Conjunta (dois ou mais)",
+        "administradores": "Nome(s) do(s) administrador(es)",
+        "poderes": "Descrição dos poderes de gestão",
+        "limitacoes": "Limitações de poderes (ex: valores acima de X requerem aprovação)"
+      },
+      "distribuicao_lucros": {
+        "periodicidade": "Mensal, trimestral, semestral, anual",
+        "forma_distribuicao": "Proporcional às quotas ou outro critério"
+      }
+    }
+  },
+  "CONTRATO DE TRABALHO COM REGISTRO CLT": {
+    "description": "Contrato de trabalho formal com registro em carteira (CLT)",
+    "required_fields": {
+      "empregador": {
+        "razao_social": "Razão social da empresa",
+        "cnpj": "CNPJ da empresa",
+        "endereco_completo": "Endereço completo (rua, número, bairro, cidade, UF, CEP)",
+        "email": "E-mail da empresa",
+        "telefone": "Telefone da empresa",
+        "representante_legal": {
+          "nome": "Nome completo do representante",
+          "nacionalidade": "Nacionalidade",
+          "estado_civil": "Estado civil",
+          "profissao": "Profissão",
+          "rg": "RG número e órgão expedidor",
+          "cpf": "CPF"
+        }
+      },
+      "empregado": {
+        "nome": "Nome completo do empregado",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG número e órgão expedidor",
+        "cpf": "CPF",
+        "ctps": "Número da CTPS",
+        "ctps_serie": "Série da CTPS",
+        "ctps_uf": "UF de emissão da CTPS",
+        "titulo_eleitor": "Número do título de eleitor",
+        "certificado_reservista": "Número do certificado de reservista ou 'dispensado'",
+        "endereco_completo": "Endereço completo (rua, número, bairro, cidade, UF, CEP)",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "contrato": {
+        "cargo_funcao": "Cargo ou função a ser exercida",
+        "local_trabalho": "Endereço completo do local de trabalho",
+        "atividades": "Descrição detalhada das atividades",
+        "data_inicio": "Data de início (dd/mm/aaaa)",
+        "tipo_prazo": "indeterminado ou determinado",
+        "prazo_meses": "Se determinado, quantidade de meses",
+        "periodo_experiencia": "30, 45, 60 ou 90 dias",
+        "salario": "Valor do salário mensal (R$)",
+        "sindicato_categoria": "Sindicato ou categoria profissional",
+        "beneficios": "Lista de benefícios (vale-transporte, vale-refeição, plano de saúde, etc)",
+        "jornada_horas_diarias": "Horas de trabalho por dia",
+        "jornada_horas_semanais": "Horas de trabalho por semana",
+        "horario_entrada": "Horário de entrada",
+        "horario_saida": "Horário de saída",
+        "intervalo_horas": "Horas de intervalo para refeição"
+      }
+    }
+  },
+  "CONTRATO DE COMPRA E VENDA DE VEÍCULO": {
+    "description": "Contrato de compra e venda de veículo automotor",
+    "required_fields": {
+      "vendedor": {
+        "nome": "Nome completo",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG número e órgão expedidor",
+        "cpf": "CPF",
+        "cnh": "Número da CNH",
+        "cnh_categoria": "Categoria da CNH",
+        "endereco_completo": "Endereço completo (rua, número, bairro, cidade, UF, CEP)",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "comprador": {
+        "nome": "Nome completo",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG número e órgão expedidor",
+        "cpf": "CPF",
+        "cnh": "Número da CNH",
+        "cnh_categoria": "Categoria da CNH",
+        "endereco_completo": "Endereço completo (rua, número, bairro, cidade, UF, CEP)",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "veiculo": {
+        "marca_modelo": "Marca e modelo completo",
+        "ano_fabricacao": "Ano de fabricação",
+        "ano_modelo": "Ano do modelo",
+        "cor": "Cor",
+        "placa": "Placa (AAA-0000)",
+        "renavam": "Número do RENAVAM",
+        "chassi": "Número do chassi",
+        "numero_motor": "Número do motor",
+        "combustivel": "Gasolina/Etanol/Flex/Diesel/Elétrico/Híbrido",
+        "quilometragem": "Quilometragem atual",
+        "estado_conservacao": "Excelente/Bom/Regular",
+        "tem_onus": "Sim ou Não - financiamento, multas, etc",
+        "acessorios": "Lista de acessórios incluídos"
+      },
+      "pagamento": {
+        "valor_total": "Valor total da venda (R$)",
+        "forma_pagamento": "À vista ou Parcelado",
+        "valor_entrada": "Se parcelado, valor da entrada",
+        "numero_parcelas": "Se parcelado, quantidade de parcelas",
+        "valor_parcela": "Se parcelado, valor de cada parcela",
+        "data_primeira_parcela": "Se parcelado, data da primeira parcela (dd/mm/aaaa)",
+        "origem_recursos": "Origem dos recursos (poupança, venda de imóvel, salário, etc)"
+      },
+      "transferencia": {
+        "prazo_transferencia_dias": "Prazo para transferência no DETRAN (ex: 30 dias)",
+        "responsavel_despesas": "COMPRADOR, VENDEDOR ou meio a meio"
+      }
+    }
+  },
+  "CONTRATO DE PRESTAÇÃO DE SERVIÇOS": {
+    "description": "Contrato de prestação de serviços profissionais",
+    "required_fields": {
+      "contratada": {
+        "razao_social": "Razão social ou nome completo",
+        "tipo_pessoa": "PJ ou PF",
+        "cnpj_cpf": "CNPJ ou CPF",
+        "endereco_completo": "Endereço completo (rua, número, bairro, cidade, UF, CEP)",
+        "inscricao_estadual": "Inscrição estadual ou 'Isenta'",
+        "email": "E-mail",
+        "telefone": "Telefone",
+        "representante_legal": {
+          "nome": "Nome completo do representante (se PJ)",
+          "nacionalidade": "Nacionalidade",
+          "estado_civil": "Estado civil",
+          "profissao": "Profissão",
+          "rg": "RG número e órgão expedidor",
+          "cpf": "CPF",
+          "endereco_completo": "Endereço completo"
+        }
+      },
+      "contratante": {
+        "razao_social": "Razão social ou nome completo",
+        "tipo_pessoa": "PJ ou PF",
+        "cnpj_cpf": "CNPJ ou CPF",
+        "endereco_completo": "Endereço completo (rua, número, bairro, cidade, UF, CEP)",
+        "inscricao_estadual": "Inscrição estadual ou 'Isenta' (se PJ)",
+        "email": "E-mail",
+        "telefone": "Telefone",
+        "representante_legal": {
+          "nome": "Nome completo do representante (se PJ)",
+          "nacionalidade": "Nacionalidade",
+          "estado_civil": "Estado civil",
+          "profissao": "Profissão",
+          "rg": "RG número e órgão expedidor",
+          "cpf": "CPF",
+          "endereco_completo": "Endereço completo"
+        }
+      },
+      "servicos": {
+        "descricao_detalhada": "Descrição detalhada dos serviços a serem prestados",
+        "modalidade": "presencial, remota ou híbrida",
+        "local_execucao": "Endereço onde serão prestados (se presencial)",
+        "finalidade": "Objetivo e finalidade dos serviços",
+        "data_inicio_prevista": "Data de início (dd/mm/aaaa) ou prazo em dias",
+        "data_conclusao_prevista": "Data de conclusão (dd/mm/aaaa) ou prazo em dias",
+        "cronograma": "Descrição de etapas, marcos e entregas"
+      },
+      "pagamento": {
+        "valor_total": "Valor total dos serviços (R$)",
+        "forma_pagamento": "À vista, parcelado, por etapa, mensal, etc",
+        "periodicidade": "Mensal, quinzenal, por entrega, etc",
+        "data_pagamento": "Data ou prazo de pagamento",
+        "multa_atraso": "Percentual de multa por atraso",
+        "juros_mora": "Percentual de juros por atraso"
+      }
+    }
+  },
+  "CONTRATO DE LOCAÇÃO DE IMÓVEL URBANO": {
+    "description": "Contrato de locação de imóvel urbano residencial ou comercial",
+    "required_fields": {
+      "locador": {
+        "nome": "Nome completo ou razão social",
+        "tipo_pessoa": "PF ou PJ",
+        "cpf_cnpj": "CPF ou CNPJ",
+        "nacionalidade": "Nacionalidade (se PF)",
+        "estado_civil": "Estado civil (se PF)",
+        "profissao": "Profissão (se PF)",
+        "rg": "RG (se PF)",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "locatario": {
+        "nome": "Nome completo ou razão social",
+        "tipo_pessoa": "PF ou PJ",
+        "cpf_cnpj": "CPF ou CNPJ",
+        "nacionalidade": "Nacionalidade (se PF)",
+        "estado_civil": "Estado civil (se PF)",
+        "profissao": "Profissão (se PF)",
+        "rg": "RG (se PF)",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "imovel": {
+        "tipo": "residencial, comercial, sala comercial, loja, etc",
+        "endereco_completo": "Endereço completo do imóvel",
+        "area_total": "Área total em m²",
+        "numero_quartos": "Quantidade de quartos (se residencial)",
+        "numero_banheiros": "Quantidade de banheiros",
+        "vagas_garagem": "Quantidade de vagas de garagem",
+        "mobiliado": "Sim ou Não",
+        "iptu": "Número do IPTU",
+        "matricula_registro": "Matrícula no Registro de Imóveis"
+      },
+      "locacao": {
+        "valor_aluguel": "Valor mensal do aluguel (R$)",
+        "dia_vencimento": "Dia do vencimento do aluguel",
+        "valor_condominio": "Valor do condomínio (R$) ou 'Não aplicável'",
+        "valor_iptu": "Valor anual do IPTU (R$)",
+        "inicio_locacao": "Data de início (dd/mm/aaaa)",
+        "prazo_meses": "Prazo em meses (ex: 30 meses)",
+        "reajuste": "Índice de reajuste (IGP-M, IPCA, etc) e periodicidade",
+        "garantia": "Tipo de garantia (caução, fiador, seguro-fiança, etc)"
+      }
+    }
+  },
+  "CONTRATO DE DESENVOLVIMENTO DE SOFTWARE": {
+    "description": "Contrato de desenvolvimento de software sob medida",
+    "required_fields": {
+      "contratante": {
+        "razao_social": "Razão social ou nome completo",
+        "tipo_pessoa": "PJ ou PF",
+        "cnpj_cpf": "CNPJ ou CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "contratada": {
+        "razao_social": "Razão social ou nome completo",
+        "tipo_pessoa": "PJ ou PF",
+        "cnpj_cpf": "CNPJ ou CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "software": {
+        "nome_projeto": "Nome do software/sistema",
+        "descricao": "Descrição detalhada do software",
+        "funcionalidades": "Lista de funcionalidades principais",
+        "tecnologias": "Tecnologias a serem utilizadas (linguagens, frameworks, banco de dados, etc)",
+        "plataformas": "Plataformas (Web, Mobile iOS/Android, Desktop, etc)",
+        "usuarios_estimados": "Número estimado de usuários",
+        "integracao": "Sistemas ou APIs para integração"
+      },
+      "projeto": {
+        "metodologia": "Metodologia de desenvolvimento (Scrum, Kanban, Waterfall, etc)",
+        "data_inicio": "Data de início (dd/mm/aaaa)",
+        "prazo_total_meses": "Prazo total em meses",
+        "etapas": "Descrição das etapas/sprints",
+        "entregas": "Lista de entregas (deliverables)"
+      },
+      "propriedade_intelectual": {
+        "transferencia_codigo": "Código-fonte será transferido? Sim ou Não",
+        "licenciamento": "Tipo de licença (propriedade total, licença de uso, etc)",
+        "restricoes_uso": "Restrições de uso"
+      },
+      "pagamento": {
+        "valor_total": "Valor total do projeto (R$)",
+        "forma_pagamento": "À vista, parcelado, por milestone, etc",
+        "cronograma_pagamentos": "Cronograma de pagamentos atrelado às entregas"
+      },
+      "suporte": {
+        "prazo_garantia_meses": "Prazo de garantia em meses",
+        "manutencao_incluida": "Manutenção incluída? Sim ou Não",
+        "sla": "SLA - tempo de resposta para bugs críticos"
+      }
+    }
+  },
+  "CONTRATO DE SOCIEDADE EMPRESÁRIA LIMITADA": {
+    "description": "Contrato social de constituição de sociedade empresária limitada (Ltda)",
+    "required_fields": {
+      "empresa": {
+        "razao_social": "Razão social da empresa",
+        "nome_fantasia": "Nome fantasia",
+        "sede": "Endereço completo da sede",
+        "objeto_social": "Objeto social detalhado (atividades da empresa)",
+        "cnae": "CNAE principal e secundários"
+      },
+      "capital_social": {
+        "valor_total": "Valor total do capital social (R$)",
+        "forma_integralizacao": "Forma de integralização (dinheiro, bens, etc)",
+        "prazo_integralizacao": "Prazo para integralização"
+      },
+      "socios": [
+        {
+          "nome": "Nome completo do sócio",
+          "nacionalidade": "Nacionalidade",
+          "estado_civil": "Estado civil",
+          "profissao": "Profissão",
+          "rg": "RG",
+          "cpf": "CPF",
+          "endereco_completo": "Endereço completo",
+          "email": "E-mail",
+          "telefone": "Telefone",
+          "quotas": "Número de quotas",
+          "percentual": "Percentual de participação (%)",
+          "valor_quotas": "Valor investido (R$)"
+        }
+      ],
+      "administracao": {
+        "tipo": "Individual (um sócio) ou Conjunta (dois ou mais)",
+        "administradores": "Nome(s) do(s) administrador(es)",
+        "poderes": "Descrição dos poderes de gestão",
+        "limitacoes": "Limitações de poderes (ex: valores acima de X requerem aprovação)"
+      },
+      "distribuicao_lucros": {
+        "periodicidade": "Mensal, trimestral, semestral, anual",
+        "forma_distribuicao": "Proporcional às quotas ou outro critério"
+      }
+    }
+  },
+  "CONTRATO DE CESSÃO DE QUOTAS SOCIAIS": {
+    "description": "Contrato de cessão/transferência de quotas sociais (M&A)",
+    "required_fields": {
+      "cedente": {
+        "nome": "Nome completo",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "cessionario": {
+        "nome": "Nome completo ou razão social",
+        "tipo_pessoa": "PF ou PJ",
+        "cpf_cnpj": "CPF ou CNPJ",
+        "nacionalidade": "Nacionalidade (se PF)",
+        "estado_civil": "Estado civil (se PF)",
+        "profissao": "Profissão (se PF)",
+        "rg": "RG (se PF)",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "empresa": {
+        "razao_social": "Razão social da empresa",
+        "cnpj": "CNPJ",
+        "sede": "Endereço da sede",
+        "capital_social_total": "Capital social total (R$)",
+        "numero_total_quotas": "Número total de quotas"
+      },
+      "cessao": {
+        "numero_quotas_cedidas": "Número de quotas a serem cedidas",
+        "percentual_cessao": "Percentual do capital social (%)",
+        "valor_cessao": "Valor da cessão (R$)",
+        "forma_pagamento": "À vista ou parcelado",
+        "data_transferencia": "Data da transferência (dd/mm/aaaa)"
+      },
+      "due_diligence": {
+        "realizada": "Sim ou Não",
+        "declaracoes_garantias": "Lista de declarações e garantias do cedente"
+      }
+    }
+  },
+  "CONTRATO DE CESSÃO DE DIREITOS DE IMAGEM": {
+    "description": "Contrato de cessão de direitos de uso de imagem",
+    "required_fields": {
+      "cedente": {
+        "nome": "Nome completo (artista/influencer/modelo)",
+        "nome_artistico": "Nome artístico (se houver)",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone",
+        "redes_sociais": "Perfis de redes sociais (Instagram, YouTube, TikTok, etc)"
+      },
+      "cessionario": {
+        "razao_social": "Razão social ou nome completo",
+        "tipo_pessoa": "PJ ou PF",
+        "cnpj_cpf": "CNPJ ou CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "cessao": {
+        "tipo": "Exclusiva ou Não-exclusiva",
+        "finalidade": "Finalidade do uso (publicidade, marketing, e-commerce, etc)",
+        "midias": "Mídias autorizadas (TV, rádio, internet, redes sociais, impressos, etc)",
+        "territorio": "Território de veiculação (Brasil, mundial, etc)",
+        "prazo_meses": "Prazo de vigência em meses",
+        "data_inicio": "Data de início (dd/mm/aaaa)",
+        "renovacao": "Renovação automática? Sim ou Não"
+      },
+      "remuneracao": {
+        "valor_total": "Valor total da cessão (R$)",
+        "forma_pagamento": "À vista, parcelado, por campanha, etc",
+        "royalties": "Há pagamento de royalties? Sim ou Não",
+        "percentual_royalties": "Se sim, percentual (%)"
+      },
+      "uso_imagem": {
+        "direito_aprovacao": "Cedente tem direito de aprovar materiais antes da veiculação? Sim ou Não",
+        "restricoes": "Restrições de uso (não pode aparecer com concorrentes, contextos negativos, etc)"
+      }
+    }
+  },
+  "CONTRATO DE DOAÇÃO DE BEM IMÓVEL": {
+    "description": "Contrato de doação de bem imóvel",
+    "required_fields": {
+      "doador": {
+        "nome": "Nome completo",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "donatario": {
+        "nome": "Nome completo",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone",
+        "parentesco": "Grau de parentesco com doador (se houver)"
+      },
+      "imovel": {
+        "tipo": "Casa, apartamento, terreno, sala comercial, etc",
+        "endereco_completo": "Endereço completo do imóvel",
+        "area_total": "Área total em m²",
+        "matricula": "Número da matrícula no Registro de Imóveis",
+        "cartorio": "Nome do Cartório de Registro de Imóveis",
+        "valor_venal": "Valor venal para fins de ITCMD (R$)"
+      },
+      "doacao": {
+        "tipo_doacao": "Pura, Com encargo, Com cláusula de reversão, Com reserva de usufruto, Modal",
+        "encargo": "Se com encargo, descrever o encargo",
+        "usufruto": "Se com reserva de usufruto, especificar vitalício ou por prazo",
+        "clausula_reversao": "Se com cláusula de reversão, especificar condições",
+        "clausula_inalienabilidade": "Sim ou Não",
+        "clausula_impenhorabilidade": "Sim ou Não",
+        "clausula_incomunicabilidade": "Sim ou Não"
+      },
+      "despesas": {
+        "responsavel_itcmd": "Quem paga o ITCMD (doador ou donatário)",
+        "responsavel_cartorio": "Quem paga despesas de cartório"
+      }
+    }
+  },
+  "CONTRATO DE COMODATO DE BEM IMÓVEL": {
+    "description": "Contrato de empréstimo gratuito de imóvel (comodato)",
+    "required_fields": {
+      "comodante": {
+        "nome": "Nome completo (proprietário que empresta)",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "comodatario": {
+        "nome": "Nome completo (quem recebe o imóvel)",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "imovel": {
+        "tipo": "Casa, apartamento, sala comercial, etc",
+        "endereco_completo": "Endereço completo do imóvel",
+        "area_total": "Área total em m²",
+        "matricula": "Número da matrícula no Registro de Imóveis",
+        "finalidade_uso": "Finalidade do uso (residencial, comercial, etc)"
+      },
+      "comodato": {
+        "tipo_prazo": "Determinado ou Indeterminado",
+        "prazo_meses": "Se determinado, prazo em meses",
+        "data_inicio": "Data de início (dd/mm/aaaa)",
+        "data_termino": "Data de término (dd/mm/aaaa) se prazo determinado",
+        "gratuito": "Sim (comodato é sempre gratuito)"
+      },
+      "obrigacoes_comodatario": {
+        "responsavel_iptu": "Sim ou Não",
+        "responsavel_condominio": "Sim ou Não",
+        "responsavel_energia": "Sim ou Não",
+        "responsavel_agua": "Sim ou Não",
+        "responsavel_manutencao": "Quais tipos de manutenção (ordinária, extraordinária, etc)"
+      },
+      "benfeitorias": {
+        "pode_realizar": "Sim ou Não",
+        "direito_indenizacao_necessarias": "Sim ou Não",
+        "direito_indenizacao_uteis": "Sim ou Não",
+        "direito_indenizacao_volutuparias": "Sim ou Não"
+      }
+    }
+  },
+  "CONTRATO DE CONSTITUIÇÃO DE HOLDING FAMILIAR": {
+    "description": "Contrato de constituição de holding familiar para gestão patrimonial e sucessória",
+    "required_fields": {
+      "holding": {
+        "razao_social": "Razão social da holding",
+        "nome_fantasia": "Nome fantasia",
+        "sede": "Endereço completo da sede",
+        "objeto_social": "Objeto social (gestão de bens próprios, participações societárias, etc)"
+      },
+      "capital_social": {
+        "valor_total": "Valor total do capital social (R$)",
+        "forma_integralizacao": "Dinheiro, imóveis, quotas de outras empresas, etc",
+        "bens_integralizados": "Descrição detalhada dos bens que comporão o capital"
+      },
+      "socios_fundadores": [
+        {
+          "nome": "Nome completo do sócio",
+          "parentesco": "Parentesco (pai/mãe, filho/filha, cônjuge, etc)",
+          "nacionalidade": "Nacionalidade",
+          "estado_civil": "Estado civil",
+          "profissao": "Profissão",
+          "rg": "RG",
+          "cpf": "CPF",
+          "endereco_completo": "Endereço completo",
+          "quotas": "Número de quotas",
+          "percentual": "Percentual de participação (%)",
+          "valor_quotas": "Valor das quotas (R$)",
+          "tipo_quotas": "Quotas ordinárias ou preferenciais"
+        }
+      ],
+      "governanca": {
+        "tem_conselho_familia": "Sim ou Não",
+        "composicao_conselho": "Membros do Conselho de Família",
+        "administracao": "Quem administrará a holding",
+        "necessita_aprovacao_unanime": "Decisões que necessitam aprovação unânime dos sócios"
+      },
+      "sucessao": {
+        "clausula_doacao_usufruto": "Doação de nua-propriedade com reserva de usufruto? Sim ou Não",
+        "herdeiros_beneficiarios": "Lista de herdeiros beneficiários",
+        "clausulas_restritivas": "Inalienabilidade, impenhorabilidade, incomunicabilidade? Sim ou Não"
+      },
+      "distribuicao_resultados": {
+        "periodicidade": "Mensal, trimestral, semestral, anual",
+        "criterio": "Proporcional às quotas ou outro critério"
+      }
+    }
+  },
+  "CONTRATO DE CORRETAGEM IMOBILIÁRIA": {
+    "description": "Contrato de corretagem para intermediação de venda/locação de imóvel",
+    "required_fields": {
+      "corretor": {
+        "nome": "Nome completo ou razão social da imobiliária",
+        "tipo_pessoa": "PF ou PJ",
+        "cpf_cnpj": "CPF ou CNPJ",
+        "creci": "Número do CRECI",
+        "creci_uf": "UF do CRECI",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "proprietario": {
+        "nome": "Nome completo do proprietário do imóvel",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "imovel": {
+        "tipo": "Casa, apartamento, terreno, sala comercial, etc",
+        "endereco_completo": "Endereço completo do imóvel",
+        "area_total": "Área total em m²",
+        "numero_quartos": "Número de quartos (se aplicável)",
+        "numero_banheiros": "Número de banheiros",
+        "vagas_garagem": "Vagas de garagem",
+        "matricula": "Matrícula no Registro de Imóveis",
+        "iptu": "Número do IPTU"
+      },
+      "intermediacao": {
+        "tipo_negocio": "Venda ou Locação",
+        "valor_pretendido": "Valor de venda/aluguel pretendido (R$)",
+        "prazo_vigencia_meses": "Prazo do contrato de corretagem (meses)",
+        "exclusividade": "Exclusiva ou Não-exclusiva",
+        "data_inicio": "Data de início (dd/mm/aaaa)"
+      },
+      "comissao": {
+        "tipo_comissao": "Percentual sobre valor ou Valor fixo",
+        "percentual": "Se percentual, indicar % (ex: 6%)",
+        "valor_fixo": "Se valor fixo, indicar (R$)",
+        "responsavel_pagamento": "Vendedor, comprador ou rateado",
+        "momento_pagamento": "No fechamento, na assinatura do contrato, etc"
+      },
+      "obrigacoes_corretor": {
+        "divulgacao": "Portais, redes sociais, placa na fachada, anúncios, etc",
+        "vistorias": "Quantidade mínima de vistorias por mês",
+        "relatorios": "Periodicidade de relatórios ao proprietário"
+      }
+    }
+  },
+  "CONTRATO DE PARCERIA COMERCIAL E DISTRIBUIÇÃO": {
+    "description": "Contrato de parceria comercial para distribuição de produtos",
+    "required_fields": {
+      "fabricante": {
+        "razao_social": "Razão social do fabricante/fornecedor",
+        "cnpj": "CNPJ",
+        "endereco_completo": "Endereço completo",
+        "inscricao_estadual": "Inscrição estadual",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "distribuidor": {
+        "razao_social": "Razão social do distribuidor",
+        "cnpj": "CNPJ",
+        "endereco_completo": "Endereço completo",
+        "inscricao_estadual": "Inscrição estadual",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "produtos": {
+        "descricao": "Descrição dos produtos a serem distribuídos",
+        "categorias": "Categorias de produtos",
+        "marcas": "Marcas incluídas no acordo"
+      },
+      "territorio": {
+        "exclusividade": "Exclusiva ou Não-exclusiva",
+        "abrangencia": "Cidades, estados ou regiões de atuação",
+        "restricoes": "Restrições territoriais"
+      },
+      "comercial": {
+        "prazo_vigencia_meses": "Prazo de vigência em meses",
+        "data_inicio": "Data de início (dd/mm/aaaa)",
+        "metas_vendas": "Metas de vendas (quantidade ou valor)",
+        "desconto_comercial": "Percentual de desconto para o distribuidor (%)",
+        "prazo_pagamento": "Prazo de pagamento (ex: 30 dias)",
+        "comissao": "Percentual de comissão (se aplicável)"
+      },
+      "logistica": {
+        "responsavel_frete": "Fabricante ou Distribuidor",
+        "prazo_entrega_dias": "Prazo de entrega em dias",
+        "pedido_minimo": "Valor ou quantidade mínima por pedido",
+        "estoque_minimo": "Estoque mínimo que distribuidor deve manter"
+      }
+    }
+  },
+  "CONTRATO DE PARTICULAR DE PROMESSA DE COMPRA E VENDA DE IMÓVEL": {
+    "description": "Contrato de promessa de compra e venda de imóvel (pré-contrato)",
+    "required_fields": {
+      "promitente_vendedor": {
+        "nome": "Nome completo do vendedor",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "promitente_comprador": {
+        "nome": "Nome completo do comprador",
+        "nacionalidade": "Nacionalidade",
+        "estado_civil": "Estado civil",
+        "profissao": "Profissão",
+        "rg": "RG",
+        "cpf": "CPF",
+        "endereco_completo": "Endereço completo",
+        "email": "E-mail",
+        "telefone": "Telefone"
+      },
+      "imovel": {
+        "tipo": "Casa, apartamento, terreno, sala comercial, etc",
+        "endereco_completo": "Endereço completo do imóvel",
+        "area_total": "Área total em m²",
+        "area_construida": "Área construída em m² (se aplicável)",
+        "matricula": "Número da matrícula no Registro de Imóveis",
+        "cartorio": "Nome do Cartório de Registro de Imóveis",
+        "confrontacoes": "Confrontações do imóvel"
+      },
+      "venda": {
+        "valor_total": "Valor total da venda (R$)",
+        "valor_sinal": "Valor do sinal/arras (R$)",
+        "forma_pagamento": "À vista, financiamento, parcelado direto, etc",
+        "numero_parcelas": "Se parcelado, número de parcelas",
+        "valor_parcelas": "Valor de cada parcela (R$)",
+        "data_primeira_parcela": "Data da primeira parcela (dd/mm/aaaa)",
+        "financiamento": "Será financiado? Sim ou Não",
+        "banco_financiamento": "Se sim, qual banco"
+      },
+      "escritura": {
+        "prazo_lavratura_dias": "Prazo para lavratura da escritura definitiva (dias)",
+        "responsavel_despesas": "Quem paga despesas de escritura e registro"
+      },
+      "imovel_situacao": {
+        "tem_onus": "Possui ônus, hipoteca ou penhora? Sim ou Não",
+        "ocupado": "Imóvel ocupado? Sim ou Não",
+        "regularizado": "Documentação regularizada? Sim ou Não"
+      }
+    }
+  }
+}

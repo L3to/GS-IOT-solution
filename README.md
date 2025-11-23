@@ -2,18 +2,19 @@
 
 > **FIAP - Global Solution 2024/2025**  
 > **Tema:** O Futuro do Trabalho  
-> **Curso:** Análise e Desenvolvimento de Sistemas / Engenharia de Software
+> **Curso:** Análise e Desenvolvimento de Sistemas
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
-[![LangChain](https://img.shields.io/badge/LangChain-1.0-green.svg)](https://www.langchain.com/)
-[![LangGraph](https://img.shields.io/badge/LangGraph-1.0-orange.svg)](https://github.com/langchain-ai/langgraph)
+[![LangChain](https://img.shields.io/badge/LangChain-1.0.7-green.svg)](https://www.langchain.com/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-1.0.3-orange.svg)](https://github.com/langchain-ai/langgraph)
 [![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-red.svg)](https://ollama.ai/)
+[![ChromaDB](https://img.shields.io/badge/ChromaDB-1.3.4-purple.svg)](https://www.trychroma.com/)
 
 ---
 
 ## Sobre o Projeto
 
-**ContratAI** é um assistente jurídico inteligente desenvolvido como solução para o desafio **"O Futuro do Trabalho"** da Global Solution FIAP. O projeto aborda a crescente necessidade de **democratização do acesso à informação jurídica** e **automação de processos contratuais**, desafios críticos no mercado de trabalho moderno.
+**ContratAI** é um assistente jurídico inteligente desenvolvido como solução para o desafio **"O Futuro do Trabalho"** da Global Solution FIAP. O sistema utiliza **Inteligência Artificial Generativa** (LLMs locais) combinada com **RAG (Retrieval-Augmented Generation)** para democratizar o acesso à informação jurídica e automatizar processos contratuais complexos.
 
 ### Problema Identificado
 
@@ -28,11 +29,11 @@ No futuro do trabalho:
 
 O ContratAI utiliza **Inteligência Artificial Generativa** (LLMs locais via Ollama) combinada com **RAG (Retrieval-Augmented Generation)** para oferecer:
 
-1. **Análise Profunda de Contratos** - Identificação de riscos, cláusulas ausentes, obrigações das partes e conformidade legal
-2. **Reformulação de Contratos** - Otimização de redação, correção de cláusulas abusivas e adequação à LGPD
-3. **Consulta à Legislação Brasileira** - Busca semântica em 8+ códigos legais (CF, CC, CLT, CDC, CPC, CPP, ECA, etc.)
-4. **Geração de Contratos** - Criação de contratos profissionais baseados em templates jurídicos especializados
-5. **Histórico Persistente** - Armazenamento de conversas no MongoDB para continuidade e auditoria
+1. **Análise Profunda de Contratos** - Identificação de riscos jurídicos, cláusulas ausentes, obrigações das partes e conformidade legal com feedback detalhado
+2. **Reformulação de Contratos** - Otimização de redação, correção de cláusulas abusivas, adequação à LGPD/CC/CLT/CDC com resumo executivo das mudanças
+3. **Consulta à Legislação Brasileira** - Busca semântica inteligente em 8 códigos legais completos com query expansion e reranking
+4. **Geração de Contratos Personalizados** - Criação de contratos profissionais baseados em 14 templates especializados com validação de campos
+5. **Histórico Persistente** - Armazenamento de conversas no MongoDB Atlas para continuidade e auditoria completa de sessões
 
 ---
 
@@ -40,15 +41,18 @@ O ContratAI utiliza **Inteligência Artificial Generativa** (LLMs locais via Oll
 
 ### Tecnologias Utilizadas
 
-| Tecnologia | Função |
-|-----------|---------|
-| **Python 3.11** | Linguagem principal |
-| **LangChain** | Framework para aplicações LLM |
-| **LangGraph** | Orquestração de agentes com grafo de estados |
-| **Ollama** | Execução local de LLMs (qwen2.5-coder:7b) |
-| **ChromaDB** | Banco vetorial para RAG (embeddings) |
-| **MongoDB Atlas** | Persistência de histórico de conversas |
-| **LangChain Ollama** | Integração LangChain + Ollama |
+| Tecnologia | Versão | Função |
+|-----------|--------|--------|
+| **Python** | 3.11 | Linguagem principal |
+| **LangChain** | 1.0.7 | Framework para aplicações LLM |
+| **LangGraph** | 1.0.3 | Orquestração de agentes multi-step com grafo de estados |
+| **Ollama** | 0.6.1 | Execução local de LLMs |
+| **mistral-nemo:12b** | - | Modelo LLM principal (agents e embeddings) |
+| **gpt-oss:20b** | - | Modelo para filtragem de arquivos de leis (JSON estruturado) |
+| **ChromaDB** | 1.3.4 | Banco vetorial persistente para RAG |
+| **MongoDB Atlas** | 4.15.4 | Persistência de histórico de conversas |
+| **Sentence Transformers** | 3.0.0 | CrossEncoder reranker (ms-marco-MiniLM-L-6-v2) |
+| **PDFPlumber** | 0.11.8 | Extração de texto de PDFs (futuro) |
 
 ---
 
@@ -97,8 +101,8 @@ graph LR
     end
     
     subgraph LangGraph
-        CA[Chat Agent<br/>qwen2.5-coder:7b]
-        TA[Tool Agent<br/>qwen2.5-coder:7b]
+        CA[Chat Agent<br/>mistral-nemo:12b]
+        TA[Tool Agent<br/>mistral-nemo:12b]
     end
     
     subgraph RAG_System[Sistema RAG - ChromaDB]
@@ -203,7 +207,8 @@ flowchart TD
   - Prestação de Serviços
   - Promessa de Compra e Venda
 - **Estratégia**: **1 arquivo = 1 chunk** (contexto integral)
-- **Vantagem**: Mantém integridade do contrato para análise holística
+- **Vantagem**: Mantém integridade do contrato para análise holística e geração de templates completos
+- **Uso**: Template matching para geração de contratos personalizados via busca semântica
 
 ---
 
@@ -211,10 +216,19 @@ flowchart TD
 
 ### 1. Análise de Contratos (`analyze_contract`)
 
-**Análise jurídica profunda incluindo:**
+**Análise jurídica profunda com feedback detalhado ao usuário:**
+
+**Logging durante execução:**
+- Analisando contrato...
+- Carregando documento do caminho especificado...
+- Executando análise jurídica profunda...
+- Análise concluída com sucesso!
+
+**Saída JSON estruturada:**
 
 ```json
 {
+  "answer": "Análise concluída: Risco MÉDIO identificado. Recomendado adicionar cláusulas de LGPD e revisar cláusula de exclusividade.",
   "metadata": {
     "contract_type": "Prestação de Serviços",
     "parties": {"contractor": "...", "contracted": "..."},
@@ -240,58 +254,114 @@ flowchart TD
     "contractor": [...],
     "contracted": [...]
   },
-  "executive_summary": {...}
+  "executive_summary": {
+    "rationale": "3-5 parágrafos detalhados com citações legais...",
+    "recommendation": "..."
+  }
 }
 ```
 
 ### 2. Reformulação de Contratos (`refactor_contract`)
 
-**Otimização de contratos com:**
-- Correção de cláusulas abusivas/ilegais
-- Adequação à LGPD, CC, CLT, CDC
-- Adição de cláusulas essenciais faltantes
-- Melhoria de redação jurídica
-- Eliminação de ambiguidades
+**Otimização de contratos com feedback detalhado:**
+
+**Logging durante execução:**
+- Iniciando reformulação do contrato...
+- Carregando contrato original...
+- Executando análise e reformulação...
+- Reformulação concluída! Contrato salvo em: refactored_contract.txt
+- Tamanho do arquivo: X KB
+
+**Saída JSON estruturada:**
 
 ```json
 {
-  "refactored_contract": "Contrato completo reformulado...",
-  "changes_summary": {
+  "answer": "Contrato reformulado com sucesso! Principais mudanças: adicionadas 3 cláusulas (LGPD, Força Maior, Não-concorrência), corrigidas 2 cláusulas abusivas. Arquivo salvo em refactored_contract.txt.",
+  "refactored_contract": {
+    "title": "CONTRATO DE PRESTAÇÃO DE SERVIÇOS - VERSÃO REFORMULADA",
+    "summary": "Resumo executivo em 2-3 parágrafos: (1) o que foi reformulado e por quê, (2) principais melhorias implementadas, (3) impacto prático das mudanças",
+    "full_text": "Contrato completo reformulado...",
+    "structure": [...]
+  },
+  "changes_made": {
     "additions": ["Cláusula de LGPD", "Cláusula de Força Maior"],
     "modifications": ["Cláusula de rescisão - adequada ao CDC"],
     "removals": ["Cláusula abusiva de renúncia de direitos"]
   },
-  "legal_improvements": [...],
-  "compliance_status": {
-    "lgpd": "Conforme",
-    "codigo_civil": "Conforme",
-    "cdc": "Conforme"
-  }
+  "legal_analysis": [...],
+  "recommendations": [...],
+  "metadata": {...}
 }
 ```
 
 ### 3. Consulta à Legislação (`retrieve_brazilian_law_context_and_answer`)
 
-**Busca inteligente em legislação brasileira:**
+**Busca inteligente em legislação brasileira com pipeline completo:**
 
+**Logging durante execução:**
+- Filtrando arquivos de lei relevantes...
+- Arquivos selecionados: CONSOLIDACAODASLEISDOTRABALHO.txt, CONSTITUICAOFEDERAL.txt
+- Buscando na base de legislação (laws_collection)...
+- 15 chunks encontrados
+- Expandindo query para melhorar resultados...
+- Reordenando resultados por relevância (reranking)...
+- Top 5 documentos mais relevantes selecionados
+
+**Pipeline RAG:**
+1. **Filtragem de arquivos** - Usa gpt-oss:20b para identificar leis relevantes à pergunta
+2. **Query Expansion** - Gera 2 variações da query usando prompt expand_query.txt
+3. **Busca Vetorial** - ChromaDB com embeddings mistral-nemo:12b
+4. **Reranking** - CrossEncoder (ms-marco-MiniLM-L-6-v2) reordena por relevância
+5. **Top-K Selection** - Seleciona 5 documentos mais relevantes
+
+**Exemplo:**
 ```python
-# Exemplo de consulta
 "Quais são os direitos trabalhistas em caso de demissão sem justa causa?"
 
 # Resposta com citações legais
 {
-  "answer": "Em caso de demissão sem justa causa, o trabalhador tem direito a...",
-  "legal_references": [
-    "Art. 477 da CLT",
-    "Art. 7º, inciso I da Constituição Federal"
-  ],
-  "confidence": 0.92
+  "answer": "Em caso de demissão sem justa causa, o trabalhador tem direito a: saldo de salário, aviso prévio (indenizado ou trabalhado), férias vencidas + 1/3, férias proporcionais + 1/3, 13º salário proporcional, saque do FGTS + multa de 40%, seguro-desemprego. Base legal: Art. 477 da CLT, Art. 7º CF/88.",
+  "sources": [
+    {"file": "CONSOLIDACAODASLEISDOTRABALHO.txt", "content": "Art. 477..."},
+    {"file": "CONSTITUICAOFEDERAL.txt", "content": "Art. 7º..."}
+  ]
 }
 ```
 
 ### 4. Geração de Contratos (`generate_contracts`)
 
-**Criação de contratos personalizados baseados em templates profissionais** (em desenvolvimento)
+**Criação de contratos personalizados baseados em 14 templates profissionais:**
+
+**Logging durante execução:**
+- Iniciando geração de contrato...
+- Buscando template mais adequado na base de contratos...
+- Template encontrado: CONTRATO DE PRESTAÇÃO DE SERVIÇOS
+- Preenchendo campos do contrato...
+- Contrato gerado com sucesso!
+
+**Fluxo de geração:**
+1. **Busca de Template** - Identifica contrato similar via busca semântica na contracts_collection
+2. **Validação de Campos** - Verifica se todos os campos necessários foram fornecidos
+3. **Preenchimento** - Usa prompt fill_contract.txt para preencher template
+4. **Validação Legal** - Garante conformidade com LGPD, CC, CLT, CDC
+
+**Exemplo:**
+```python
+"Crie um contrato de prestação de serviços para desenvolvimento de software entre TechCorp e ClienteSA, valor R$ 50.000, prazo 6 meses"
+
+# Saída
+{
+  "answer": "Contrato de Prestação de Serviços gerado com sucesso! Baseado no template profissional com cláusulas de LGPD, propriedade intelectual e não-concorrência.",
+  "status": "completed",
+  "filled_contract": "CONTRATO DE PRESTAÇÃO DE SERVIÇOS\n\nCONTRATANTE: TechCorp...\nCONTRATADA: ClienteSA...\nVALOR: R$ 50.000,00...\n[Contrato completo com todas as cláusulas]"
+}
+
+# Caso faltem informações
+{
+  "answer": "Para gerar o contrato, preciso das seguintes informações adicionais: endereço completo das partes, CNPJ/CPF, forma de pagamento.",
+  "status": "missing_info",
+  "missing_fields": ["endereco_contratante", "cnpj_contratante", "forma_pagamento"]
+}
 
 ---
 
@@ -299,37 +369,57 @@ flowchart TD
 
 ```
 ContratAIIOT/
-├── main.py                  # Aplicação principal (LangGraph workflow)
-├── tools.py                 # Ferramentas/Tools para agentes
-├── llm_config.py            # Configuração Ollama + ChromaDB
-├── rag_functions.py         # Funções RAG (chunking, embedding, query expansion)
-├── clean_database.py        # Utilitário para resetar ChromaDB
-├── .env                     # Variáveis de ambiente (MongoDB, configs)
-├── pyproject.toml           # Dependências do projeto (uv/pip)
+├── main.py                           # Aplicação principal (LangGraph workflow)
+├── tools.py                          # Ferramentas/Tools para agentes (5 tools)
+├── llm_config.py                     # Configuração Ollama + ChromaDB
+├── rag_functions.py                  # Funções RAG (chunking, embedding, query expansion, reranking)
+├── contract_fields_mapping.json      # Mapeamento de campos para geração de contratos
+├── inspect_chunks.py                 # Utilitário para inspecionar chunks no ChromaDB
+├── inspect_sqlite.py                 # Utilitário para inspecionar banco SQLite do ChromaDB
+├── .env                              # Variáveis de ambiente (MongoDB, Ollama)
+├── pyproject.toml                    # Dependências do projeto (uv)
+├── uv.lock                           # Lock file do uv
 │
-├── prompts/                 # Prompts dos agentes
-│   ├── chat_agent.txt       # Prompt do Chat Agent (decisor)
-│   ├── tool_agent.txt       # Prompt do Tool Agent (executor)
-│   ├── analyze_contract.txt # Prompt de análise de contratos
-│   ├── refactor_contract.txt# Prompt de reformulação
-│   └── retrieve_law.txt     # Prompt de consulta legislação
+├── prompts/                          # Sistema de prompts externalizados
+│   ├── chat_agent.txt                # Prompt do Chat Agent (decisor de routing)
+│   ├── tool_agent.txt                # Prompt do Tool Agent (seleção e execução)
+│   ├── analyze_contract.txt          # Prompt de análise de contratos (rationale detalhado)
+│   ├── refactor_contract.txt         # Prompt de reformulação (com campo summary)
+│   ├── retrieve_law.txt              # Prompt de consulta legislação
+│   ├── expand_query.txt              # Prompt de expansão de queries para RAG
+│   ├── fill_contract.txt             # Prompt de preenchimento de templates
+│   └── filter_law_files.txt          # Prompt de filtragem de arquivos de leis
 │
 ├── rag_files/
-│   ├── contracts/           # 14 contratos templates (.txt)
+│   ├── contracts/                    # 14 contratos templates (.txt)
 │   │   ├── CONTRATO DE TRABALHO COM REGISTRO CLT.txt
 │   │   ├── CONTRATO DE DESENVOLVIMENTO DE SOFTWARE.txt
-│   │   ├── CONTRATO DE HOLDING FAMILIAR.txt
-│   │   └── ...
+│   │   ├── CONTRATO DE CONSTITUIÇÃO DE HOLDING FAMILIAR.txt
+│   │   ├── CONTRATO DE PRESTAÇÃO DE SERVIÇOS.txt
+│   │   ├── CONTRATO DE LOCAÇÃO DE IMÓVEL URBANO.txt
+│   │   ├── CONTRATO DE CESSÃO DE DIREITOS DE IMAGEM.txt
+│   │   ├── CONTRATO DE PARCERIA COMERCIAL E DISTRIBUIÇÃO.txt
+│   │   ├── CONTRATO DE COMPRA E VENDA DE VEÍCULO.txt
+│   │   ├── CONTRATO MODELO REAL.txt             # Exemplo de excelência profissional
+│   │   ├── CONTRATO DE EXEMPLO COM ERROS.txt    # Exemplo para testes
+│   │   └── ... (mais 4 contratos)
 │   │
-│   └── laws/                # 8 códigos legais brasileiros (.txt)
+│   └── laws/                         # 8 códigos legais brasileiros (.txt)
 │       ├── CONSTITUICAOFEDERAL.txt
 │       ├── CODIGOCIVIL.txt
-│       ├── CLT.txt
-│       ├── Código de Defesa do Consumidor.txt
-│       └── ...
+│       ├── CONSOLIDACAODASLEISDOTRABALHO.txt
+│       ├── CODIGODEFESADOCONSUMIDOR.txt
+│       ├── CODIGOPROCESSOCIVIL.txt
+│       ├── CODIGOPENAL.txt
+│       ├── CODIGOPROCESSOPENAL.txt
+│       └── ESTATUTOCRIANCAADOLESCENTE.txt
 │
-├── chroma_db_laws/          # ChromaDB persistente (embeddings)
-└── README.md                # Este arquivo
+├── chroma_db_laws/                   # ChromaDB persistente (embeddings)
+│   ├── chroma.sqlite3                # Banco SQLite com metadados
+│   └── 5dbf0b49-3196-4f82-b5c0-9f603523f1a7/  # Collection data
+│
+├── __pycache__/                      # Cache Python
+└── README.md                         # Este arquivo
 ```
 
 ---
@@ -340,7 +430,7 @@ ContratAIIOT/
 
 - **Python 3.11**
 - **Ollama** instalado ([ollama.ai](https://ollama.ai/))
-- **Modelo Ollama**: `qwen2.5-coder:7b`
+- **Modelo Ollama**: `mistral-nemo:12b`
 - **MongoDB Atlas** (ou local)
 
 ### 1. Clone o Repositório
@@ -350,10 +440,11 @@ git clone <repository-url>
 cd ContratAIIOT
 ```
 
-### 2. Instale o Modelo Ollama
+### 2. Instale os Modelos Ollama
 
 ```bash
-ollama pull qwen2.5-coder:7b
+ollama pull mistral-nemo:12b  # Modelo principal (agents e embeddings)
+ollama pull gpt-oss:20b       # Modelo para filtragem de leis (JSON estruturado)
 ```
 
 ### 3. Configure as Dependências
@@ -391,13 +482,18 @@ CHROMA_PERSIST_DIRECTORY=./chroma_db_laws
 
 ### 5. Inicialize o ChromaDB (Primeira Execução)
 
-Na primeira execução, o sistema vai:
-- Carregar todos os arquivos de `rag_files/laws/` e `rag_files/contracts/`
-- Criar chunks com `RecursiveCharacterTextSplitter`
-- Gerar embeddings com `OllamaEmbeddings`
-- Persistir no ChromaDB (`chroma_db_laws/`)
+Na primeira execução, o sistema automaticamente:
+- Carrega todos os arquivos de `rag_files/laws/` (8 códigos legais)
+- Carrega todos os arquivos de `rag_files/contracts/` (14 templates)
+- Cria chunks com `RecursiveCharacterTextSplitter` (tamanho: 1200, overlap: 200)
+- Gera embeddings com `OllamaEmbeddings` (mistral-nemo:12b)
+- Persiste no ChromaDB (`chroma_db_laws/`)
+- Exibe progresso: "Progress: X/Y chunks (Z%)"
 
-**Importante:** Este processo pode levar alguns minutos na primeira vez.
+**Importante:** 
+- Este processo pode levar 5-10 minutos na primeira vez
+- Contratos usam estratégia **1 arquivo = 1 chunk** para contexto integral
+- Leis são divididas em chunks de 1200 caracteres com separadores (`Art.`, `§`, `CAPÍTULO`)
 
 ### 6. Execute o Assistente
 
@@ -493,13 +589,35 @@ python clean_database.py
 
 ### Sessões Persistentes
 
-O sistema mantém histórico no MongoDB:
+O sistema mantém histórico completo no MongoDB Atlas:
 
 ```python
 # Carregar sessão anterior
-Digite o ID da sessão: abc12345
+Digite o ID da sessão (ou Enter para nova sessão): abc12345
 
 Sessão 'abc12345' carregada! (12 mensagens)
+
+# Estrutura no MongoDB
+{
+  "session_id": "abc12345",
+  "messages": [
+    {"role": "user", "content": "..."},
+    {"role": "assistant", "content": "..."},
+    {"role": "tool", "tool_call_id": "...", "name": "analyze_contract", "content": "{...}"}
+  ]
+}
+```
+
+### Ferramentas de Inspeção
+
+**Inspecionar chunks no ChromaDB:**
+```bash
+python inspect_chunks.py
+```
+
+**Inspecionar banco SQLite do ChromaDB:**
+```bash
+python inspect_sqlite.py
 ```
 
 ---
@@ -526,10 +644,18 @@ Sessão 'abc12345' carregada! (12 mensagens)
 - Citações legais completas (CF, CC, CLT, CDC, LGPD)
 - Cláusulas modernas (LGPD, não-concorrência, governança)
 
-### 5. **Histórico Persistente (MongoDB)**
-- Sessões recuperáveis por ID
-- Auditoria completa de conversas
+### 5. **Histórico Persistente (MongoDB Atlas)**
+- Sessões recuperáveis por ID único
+- Auditoria completa de conversas (user/assistant/tool messages)
 - Contexto preservado entre execuções
+- Suporte a continuação de análises complexas
+
+### 6. **Logging Detalhado**
+- Feedback em tempo real de todas as operações
+- Progresso de embedding: "Progress: X/Y chunks (Z%)"
+- Etapas RAG: filtragem → busca → expansão → reranking
+- Confirmação de salvamento de contratos reformulados
+- Mensagens user-friendly sem emojis
 
 ---
 
@@ -561,15 +687,31 @@ Sessão 'abc12345' carregada! (12 mensagens)
 
 ## 🛠️ Roadmap / Melhorias Futuras
 
+### Concluído ✅
+- [x] **Sistema de prompts externalizados** (8 prompts em arquivos .txt)
+- [x] **Logging detalhado** (feedback user-friendly em todas as operações)
+- [x] **Geração de contratos personalizados** (função `generate_contracts` completa)
+- [x] **Query expansion** (2 variações de query para melhor recall)
+- [x] **Reranking com CrossEncoder** (ms-marco-MiniLM-L-6-v2)
+- [x] **Filtragem inteligente de leis** (gpt-oss:20b seleciona arquivos relevantes)
+- [x] **Resumo executivo em reformulações** (campo summary com 2-3 parágrafos)
+- [x] **Rationale detalhado em análises** (3-5 parágrafos com citações legais)
+
+### Em Desenvolvimento 🚧
+- [ ] **Hybrid Search** (BM25 + semantic para busca de artigos específicos)
+- [ ] **Metadados de artigos** (extração de números de artigos durante chunking)
 - [ ] **Interface Web (Streamlit/Gradio)**
-- [ ] **Geração de contratos personalizados** (função `generate_contracts` completa)
 - [ ] **Upload de PDFs** (análise de contratos em PDF via `pdfplumber`)
+
+### Planejado 📋
 - [ ] **Comparação de contratos** (detectar alterações entre versões)
 - [ ] **Assinatura digital** (integração com certificados digitais ICP-Brasil)
 - [ ] **Multi-tenancy** (suporte a múltiplas organizações)
 - [ ] **API REST** (exposição das funcionalidades via FastAPI)
 - [ ] **Fine-tuning do LLM** (especialização em jurídico brasileiro)
 - [ ] **Suporte a mais legislações** (Lei de Software, Marco Civil da Internet, Lei de Franquias)
+- [ ] **Cache de embeddings** (evitar reprocessamento de contratos já analisados)
+- [ ] **Exportação em PDF/DOCX** (contratos reformulados em formatos profissionais)
 
 ---
 

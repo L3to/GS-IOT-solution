@@ -60,7 +60,7 @@ class AgentBase(ABC):
         response_text = ""
         if "answer" in data:
             response_text = data["answer"]
-            print("Answer:", response_text)
+            print(f"\n{response_text}\n")
 
         self.state["use_tool"] = data.get("use_tool", False)
         self.state["tool_exec"] = generation
@@ -138,14 +138,23 @@ def ToolExecutor(state: GeneralState) -> GeneralState:
     if tool_name not in tool_registry:
         raise ValueError(f"Tool {tool_name} not found in registry.")
 
+    print(f"\nExecutando ferramenta: {tool_name}")
     result = tool_registry[tool_name](*args)
 
+    try:
+        result_data = json.loads(result)
+        ai_response = result_data.get("answer", result)
+    except Exception:
+        ai_response = result
+
     state["history"] += f"\nExecuted {tool_name} with result: {result}"
+
+    print(f"\nResultado da ferramenta: {ai_response}\n")
 
     save_to_mongodb(
         state["session_id"],
         "assistant",
-        result,
+        ai_response,
     )
 
     state["use_tool"] = False
@@ -240,5 +249,5 @@ else:
 while True:
     r = ""
     while r.strip() == "":
-        r = input("Digite sua pergunta jurídica: ")
+        r = input()
     question(r, current_session_id)

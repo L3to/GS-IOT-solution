@@ -1,0 +1,59 @@
+CONTRATO DE PRESTAÇÃO DE SERVISOS
+
+CONTRATANTE: João da Silvas, brasileiro, casado, empresário, portador do CPF nº 123.456.789-00, residente e domisiliado na Rua das Flores, nº 100, São Paulo/SP.
+
+CONTRATADO: Maria Santos Tecnologia LTDA, pessoa jurídica de direito privado, inscrita no CNPJ sob o nº 12.345.678/0001-90, com sede na Avenida Paulista, nº 1000, sala 500, São Paulo/SP.
+
+As partes acima qualificadas têm, entre si, justo e acordado o presente Contrato de Prestação de Serviços, que se regerá pelas cláusulas seguintes e pelas condições de descritas no presente.
+
+CLÁUSULA PRIMEIRA - DO OBJETO
+O presente contrato tem como objeto a prestação de serviços de desenvolvimentos de software pela CONTRATADA para o CONTRATANTE, conforme especificações técnicas a serem definidas posteriormente.
+
+CLÁUSULA SEGUNDA - DO PRAZO
+O prazo de vigência deste contrato é de 12 (doze) messes, com início em 01/01/2025 e término em 31/12/2025, podendo ser prorrogado mediante acordo entre as partes.
+
+CLÁUSULA TERCEIRA - DO VALOR E FORMA DE PAGAMENTO
+O CONTRATANTE pagará à CONTRATADA o valor total de R$ 50.000,00 (cinquenta mil reals), divididos em 12 (doze) parcelas mensais de R$ 4.166,66 (quatro mil, cento e sessenta e seis reais e sessenta e seis centavos).
+
+Parágrafo Primeiro: Os pagamentos serão efetuados até o dia 5 (cinco) de cada mes, mediante apresentação de nota fiscal.
+
+Parágrafo Segundo: Em caso de atrazo no pagamento, será cobrado juros de 1% (um por cento) ao mês e multa de 2% (dois por cento) sobre o valor devido.
+
+CLÁUSULA QUARTA - DAS OBRIGAÇÕES DO CONTRATANTE
+São obrigações do CONTRATANTE:
+a) Fornecer todas as informações necessárias para a execução dos serviços;
+b) Efetuar os pagamentos nas datas estabelecidas;
+c) Disponibilizar acesso aos sistemas e recursos necessários.
+
+CLÁUSULA QUINTA - DAS OBRIGAÇÕES DA CONTRATADA
+São obrigações da CONTRATADA:
+a) Executar os serviços com qualidade e no prazo estabelecido;
+b) Manter sigilo sobre todas as informações confidenciais do CONTRATANTE;
+c) Responder por eventuais danos causados por negligência ou imperícia na prestação dos serviços.
+
+CLÁUSULA SEXTA - DA RESCISÃO
+O presente contrato poderá ser rescindido:
+a) Por acordo entre as partes;
+b) Por descumprimento de qualquer cláusula contratual;
+c) Por impossibilidade de continuação dos serviços.
+
+Parágrafo Único: Em caso de rescisão por culpa da CONTRATADA, está deverá devolver todos os valores já recebidos e indenizar o CONTRATANTE pelos prejuízos causados.
+
+CLÁUSULA SÉTIMA - DO FORO
+Para dirimir quaisquer controvérsias oriundas deste contrato, as partes elegem o foro da comarca de São Paulo/SP, com renuncia expressa a qualquer outro, por mais privilegiado que seja.
+
+E por estarem assim justos e contratados, firmam o presente instrumento em 02 (duas) vias de igual teor e forma, na presença das testemunhas abaixo.
+
+São Paulo, 15 de Novembro de 2024.
+
+
+________________________                    ________________________
+João da Silvas                              Maria Santos Tecnologia LTDA
+CONTRATANTE                                 CONTRATADA
+
+
+TESTEMUNHAS:
+
+________________________                    ________________________
+Nome: Pedro Oliveira                        Nome: Ana Costa
+CPF: 987.654.321-00                         CPF: 111.222.333-44
