@@ -88,17 +88,21 @@ def law_question_filter(question: str, history: str) -> str:
         return ""
 
 
-def contract_filter(contract_type_name, question, history):
+def contract_filter(available_contracts, question, history):
     """
-    Verifica se o tipo de contrato selecionado corresponde ao que o usuário realmente quer.
-    Retorna um dicionário com match (bool), confidence (str), reason (str) e suggested_contract (str).
+    Identifica qual tipo de contrato o usuário deseja gerar dentre os disponíveis.
+    Retorna um dicionário com match (bool), confidence (str), contract_type (str) e reason (str).
     """
     filter_template = load_prompt("filter_contract_fields")
     filter_prompt = PromptTemplate.from_template(filter_template)
     llm_filter = ChatOllama(model="gpt-oss:20b", format="json", temperature=0)
     filter_chain = filter_prompt | llm_filter | StrOutputParser()
     result = filter_chain.invoke(
-        {"contract_type": contract_type_name, "question": question, "history": history}
+        {
+            "available_contracts": available_contracts,
+            "question": question,
+            "history": history,
+        }
     )
 
     try:
@@ -106,8 +110,8 @@ def contract_filter(contract_type_name, question, history):
         return data
     except json.JSONDecodeError:
         return {
-            "match": True,
+            "match": False,
             "confidence": "low",
+            "contract_type": "",
             "reason": "Erro ao processar validação",
-            "suggested_contract": "",
         }

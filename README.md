@@ -46,9 +46,11 @@ O ContratAI utiliza **Inteligência Artificial Generativa** (LLMs locais via Oll
 | **Python** | 3.11 | Linguagem principal |
 | **LangChain** | 1.0.7 | Framework para aplicações LLM |
 | **LangGraph** | 1.0.3 | Orquestração de agentes multi-step com grafo de estados |
+| **FastAPI** | latest | API REST para gerenciamento de sessões e agente |
 | **Ollama** | 0.6.1 | Execução local de LLMs |
-| **mistral-nemo:12b** | - | Modelo LLM principal (agents e embeddings) |
-| **gpt-oss:20b** | - | Modelo para filtragem de arquivos de leis (JSON estruturado) |
+| **qwen3-coder:latest** | - | Modelo LLM principal (agents) |
+| **mistral-nemo:12b** | - | Modelo LLM principal (embeddings) |
+| **gpt-oss:20b** | - | Modelo para validação de contratos (JSON estruturado) |
 | **ChromaDB** | 1.3.4 | Banco vetorial persistente para RAG |
 | **MongoDB Atlas** | 4.15.4 | Persistência de histórico de conversas |
 | **Sentence Transformers** | 3.0.0 | CrossEncoder reranker (ms-marco-MiniLM-L-6-v2) |
@@ -101,8 +103,8 @@ graph LR
     end
     
     subgraph LangGraph
-        CA[Chat Agent<br/>mistral-nemo:12b]
-        TA[Tool Agent<br/>mistral-nemo:12b]
+        CA[Chat Agent<br/>qwen3-coder:latest]
+        TA[Tool Agent<br/>qwen3-coder:latest]
     end
     
     subgraph RAG_System[Sistema RAG - ChromaDB]
@@ -206,9 +208,9 @@ flowchart TD
   - Locação Imóvel Urbano
   - Prestação de Serviços
   - Promessa de Compra e Venda
-- **Estratégia**: **1 arquivo = 1 chunk** (contexto integral)
-- **Vantagem**: Mantém integridade do contrato para análise holística e geração de templates completos
-- **Uso**: Template matching para geração de contratos personalizados via busca semântica
+- **Estratégia**: **Sem RAG/embeddings** - validação direta via LLM
+- **Vantagem**: LLM recebe lista completa de contratos e escolhe o tipo correto com contexto total
+- **Uso**: Validação de tipo de contrato via `contract_filter()` antes de carregar template específico
 
 ---
 
@@ -340,10 +342,11 @@ flowchart TD
 - Contrato gerado com sucesso!
 
 **Fluxo de geração:**
-1. **Busca de Template** - Identifica contrato similar via busca semântica na contracts_collection
-2. **Validação de Campos** - Verifica se todos os campos necessários foram fornecidos
-3. **Preenchimento** - Usa prompt fill_contract.txt para preencher template
-4. **Validação Legal** - Garante conformidade com LGPD, CC, CLT, CDC
+1. **Validação de Tipo** - LLM recebe lista completa de 14 contratos e escolhe o tipo correto
+2. **Carregamento de Template** - Carrega arquivo `.txt` específico diretamente do disco
+3. **Validação de Campos** - Verifica se todos os campos necessários foram fornecidos via prompt inteligente
+4. **Preenchimento** - Usa prompt `fill_contract.txt` para preencher template com dados do usuário
+5. **Validação Legal** - Garante conformidade com LGPD, CC, CLT, CDC
 
 **Exemplo:**
 ```python
@@ -370,9 +373,10 @@ flowchart TD
 ```
 ContratAIIOT/
 ├── main.py                           # Aplicação principal (LangGraph workflow)
+├── api.py                            # FastAPI REST API para gerenciamento de sessões
 ├── tools.py                          # Ferramentas/Tools para agentes (5 tools)
 ├── llm_config.py                     # Configuração Ollama + ChromaDB
-├── rag_functions.py                  # Funções RAG (chunking, embedding, query expansion, reranking)
+├── rag_functions.py                  # Funções RAG (chunking, embedding, query expansion, validation)
 ├── contract_fields_mapping.json      # Mapeamento de campos para geração de contratos
 ├── inspect_chunks.py                 # Utilitário para inspecionar chunks no ChromaDB
 ├── inspect_sqlite.py                 # Utilitário para inspecionar banco SQLite do ChromaDB
@@ -388,7 +392,8 @@ ContratAIIOT/
 │   ├── retrieve_law.txt              # Prompt de consulta legislação
 │   ├── expand_query.txt              # Prompt de expansão de queries para RAG
 │   ├── fill_contract.txt             # Prompt de preenchimento de templates
-│   └── filter_law_files.txt          # Prompt de filtragem de arquivos de leis
+│   ├── filter_law_files.txt          # Prompt de filtragem de arquivos de leis
+│   └── filter_contract_fields.txt    # Prompt de validação de tipo de contrato
 │
 ├── rag_files/
 │   ├── contracts/                    # 14 contratos templates (.txt)
@@ -430,7 +435,7 @@ ContratAIIOT/
 
 - **Python 3.11**
 - **Ollama** instalado ([ollama.ai](https://ollama.ai/))
-- **Modelo Ollama**: `mistral-nemo:12b`
+- **Modelos Ollama**
 - **MongoDB Atlas** (ou local)
 
 ### 1. Clone o Repositório
@@ -443,7 +448,8 @@ cd ContratAIIOT
 ### 2. Instale os Modelos Ollama
 
 ```bash
-ollama pull mistral-nemo:12b  # Modelo principal (agents e embeddings)
+ollama pull mistral-nemo:12b # Modelo para embeddings
+ollama pull qwen3-coder:latest  # Modelo principal (agents)
 ollama pull gpt-oss:20b       # Modelo para filtragem de leis (JSON estruturado)
 ```
 
@@ -460,7 +466,6 @@ uv sync
 
 ```bash
 pip install -r requirements.txt
-# ou manualmente:
 pip install langchain langchain-core langchain-community langchain-ollama
 pip install langgraph ollama chromadb pymongo python-dotenv
 ```
@@ -484,7 +489,6 @@ CHROMA_PERSIST_DIRECTORY=./chroma_db_laws
 
 Na primeira execução, o sistema automaticamente:
 - Carrega todos os arquivos de `rag_files/laws/` (8 códigos legais)
-- Carrega todos os arquivos de `rag_files/contracts/` (14 templates)
 - Cria chunks com `RecursiveCharacterTextSplitter` (tamanho: 1200, overlap: 200)
 - Gera embeddings com `OllamaEmbeddings` (mistral-nemo:12b)
 - Persiste no ChromaDB (`chroma_db_laws/`)
@@ -492,10 +496,10 @@ Na primeira execução, o sistema automaticamente:
 
 **Importante:** 
 - Este processo pode levar 5-10 minutos na primeira vez
-- Contratos usam estratégia **1 arquivo = 1 chunk** para contexto integral
+- Contratos **não usam ChromaDB** - validação direta via LLM para maior precisão
 - Leis são divididas em chunks de 1200 caracteres com separadores (`Art.`, `§`, `CAPÍTULO`)
 
-### 6. Execute o Assistente
+### 6. Execute o Assistente (CLI)
 
 ```bash
 python main.py
@@ -509,6 +513,140 @@ source .venv/bin/activate  # Linux/Mac
 .venv\Scripts\activate     # Windows
 
 python main.py
+```
+
+### 7. Execute a API REST (Opcional)
+
+```bash
+python api.py
+# ou
+uvicorn api:api --reload --host 0.0.0.0 --port 8000
+```
+
+Acesse a documentação interativa em: `http://localhost:8000/docs`
+
+---
+
+## API REST Endpoints
+
+### Gerenciamento de Sessões
+
+#### `GET /sessions`
+Lista todas as sessões de chat armazenadas no MongoDB.
+
+```bash
+curl http://localhost:8000/sessions
+```
+
+#### `GET /sessions/{session_id}`
+Obtém uma sessão específica com todo o histórico de mensagens.
+
+```bash
+curl http://localhost:8000/sessions/abc12345
+```
+
+#### `POST /sessions`
+Cria uma nova sessão de chat vazia.
+
+```bash
+curl -X POST http://localhost:8000/sessions
+```
+
+**Resposta:**
+```json
+{
+  "session_id": "abc12345",
+  "message": "Sessão criada com sucesso"
+}
+```
+
+#### `PUT /sessions/{session_id}`
+Atualiza as mensagens de uma sessão existente.
+
+```bash
+curl -X PUT http://localhost:8000/sessions/abc12345 \
+  -H "Content-Type: application/json" \
+  -d '{
+    "messages": [
+      {"timestamp": "2024-12-01T10:00:00Z", "role": "user", "content": "Olá"},
+      {"timestamp": "2024-12-01T10:00:05Z", "role": "assistant", "content": "Olá! Como posso ajudar?"}
+    ]
+  }'
+```
+
+#### `DELETE /sessions/{session_id}`
+Deleta uma sessão específica.
+
+```bash
+curl -X DELETE http://localhost:8000/sessions/abc12345
+```
+
+#### `DELETE /sessions`
+**CUIDADO:** Deleta todas as sessões do banco de dados.
+
+```bash
+curl -X DELETE http://localhost:8000/sessions
+```
+
+### Interação com o Agente
+
+#### `POST /chat`
+Envia uma pergunta para o agente ContratAI e recebe a resposta processada.
+
+```bash
+curl -X POST http://localhost:8000/chat \
+  -H "Content-Type: application/json" \
+  -d '{
+    "question": "Quero gerar um contrato de prestação de serviços",
+    "session_id": "abc12345"
+  }'
+```
+
+**Resposta:**
+```json
+{
+  "session_id": "abc12345",
+  "answer": "Para gerar o contrato de prestação de serviços, preciso das seguintes informações...",
+  "tool_used": "generate_contracts"
+}
+```
+
+**Parâmetros:**
+- `question` (string, obrigatório): Pergunta ou comando para o agente
+- `session_id` (string, opcional): ID da sessão. Se omitido, cria nova sessão
+
+### Informações do Sistema
+
+#### `GET /`
+Retorna informações gerais da API e lista de endpoints disponíveis.
+
+```bash
+curl http://localhost:8000/
+```
+
+#### `GET /tools`
+Lista todas as ferramentas disponíveis no sistema com descrições e parâmetros.
+
+```bash
+curl http://localhost:8000/tools
+```
+
+**Resposta:**
+```json
+{
+  "tools": [
+    {
+      "name": "analyze_contract",
+      "description": "Realiza análise completa de contratos...",
+      "parameters": [...]
+    },
+    {
+      "name": "generate_contracts",
+      "description": "Gera contratos personalizados...",
+      "parameters": [...]
+    }
+  ]
+}
 ```
 
 ---
@@ -656,99 +794,6 @@ python inspect_sqlite.py
 - Etapas RAG: filtragem → busca → expansão → reranking
 - Confirmação de salvamento de contratos reformulados
 - Mensagens user-friendly sem emojis
-
----
-
-## 🔮 Futuro do Trabalho - Impacto Social
-
-### Como o ContratAI se alinha ao tema "Futuro do Trabalho"?
-
-#### 1. **Democratização do Acesso Jurídico**
-- 🎯 **Problema**: Profissionais autônomos e freelancers não têm acesso a assessoria jurídica acessível
-- ✅ **Solução**: ContratAI oferece análise jurídica profissional gratuitamente via LLMs locais
-
-#### 2. **Empoderamento de Empreendedores**
-- 🎯 **Problema**: Pequenas empresas gastam muito com advogados para contratos simples
-- ✅ **Solução**: Geração e análise automatizada de contratos comuns (prestação de serviços, locação, compra/venda)
-
-#### 3. **Conformidade Legal Automatizada**
-- 🎯 **Problema**: Contratos desatualizados sem adequação à LGPD e legislação moderna
-- ✅ **Solução**: Sistema identifica e corrige automaticamente cláusulas não conformes
-
-#### 4. **Educação Jurídica Acessível**
-- 🎯 **Problema**: Linguagem jurídica é técnica e intimidadora para leigos
-- ✅ **Solução**: Explicações em linguagem simples + citações legais precisas
-
-#### 5. **Trabalho Remoto e Freelancing**
-- 🎯 **Problema**: Crescimento de trabalho remoto aumenta necessidade de contratos claros
-- ✅ **Solução**: Templates profissionais para contratos de prestação de serviços, confidencialidade, cessão de direitos
-
----
-
-## 🛠️ Roadmap / Melhorias Futuras
-
-### Concluído ✅
-- [x] **Sistema de prompts externalizados** (8 prompts em arquivos .txt)
-- [x] **Logging detalhado** (feedback user-friendly em todas as operações)
-- [x] **Geração de contratos personalizados** (função `generate_contracts` completa)
-- [x] **Query expansion** (2 variações de query para melhor recall)
-- [x] **Reranking com CrossEncoder** (ms-marco-MiniLM-L-6-v2)
-- [x] **Filtragem inteligente de leis** (gpt-oss:20b seleciona arquivos relevantes)
-- [x] **Resumo executivo em reformulações** (campo summary com 2-3 parágrafos)
-- [x] **Rationale detalhado em análises** (3-5 parágrafos com citações legais)
-
-### Em Desenvolvimento 🚧
-- [ ] **Hybrid Search** (BM25 + semantic para busca de artigos específicos)
-- [ ] **Metadados de artigos** (extração de números de artigos durante chunking)
-- [ ] **Interface Web (Streamlit/Gradio)**
-- [ ] **Upload de PDFs** (análise de contratos em PDF via `pdfplumber`)
-
-### Planejado 📋
-- [ ] **Comparação de contratos** (detectar alterações entre versões)
-- [ ] **Assinatura digital** (integração com certificados digitais ICP-Brasil)
-- [ ] **Multi-tenancy** (suporte a múltiplas organizações)
-- [ ] **API REST** (exposição das funcionalidades via FastAPI)
-- [ ] **Fine-tuning do LLM** (especialização em jurídico brasileiro)
-- [ ] **Suporte a mais legislações** (Lei de Software, Marco Civil da Internet, Lei de Franquias)
-- [ ] **Cache de embeddings** (evitar reprocessamento de contratos já analisados)
-- [ ] **Exportação em PDF/DOCX** (contratos reformulados em formatos profissionais)
-
----
-
-## 👥 Equipe
-
-**FIAP - Global Solution 2024/2025**  
-**Tema:** O Futuro do Trabalho
-
-- **Desenvolvedor:** [Seu Nome]
-- **RM:** [Seu RM]
-- **Curso:** Análise e Desenvolvimento de Sistemas / Engenharia de Software
-- **Turma:** [Sua Turma]
-
----
-
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins acadêmicos como parte do programa Global Solution da FIAP.
-
----
-
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Por favor:
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/NovaFuncionalidade`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
-4. Push para a branch (`git push origin feature/NovaFuncionalidade`)
-5. Abra um Pull Request
-
----
-
-## 📞 Contato
-
-Para dúvidas ou sugestões sobre o projeto:
-- **GitHub Issues:** [Abrir issue](../../issues)
-- **Email:** [seu-email@fiap.com.br]
 
 ---
 

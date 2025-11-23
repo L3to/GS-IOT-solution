@@ -1,7 +1,7 @@
 import json
 import sqlite3
 
-db_path = "chroma_db_laws/chroma.sqlite3"
+db_path = "chroma_db/chroma.sqlite3"
 
 conn = sqlite3.connect(db_path)
 cursor = conn.cursor()

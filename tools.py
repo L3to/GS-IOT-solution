@@ -210,79 +210,60 @@ def generate_contracts(question: str, history: str) -> str:
     with open("contract_fields_mapping.json", "r", encoding="utf-8") as f:
         fields_mapping = json.load(f)
 
-    contracts_collection = client.get_or_create_collection("contracts_collection")
-    if contracts_collection.count() == 0:
-        print("Inicializando base de templates de contratos...")
-        contract_documents = []
-        contract_metadata = []
-        contract_ids = []
-
-        for filename in os.listdir("rag_files/contracts"):
-            file_path = f"rag_files/contracts/{filename}"
-
-            if os.path.isdir(file_path):
-                continue
-
-            contract_content = load_file_contents(file_path)
-            if not contract_content:
-                continue
-
-            contract_documents.append(contract_content)
-            contract_type_name = filename.replace(".txt", "")
-
-            contract_metadata.append(
-                {"source": file_path, "contract_type": contract_type_name}
-            )
-            contract_ids.append(f"contract_{len(contract_documents)}")
-
-        embeddings = [embed_model.embed_query(doc) for doc in contract_documents]
-        contracts_collection.add(
-            documents=contract_documents,
-            embeddings=embeddings,
-            metadatas=contract_metadata,
-            ids=contract_ids,
-        )
-        print(f"Base inicializada com {len(contract_documents)} templates")
-
-    print("Identificando tipo de contrato mais adequado...")
-    query_embedding = embed_model.embed_query(question)
-    results = contracts_collection.query(
-        query_embeddings=[query_embedding],
-        n_results=1,
-        include=["documents", "metadatas"],
+    available_contracts_list = "\n".join(
+        [
+            f"- {name}: {info.get('description', '')}"
+            for name, info in fields_mapping.items()
+        ]
     )
 
-    if not results["documents"] or len(results["documents"][0]) == 0:
-        error_response = {
-            "status": "error",
-            "answer": "Não foi possível identificar o tipo de contrato solicitado. Por favor, seja mais específico.",
-            "message": "Não foi possível identificar o tipo de contrato.",
-        }
-        print("Erro: Tipo de contrato não identificado")
-        return json.dumps(error_response, ensure_ascii=False, indent=2)
+    print("Identificando tipo de contrato solicitado...")
+    validation = contract_filter(available_contracts_list, question, history)
 
-    best_match_metadata = results["metadatas"][0][0]
-    contract_type_name = best_match_metadata.get("contract_type", "")
-    contract_template = results["documents"][0][0]
-    
-    print(f"Tipo identificado: {contract_type_name}")
-
-    contract_info = fields_mapping.get(contract_type_name, {})
-    
-    print("Validando correspondência com solicitação do usuário...")
-    validation = contract_filter(contract_type_name, question, history)
-    
     if not validation.get("match", False):
         error_response = {
             "status": "error",
-            "answer": f"Sua requisição não corresponde a nenhum dos nossos tipos de contrato padrão. Por favor, verifique e tente novamente.",
-            "message": validation.get('reason', 'Tipo de contrato incompatível'),
-            "confidence": validation.get('confidence', 'low')
+            "answer": "Não foi possível identificar um tipo de contrato correspondente à sua solicitação. Por favor, escolha um dos tipos disponíveis.",
+            "message": validation.get("reason", "Tipo de contrato não identificado"),
+            "confidence": validation.get("confidence", "low"),
         }
-        print(f"Validação falhou: {validation.get('reason', '')}")
+        print(f"Tipo de contrato não identificado: {validation.get('reason', '')}")
         return json.dumps(error_response, ensure_ascii=False, indent=2)
-    
-    print(f"Validação aprovada (confiança: {validation.get('confidence', 'medium')})")
+
+    contract_type_name = validation.get("contract_type", "")
+    print(
+        f"Tipo identificado: {contract_type_name} (confiança: {validation.get('confidence', 'medium')})"
+    )
+
+    contract_info = fields_mapping.get(contract_type_name, {})
+    if not contract_info:
+        error_response = {
+            "status": "error",
+            "answer": "Tipo de contrato identificado não encontrado no sistema.",
+            "message": f"Contrato '{contract_type_name}' não existe",
+        }
+        print(f"Erro: Contrato '{contract_type_name}' não encontrado")
+        return json.dumps(error_response, ensure_ascii=False, indent=2)
+
+    file_path = f"rag_files/contracts/{contract_type_name}.txt"
+    if not os.path.exists(file_path):
+        error_response = {
+            "status": "error",
+            "answer": "Template do contrato não encontrado.",
+            "message": f"Arquivo '{file_path}' não existe",
+        }
+        print(f"Erro: Template não encontrado em '{file_path}'")
+        return json.dumps(error_response, ensure_ascii=False, indent=2)
+
+    contract_template = load_file_contents(file_path)
+    if not contract_template:
+        error_response = {
+            "status": "error",
+            "answer": "Erro ao carregar template do contrato.",
+            "message": "Conteúdo do template está vazio",
+        }
+        print("Erro: Template vazio")
+        return json.dumps(error_response, ensure_ascii=False, indent=2)
 
     print("Preenchendo template do contrato...")
     template = load_prompt("fill_contract")
@@ -304,7 +285,7 @@ def generate_contracts(question: str, history: str) -> str:
         if result_data.get("status") == "completed":
             with open("generated_contract.txt", "w", encoding="utf-8") as f_out:
                 f_out.write(result_data.get("filled_contract", ""))
-            print("\nContrato gerado com sucesso!\n")
+            print("\nContrato gerado com sucesso!")
         elif result_data.get("status") == "missing_info":
             print("\nInformações adicionais necessárias\n")
 
