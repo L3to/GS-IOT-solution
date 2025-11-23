@@ -1,0 +1,237 @@
+CONTRATO DE CESSÃO E TRANSFERÊNCIA DE QUOTAS SOCIAIS
+
+CEDENTE: [nome completo], [nacionalidade], [estado civil], [profissão], portador da cédula de identidade RG nº [número] [órgão expedidor]/[UF], inscrito no CPF sob o nº [número], endereço eletrônico [e-mail], telefone [número], residente e domiciliado à Rua [endereço completo], nº [número], Bairro [bairro], município de [cidade]/[UF], CEP [CEP], doravante denominado CEDENTE.
+
+[Se casado, incluir]: e seu cônjuge [nome completo do cônjuge], [nacionalidade], [profissão], portador da cédula de identidade RG nº [número] [órgão expedidor]/[UF], inscrito no CPF sob o nº [número].
+
+CESSIONÁRIO: [nome completo], [nacionalidade], [estado civil], [profissão], portador da cédula de identidade RG nº [número] [órgão expedidor]/[UF], inscrito no CPF sob o nº [número], endereço eletrônico [e-mail], telefone [número], residente e domiciliado à Rua [endereço completo], nº [número], Bairro [bairro], município de [cidade]/[UF], CEP [CEP], doravante denominado CESSIONÁRIO.
+
+[Se casado, incluir]: e seu cônjuge [nome completo do cônjuge], [nacionalidade], [profissão], portador da cédula de identidade RG nº [número] [órgão expedidor]/[UF], inscrito no CPF sob o nº [número].
+
+SOCIEDADE: [Razão Social], sociedade empresária limitada, inscrita no CNPJ sob o nº [número], com sede à Rua [endereço completo], nº [número], Bairro [bairro], Cidade [cidade], Estado [UF], CEP [CEP], Inscrição Estadual nº [número], NIRE nº [número], com Contrato Social registrado na Junta Comercial de [UF] em [dd/mm/aaaa], doravante denominada SOCIEDADE.
+
+SÓCIOS REMANESCENTES (ANUENTES):
+
+SÓCIO 2: [nome completo], [qualificação completa], doravante denominado SÓCIO 2.
+
+SÓCIO 3: [nome completo], [qualificação completa], doravante denominado SÓCIO 3.
+
+[Incluir demais sócios, se aplicável]
+
+Têm entre si justo e contratado o presente CONTRATO DE CESSÃO E TRANSFERÊNCIA DE QUOTAS SOCIAIS, que se regerá pelas seguintes cláusulas e condições:
+
+CLÁUSULA PRIMEIRA - DO OBJETO
+
+1.1. O presente contrato tem por objeto a cessão e transferência, pelo CEDENTE ao CESSIONÁRIO, da totalidade [ou: de parte] das quotas sociais de titularidade do CEDENTE na SOCIEDADE, conforme arts. 1.003, 1.057 e 1.058 do Código Civil (Lei nº 10.406/2002) e cláusulas do Contrato Social da SOCIEDADE.
+
+1.2. O CEDENTE é titular de [número] ([número por extenso]) quotas sociais da SOCIEDADE, no valor nominal de R$ [valor] cada uma, totalizando R$ [valor total] ([valor por extenso]), correspondentes a [percentual]% do capital social da SOCIEDADE.
+
+1.3. O CEDENTE cede e transfere ao CESSIONÁRIO:
+a) [CESSÃO TOTAL]: A totalidade de suas [número] quotas sociais, correspondentes a [percentual]% do capital social;
+b) [CESSÃO PARCIAL]: [número] quotas sociais, correspondentes a [percentual]% do capital social, permanecendo o CEDENTE com [número] quotas, correspondentes a [percentual]%.
+
+1.4. Composição atual do capital social da SOCIEDADE:
+- Capital Social Total: R$ [valor], dividido em [número] quotas de R$ [valor] cada;
+- CEDENTE: [número] quotas = [percentual]% = R$ [valor];
+- SÓCIO 2: [número] quotas = [percentual]% = R$ [valor];
+- SÓCIO 3: [número] quotas = [percentual]% = R$ [valor];
+- [Listar demais sócios].
+
+1.5. Composição do capital social após a cessão:
+- CESSIONÁRIO: [número] quotas = [percentual]% = R$ [valor];
+- CEDENTE: [número] quotas = [percentual]% = R$ [valor] [ou: retira-se da sociedade];
+- SÓCIO 2: [número] quotas = [percentual]% = R$ [valor];
+- SÓCIO 3: [número] quotas = [percentual]% = R$ [valor];
+- [Listar demais sócios].
+
+CLÁUSULA SEGUNDA - DO PREÇO E FORMA DE PAGAMENTO
+
+2.1. O preço total da cessão de quotas é de R$ [valor por extenso] (R$ [valor em números]), correspondente ao valor patrimonial das quotas apurado em balanço especial levantado em [dd/mm/aaaa] [ou: valor acordado livremente entre as partes / valor de mercado avaliado por empresa especializada].
+
+2.2. O preço da cessão foi calculado considerando:
+a) Valor patrimonial contábil das quotas: R$ [valor] (patrimônio líquido ÷ número total de quotas × quotas cedidas);
+b) [Se aplicável] Ágio/deságio de [percentual]% sobre o valor patrimonial, em razão de: [expectativa de lucros futuros, goodwill, marca, clientela, localização, fundo de comércio, perspectivas de crescimento, dificuldades financeiras, passivos contingentes, etc.];
+c) [Se aplicável] Avaliação econômico-financeira da sociedade (valuation) realizada por [empresa especializada], considerando fluxo de caixa descontado, múltiplos de mercado, valor de liquidação, etc.
+
+2.3. O pagamento será realizado da seguinte forma:
+a) [À vista]: Pagamento único de R$ [valor], nesta data, mediante [PIX/transferência bancária/cheque/dinheiro], com quitação plena e irrevogável pelo CEDENTE;
+b) [Parcelado]: Pagamento em [número] parcelas de R$ [valor], vencendo a primeira em [dd/mm/aaaa] e as demais no mesmo dia dos meses subsequentes, mediante [cheques pré-datados/promissórias/boletos bancários/transferências];
+c) [Entrada + saldo]: Entrada de R$ [valor] nesta data e saldo de R$ [valor] em [número] parcelas mensais de R$ [valor], com vencimento no dia [número] de cada mês.
+
+2.4. Sobre o valor das parcelas não quitadas nas datas de vencimento incidirão:
+a) Juros de mora de 1% (um por cento) ao mês ou fração, calculados pro rata die;
+b) Multa moratória de 2% (dois por cento) sobre o valor em atraso;
+c) Correção monetária pelo IPCA/IGPM desde o vencimento até o efetivo pagamento;
+d) Vencimento antecipado de todas as parcelas vincendas em caso de atraso superior a [número] dias;
+e) Direito de retenção das quotas pelo CEDENTE até quitação integral do preço [se aplicável].
+
+2.5. [Se pagamento parcelado]: Em garantia do pagamento das parcelas, o CESSIONÁRIO oferece:
+a) [Caução em dinheiro/títulos]: Depósito de R$ [valor] em conta garantia, liberado após quitação integral;
+b) [Penhor de quotas]: As próprias quotas cedidas ficarão em garantia (penhor) até quitação do preço, conforme arts. 1.451 a 1.460 do Código Civil;
+c) [Fiança]: Garantia pessoal de [nome do fiador], [qualificação completa], que se obriga solidariamente como fiador e principal pagador, renunciando aos benefícios dos arts. 827, 834 e 835 do Código Civil;
+d) [Aval]: Aval de terceiro em promissórias emitidas pelo CESSIONÁRIO;
+e) [Hipoteca/alienação fiduciária]: Garantia real sobre imóvel/veículo de propriedade do CESSIONÁRIO, descrito em anexo.
+
+CLÁUSULA TERCEIRA - DA ANUÊNCIA DOS SÓCIOS REMANESCENTES
+
+3.1. Os SÓCIOS REMANESCENTES, SÓCIO 2 e SÓCIO 3 [e demais], declaram que:
+a) Foram notificados previamente pelo CEDENTE sobre a intenção de ceder suas quotas sociais, conforme previsto no Contrato Social da SOCIEDADE e art. 1.057 do Código Civil;
+b) Tiveram exercício do direito de preferência na aquisição das quotas, em igualdade de condições, proporcional à participação de cada um no capital social, conforme art. 1.057 do Código Civil;
+c) RENUNCIAM expressamente ao direito de preferência, autorizando e anuindo com a cessão das quotas ao CESSIONÁRIO ora qualificado;
+d) Concordam com o ingresso do CESSIONÁRIO no quadro societário da SOCIEDADE, reconhecendo-o como sócio com todos os direitos e obrigações inerentes.
+
+3.2. [Se houver cônjuge em regime de comunhão de bens]: O cônjuge do CEDENTE [e dos demais sócios, se aplicável] declara estar ciente e anuir expressamente com a presente cessão de quotas, nos termos do art. 1.647, I do Código Civil.
+
+CLÁUSULA QUARTA - DAS DECLARAÇÕES DO CEDENTE
+
+4.1. O CEDENTE declara e garante, sob as penas da lei, que:
+a) É legítimo titular das quotas sociais objeto desta cessão, com plenos poderes para cedê-las;
+b) As quotas estão livres e desembaraçadas de quaisquer ônus, gravames, penhoras, arrestos, sequestros, penhores, alienações fiduciárias, hipotecas, restrições judiciais ou administrativas, promessas de cessão a terceiros ou qualquer outro impedimento;
+c) As quotas estão totalmente integralizadas, conforme art. 1.052 do Código Civil, não havendo qualquer saldo a integralizar ou débito pendente para com a SOCIEDADE;
+d) A SOCIEDADE não possui débitos tributários, fiscais, previdenciários, trabalhistas, ambientais, cíveis ou comerciais não provisionados ou não refletidos nas demonstrações financeiras apresentadas ao CESSIONÁRIO;
+e) As demonstrações financeiras (balanço patrimonial, DRE, fluxo de caixa) apresentadas ao CESSIONÁRIO refletem fielmente a situação patrimonial, econômica e financeira da SOCIEDADE, sem omissões, distorções ou irregularidades;
+f) A SOCIEDADE não está envolvida em processos judiciais, arbitragens, investigações administrativas, fiscalizações ou litígios não informados ao CESSIONÁRIO, ressalvados aqueles discriminados no ANEXO I - PASSIVOS CONTINGENTES;
+g) Não há acordos de acionistas, acordos de quotistas, pactos parassociais, contratos de voto, opções de compra ou venda de quotas (call/put), direitos de tag along, drag along ou outras obrigações que restrinjam ou onerem as quotas cedidas;
+h) [Se saída total]: Renuncia a qualquer cargo de administração, gerência ou representação da SOCIEDADE, devendo ser alterado o Contrato Social para exclusão de seu nome como administrador [se aplicável].
+
+4.2. Caso qualquer das declarações acima se mostre falsa, incorreta ou incompleta, o CEDENTE responderá civil e criminalmente pelos danos causados ao CESSIONÁRIO, incluindo restituição integral do preço pago, perdas e danos, lucros cessantes, danos morais, custas processuais e honorários advocatícios.
+
+CLÁUSULA QUINTA - DAS OBRIGAÇÕES DO CEDENTE
+
+5.1. O CEDENTE obriga-se a:
+a) Fornecer ao CESSIONÁRIO, no prazo de até [número] dias úteis, cópia autenticada do Contrato Social consolidado da SOCIEDADE e todas as suas alterações, devidamente arquivadas na Junta Comercial;
+b) Apresentar certidões negativas de débitos da SOCIEDADE: CNPJ (Receita Federal), débitos trabalhistas (CNDT), débitos estaduais/municipais, FGTS, INSS, protestos, distribuições cíveis/criminais, ações trabalhistas, etc.;
+c) Fornecer as últimas [número] demonstrações financeiras auditadas [ou: balanços patrimoniais, DREs] da SOCIEDADE, livros contábeis, fiscais, relatórios gerenciais e demais documentos contábeis solicitados pelo CESSIONÁRIO para due diligence;
+d) Dar livre acesso ao CESSIONÁRIO, durante o período de [número] dias anteriores à assinatura deste contrato (período de due diligence), às instalações, documentos, contratos, livros, sistemas, registros contábeis e demais informações da SOCIEDADE;
+e) Transferir ao CESSIONÁRIO, no ato da assinatura deste contrato [ou: após quitação integral do preço], todos os direitos, prerrogativas, vantagens, dividendos, lucros acumulados e demais benefícios inerentes às quotas cedidas;
+f) Abster-se, pelo prazo de [número] anos contados desta data, de: [se aplicável - cláusula de não concorrência]: (i) constituir, participar, investir ou prestar serviços a empresas concorrentes da SOCIEDADE no mesmo ramo de atividade, (ii) aliciar clientes, fornecedores, empregados ou parceiros comerciais da SOCIEDADE, (iii) utilizar informações confidenciais, segredos industriais, know-how, tecnologias ou metodologias da SOCIEDADE;
+g) Colaborar com o CESSIONÁRIO durante o período de transição de [número] meses, prestando esclarecimentos, transferindo conhecimentos, apresentando clientes/fornecedores e auxiliando na continuidade dos negócios;
+h) [Se saída total]: Renunciar a qualquer cargo, função ou representação na SOCIEDADE, assinando carta de renúncia e termo de quitação de haveres, pró-labore, reembolsos e demais verbas;
+i) Assinar a alteração contratual da SOCIEDADE, a ser arquivada na Junta Comercial, formalizando a cessão de quotas e eventuais modificações do Contrato Social (administração, distribuição de capital, cláusulas societárias, etc.).
+
+CLÁUSULA SEXTA - DAS OBRIGAÇÕES DO CESSIONÁRIO
+
+6.1. O CESSIONÁRIO obriga-se a:
+a) Efetuar o pagamento do preço ajustado pontualmente nas datas, valores e condições estabelecidos na Cláusula Segunda;
+b) Assumir, a partir desta data, todos os direitos e obrigações inerentes às quotas sociais adquiridas, na qualidade de sócio da SOCIEDADE;
+c) Responder, proporcionalmente às suas quotas, pelas obrigações sociais, débitos, passivos, contingências e responsabilidades da SOCIEDADE, conforme art. 1.052 do Código Civil, até o limite do capital social não integralizado;
+d) Cumprir fielmente todas as cláusulas e condições do Contrato Social da SOCIEDADE, regimento interno, acordo de quotistas [se houver] e deliberações sociais;
+e) Manter sigilo sobre informações confidenciais, estratégias comerciais, segredos industriais, bases de dados de clientes, fornecedores, processos, tecnologias e demais dados proprietários da SOCIEDADE, conforme Lei nº 9.279/1996 e Lei nº 13.709/2018 (LGPD);
+f) [Se aplicável] Apresentar certidões negativas pessoais: distribuições cíveis/criminais, protestos, antecedentes criminais, regularidade fiscal (CPF), comprovação de idoneidade moral, capacidade financeira e experiência empresarial;
+g) Assinar a alteração contratual da SOCIEDADE perante a Junta Comercial, formalizando seu ingresso no quadro societário e eventuais modificações contratuais.
+
+CLÁUSULA SÉTIMA - DA TRANSFERÊNCIA E EFEITOS DA CESSÃO
+
+7.1. A presente cessão de quotas produz efeitos entre as partes a partir da assinatura deste contrato [ou: a partir da quitação integral do preço / a partir do arquivamento da alteração contratual na Junta Comercial].
+
+7.2. A cessão produzirá efeitos perante a SOCIEDADE e terceiros a partir do arquivamento da alteração contratual na Junta Comercial competente e respectiva averbação no CNPJ, conforme art. 1.057, §§ 1º e 2º, do Código Civil e art. 35 da Lei nº 8.934/1994 (Lei de Registro Empresarial).
+
+7.3. Os lucros, dividendos, juros sobre capital próprio e demais distribuições de resultados apurados pela SOCIEDADE:
+a) [Opção 1]: Referentes ao período anterior à cessão (até [dd/mm/aaaa]) pertencem integralmente ao CEDENTE;
+b) [Opção 2]: Referentes ao exercício social em curso ([ano]) serão divididos proporcionalmente entre CEDENTE e CESSIONÁRIO, pro rata temporis;
+c) [Opção 3]: Todos os lucros e dividendos, inclusive os relativos a exercícios anteriores não distribuídos, pertencem ao CESSIONÁRIO, estando incluídos no preço da cessão.
+
+7.4. A responsabilidade do CEDENTE por obrigações sociais, débitos tributários, trabalhistas, previdenciários, ambientais, comerciais e demais passivos da SOCIEDADE:
+a) [Opção 1 - Responsabilidade solidária por 2 anos]: O CEDENTE permanece solidariamente responsável, perante terceiros, pelas obrigações sociais existentes até a data da cessão, pelo prazo de 2 (dois) anos contados do arquivamento da alteração contratual na Junta Comercial, conforme art. 1.032 do Código Civil;
+b) [Opção 2 - Responsabilidade limitada a passivos conhecidos]: O CEDENTE responde apenas por passivos, débitos e contingências conhecidos e devidamente informados ao CESSIONÁRIO, discriminados no ANEXO I, ficando o CESSIONÁRIO responsável por passivos identificados após a cessão;
+c) [Opção 3 - Quitação total com direito de regresso]: O CEDENTE retira-se da SOCIEDADE pago, satisfeito e quitado de todos os seus haveres, direitos e obrigações, ressalvando-se à SOCIEDADE o direito de regresso contra o CEDENTE por passivos ocultos ou não divulgados.
+
+CLÁUSULA OITAVA - DA ALTERAÇÃO CONTRATUAL E REGISTRO
+
+8.1. As partes, juntamente com os SÓCIOS REMANESCENTES, obrigam-se a assinar, no prazo de até [número] dias contados desta data, a alteração contratual da SOCIEDADE, a ser arquivada na Junta Comercial de [UF] e averbada no CNPJ, formalizando:
+a) A saída do CEDENTE [se cessão total] ou a redução de sua participação societária [se cessão parcial];
+b) O ingresso do CESSIONÁRIO no quadro societário com [número] quotas, correspondentes a [percentual]% do capital social;
+c) A nova composição do capital social, com nome, qualificação, número de quotas e percentual de participação de cada sócio;
+d) [Se aplicável] A nomeação ou destituição de administradores, modificação de cláusulas de administração, gestão, representação, deliberação social ou quaisquer outras alterações acordadas entre os sócios.
+
+8.2. As despesas com a alteração contratual (taxas da Junta Comercial, emolumentos, autenticações, publicações, honorários de despachante/contador, etc.) correrão por conta do [CEDENTE / CESSIONÁRIO / rateadas meio a meio entre as partes].
+
+8.3. Até que seja arquivada a alteração contratual na Junta Comercial e averbada no CNPJ, o CEDENTE permanece formalmente como sócio perante terceiros, respondendo solidariamente pelas obrigações sociais, conforme art. 1.057, §§ 1º e 2º do Código Civil.
+
+CLÁUSULA NONA - DA CONFIDENCIALIDADE
+
+9.1. As partes obrigam-se a manter sigilo absoluto sobre todas as informações confidenciais, dados financeiros, estratégias comerciais, listas de clientes, fornecedores, processos, tecnologias, know-how, segredos industriais e demais dados proprietários da SOCIEDADE, trocados durante as negociações, due diligence e vigência deste contrato, conforme Lei nº 9.279/1996 (Lei de Propriedade Industrial) e Lei nº 13.709/2018 (LGPD).
+
+9.2. A quebra do dever de confidencialidade acarretará responsabilização civil e criminal da parte infratora, com indenização por perdas e danos, lucros cessantes, danos morais, danos à imagem, concorrência desleal, multa contratual de R$ [valor], sem prejuízo de medidas judiciais cabíveis (crime de violação de segredo empresarial previsto no art. 195 da Lei nº 9.279/1996).
+
+CLÁUSULA DÉCIMA - DA RESCISÃO E PENALIDADES
+
+10.1. O presente contrato poderá ser rescindido nas seguintes hipóteses:
+a) Por mútuo acordo entre as partes (distrato), mediante termo escrito;
+b) Por inadimplemento do CESSIONÁRIO no pagamento de [número] parcelas consecutivas ou alternadas, com vencimento antecipado de todas as demais e restituição das quotas ao CEDENTE;
+c) Por falsidade, omissão ou inexatidão das declarações prestadas pelo CEDENTE, com restituição do preço pago e indenização por perdas e danos ao CESSIONÁRIO;
+d) Por descumprimento de qualquer obrigação contratual essencial.
+
+10.2. Em caso de rescisão por inadimplemento do CESSIONÁRIO, o CEDENTE poderá:
+a) Reter [percentual]% do valor já pago a título de multa compensatória e indenização por perdas e danos;
+b) Retomar a titularidade das quotas cedidas, independentemente de notificação judicial ou extrajudicial;
+c) Executar judicialmente o saldo devedor, com juros, multa, correção monetária, custas processuais e honorários advocatícios de 20%.
+
+10.3. Em caso de rescisão por falsidade ou omissão de informações pelo CEDENTE, o CESSIONÁRIO poderá exigir:
+a) Devolução integral do preço pago, devidamente corrigido monetariamente;
+b) Indenização por perdas e danos, incluindo despesas com due diligence, assessoria jurídica/contábil, lucros cessantes, danos morais;
+c) Reembolso de custas processuais e honorários advocatícios de 20%.
+
+CLÁUSULA DÉCIMA PRIMEIRA - DAS DISPOSIÇÕES GERAIS
+
+11.1. O presente contrato é regido pelo Código Civil Brasileiro (Lei nº 10.406/2002), artigos 1.003, 1.052 a 1.087, pela Lei de Registros Empresariais (Lei nº 8.934/1994), Lei de Propriedade Industrial (Lei nº 9.279/1996), Lei Geral de Proteção de Dados (Lei nº 13.709/2018) e demais legislações aplicáveis.
+
+11.2. O presente contrato é celebrado em caráter irrevogável e irretratável, obrigando as partes, seus herdeiros e sucessores.
+
+11.3. Qualquer alteração ou aditamento ao presente contrato somente será válido se formalizado por escrito e assinado por todas as partes.
+
+11.4. Fazem parte integrante e indissociável deste contrato:
+- ANEXO I: Balanço Patrimonial e Demonstração de Resultados da SOCIEDADE;
+- ANEXO II: Certidões negativas de débitos (CNPJ, CNDT, FGTS, etc.);
+- ANEXO III: Relação de passivos contingentes, processos judiciais e contingências;
+- ANEXO IV: [Se aplicável] Acordo de quotistas, pactos parassociais, compromissos adicionais.
+
+11.5. As partes elegem o foro da Comarca de [cidade]/[UF], sede da SOCIEDADE, para dirimir quaisquer questões decorrentes do presente contrato, com renúncia expressa a qualquer outro, por mais privilegiado que seja.
+
+E, por estarem assim justos e contratados, assinam o presente instrumento em 3 (três) vias de igual teor e forma, na presença de duas testemunhas.
+
+[Cidade]/[UF], [dia] de [mês] de [ano].
+
+_______________________________
+CEDENTE
+[Nome completo]
+CPF: [número]
+
+_______________________________
+CÔNJUGE DO CEDENTE [se aplicável]
+[Nome completo]
+CPF: [número]
+
+_______________________________
+CESSIONÁRIO
+[Nome completo]
+CPF: [número]
+
+_______________________________
+CÔNJUGE DO CESSIONÁRIO [se aplicável]
+[Nome completo]
+CPF: [número]
+
+ANUÊNCIA DOS SÓCIOS REMANESCENTES:
+
+_______________________________
+SÓCIO 2
+[Nome completo]
+CPF: [número]
+
+_______________________________
+SÓCIO 3
+[Nome completo]
+CPF: [número]
+
+TESTEMUNHAS:
+
+1. _______________________________
+Nome: [nome completo]
+CPF: [número]
+RG: [número]
+
+2. _______________________________
+Nome: [nome completo]
+CPF: [número]
+RG: [número]

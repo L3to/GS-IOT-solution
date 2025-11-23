@@ -1,0 +1,191 @@
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS
+
+DAS PARTES
+
+CONTRATADA: [Razão Social], pessoa jurídica de direito privado, inscrita no CNPJ sob o nº [número], com sede à Rua [endereço completo], nº [número], Bairro [bairro], Cidade [cidade], Estado [UF], CEP [CEP], Inscrição Estadual nº [número ou "Isenta"], endereço eletrônico [e-mail], telefone [número], doravante denominada CONTRATADA, neste ato representada na forma de seus atos constitutivos por seu representante legal [nome completo], [nacionalidade], [estado civil], [profissão], portador do Documento de Identidade RG nº [número] [órgão expedidor]/[UF], inscrito no CPF sob o nº [número], residente e domiciliado à Rua [endereço completo], nº [número], Bairro [bairro], Cidade [cidade], Estado [UF], CEP [CEP];
+
+e
+
+CONTRATANTE: [Razão Social ou Nome Completo], [pessoa jurídica de direito privado inscrita no CNPJ sob o nº [número] OU pessoa física inscrita no CPF sob o nº [número]], com sede/residência à Rua [endereço completo], nº [número], Bairro [bairro], Cidade [cidade], Estado [UF], CEP [CEP], [se PJ: Inscrição Estadual nº [número ou "Isenta"]], endereço eletrônico [e-mail], telefone [número], doravante denominada CONTRATANTE, [se PJ: neste ato representada na forma de seus atos constitutivos por seu representante legal] [nome completo], [nacionalidade], [estado civil], [profissão], portador do Documento de Identidade RG nº [número] [órgão expedidor]/[UF], inscrito no CPF sob o nº [número], residente e domiciliado à Rua [endereço completo], nº [número], Bairro [bairro], Cidade [cidade], Estado [UF], CEP [CEP].
+Decidem as partes, na melhor forma de direito, celebrar o presente CONTRATO DE PRESTAÇÃO DE SERVIÇOS, que reger-se-á mediante as cláusulas e condições adiante estipuladas. 
+CLÁUSULA PRIMEIRA - DO OBJETO
+
+1.1. O presente contrato tem por objeto a prestação de serviços profissionais especializados em [descrever detalhadamente os serviços: ex: desenvolvimento de software, consultoria jurídica, design gráfico, marketing digital, contabilidade, etc.] por parte da CONTRATADA, de acordo com os termos, condições, especificações técnicas e cronograma detalhados neste contrato e em seus ANEXOS.
+
+1.2. Os serviços serão executados de forma [presencial/remota/híbrida], no endereço [especificar local, se aplicável], respeitando as normas de segurança, saúde e qualidade aplicáveis à atividade.
+
+1.3. O escopo completo dos serviços, incluindo entregas, marcos (milestones), prazos, especificações técnicas e critérios de aceite, encontra-se detalhado no ANEXO I - ESCOPO DE SERVIÇOS, que é parte integrante e indissociável deste contrato.
+CLÁUSULA SEGUNDA - OBRIGAÇÕES DA CONTRATANTE
+
+2.1. A CONTRATANTE deverá fornecer à CONTRATADA, no prazo de [número] dias úteis contados da assinatura deste contrato, todas as informações, dados, documentos, materiais, acessos a sistemas, credenciais e demais elementos necessários à perfeita execução dos serviços contratados, devendo especificar com clareza os requisitos, expectativas e critérios de aceitação dos entregables.
+
+2.2. A CONTRATANTE é obrigada ainda a disponibilizar [especificar: acesso a servidores, licenças de software, espaço físico, equipamentos, matéria-prima, documentos confidenciais, etc.], conforme detalhado no ANEXO I.
+
+2.3. A CONTRATANTE deverá efetuar os pagamentos pontualmente nas datas, forma e condições estabelecidas na Cláusula Sétima, sob pena de suspensão dos serviços e aplicação das penalidades contratuais.
+
+2.4. A CONTRATANTE deverá designar um representante ou gestor de contrato (ponto focal) para interlocução com a CONTRATADA, aprovações, esclarecimento de dúvidas e recebimento das entregas.
+
+2.5. A CONTRATANTE compromete-se a responder as solicitações da CONTRATADA em prazo razoável (máximo [número] dias úteis), ciente de que atrasos em sua manifestação poderão impactar o cronograma de execução dos serviços, sem que isso configure descumprimento contratual pela CONTRATADA.
+CLÁUSULA TERCEIRA - OBRIGAÇÕES DA CONTRATADA
+
+3.1. A CONTRATADA deverá prestar os serviços de [descrever os serviços em detalhes] com qualidade, excelência técnica, profissionalismo, observância das melhores práticas de mercado e em conformidade com as especificações técnicas, normas regulamentares, prazos e critérios de qualidade estabelecidos neste contrato e em seus anexos.
+
+3.2. A CONTRATADA obriga-se a manter absoluto e irrestrito sigilo sobre todas as operações, dados, informações confidenciais, estratégias de negócio, materiais, documentos, know-how, segredos industriais, dados pessoais e quaisquer informações privilegiadas da CONTRATANTE e de seus clientes, fornecedores e parceiros, mesmo após a conclusão dos serviços ou do término da relação contratual, sob pena de responsabilização civil e criminal, conforme Lei nº 9.279/96 (Lei de Propriedade Industrial) e Lei nº 13.709/2018 (LGPD).
+
+3.3. Os contratos, informações confidenciais, dados pessoais (sensveis ou não), materiais proprietários e documentos inerentes à CONTRATANTE ou a seus clientes deverão ser utilizados pela CONTRATADA, por seus funcionários, prepostos, colaboradores ou subcontratados, estrita e exclusivamente para cumprimento dos serviços objeto deste contrato, sendo EXPRESSAMENTE VEDADA a comercialização, divulgação, reprodução, cópia, transferência ou utilização para quaisquer outros fins.
+
+3.4. Será de exclusiva responsabilidade da CONTRATADA todo e qualquer ônus trabalhista, previdenciário, tributário, comercial ou de qualquer natureza referente aos seus funcionários, prepostos, colaboradores ou subcontratados utilizados para a prestação dos serviços objeto deste instrumento, ficando a CONTRATANTE inteiramente isenta de qualquer obrigação, responsabilidade solidária ou subsidiária em relação a eles, nos termos do art. 5º da Lei nº 13.467/2017 (Reforma Trabalhista).
+
+3.5. A CONTRATADA deverá emitir e fornecer à CONTRATANTE os respectivos documentos fiscais (Nota Fiscal de Serviços Eletrônica - NFS-e), devidamente preenchidos e em conformidade com a legislação tributária vigente, referentes a cada pagamento efetivado no âmbito do presente contrato, no prazo de até [número] dias úteis após o recebimento do pagamento.
+
+3.6. A CONTRATADA deverá manter em dia todas as obrigações fiscais, previdenciárias e trabalhistas, apresentando, quando solicitado pela CONTRATANTE, comprovantes de regularidade (Certidão Negativa de Débitos Tributários Federais, Certidão Negativa de Débitos Trabalhistas - CNDT, Certidão de Regularidade do FGTS, entre outras).
+
+3.7. A CONTRATADA responderá civil e criminalmente por danos materiais, morais, à imagem, perda de dados, lucros cessantes ou quaisquer prejuízos causados à CONTRATANTE, seus clientes ou terceiros, decorrentes de negligência, imperícia, imprudência, dolo ou culpa na execução dos serviços contratados.
+CLÁUSULA QUARTA - DOS SERVIÇOS, PRAZOS E ENTREGAS
+
+4.1. A CONTRATADA prestará os serviços contratados para os seguintes fins: [descrever finalidade e objetivo dos serviços: ex: desenvolvimento de sistema de gestão empresarial, consultoria para reestruturação organizacional, campanha de marketing digital para lançamento de produto, etc.].
+
+4.2. Os serviços terão início no prazo de [número] dias corridos/úteis contados da assinatura do presente contrato ou após o recebimento integral das informações e materiais previstos na Cláusula Segunda, o que ocorrer por último, com prazo previsto para conclusão e entrega final em [dd/mm/aaaa] ou em [número] dias corridos/úteis contados do início efetivo.
+
+4.3. O cronograma detalhado de execução dos serviços, contendo as etapas (fases), marcos (milestones), entregas parciais (deliverables), prazos específicos, responsáveis e critérios de aceite, encontra-se especificado no ANEXO I - ESCOPO DE SERVIÇOS E CRONOGRAMA.
+
+4.4. Cada entrega parcial ou final deverá ser submetida à aprovação formal da CONTRATANTE, que terá o prazo de [número] dias úteis para análise, revisão e manifestação. Se houver rejeição motivada, a CONTRATADA deverá realizar os ajustes necessários sem ônus adicional, no prazo de [número] dias úteis.
+
+4.5. Considera-se cumprido integralmente o contrato no momento em que todos os serviços especificados no ANEXO I tenham sido concluídos, aprovados formalmente pela CONTRATANTE por escrito e/ou mediante recibo de aceite, e entregues na forma contratualmente estabelecida.
+
+4.6. Eventuais alterações no escopo, cronograma, especificações técnicas ou entregas deverão ser formalizadas por escrito mediante Termo Aditivo assinado por ambas as partes, com renegociação de prazos e valores, se aplicável.
+CLÁUSULA QUINTA - DA PROPRIEDADE INTELECTUAL E DIREITOS AUTORAIS
+
+5.1. [OPÇÃO A - Transferência Total]: Todos os direitos de propriedade intelectual, incluindo mas não se limitando a direitos autorais, patentes, marcas, segredos industriais, know-how, código-fonte, documentação técnica, metodologias, processos, criações, invenções, obras intelectuais e quaisquer outros ativos intangíveis desenvolvidos, criados, produzidos ou gerados pela CONTRATADA no âmbito da execução dos serviços objeto deste contrato, serão de propriedade exclusiva da CONTRATANTE, operando-se a transferência automática e integral no momento da criação ou conclusão, independentemente de qualquer formalidade adicional, em caráter definitivo, universal, irrevogável e irretratável, nos termos dos arts. 111 e seguintes da Lei nº 9.610/98 (Lei de Direitos Autorais).
+
+[OPÇÃO B - Licença de Uso]: A CONTRATADA concede à CONTRATANTE licença [exclusiva/não exclusiva], [temporária/perpétua], [onerosa/gratuita], [transfervel/intransferível] para uso, exploração comercial, reprodução, distribuição, modificação e sublicenciamento de todos os produtos, entregables, criações e desenvolvimentos resultantes dos serviços prestados, permanecendo a titularidade da propriedade intelectual com a CONTRATADA.
+
+5.2. A CONTRATADA declara e garante que os serviços prestados e entregables produzidos são originais, inéditos e não infringem direitos de propriedade intelectual, patentes, marcas, segredos industriais ou direitos autorais de terceiros, responsabilizando-se integralmente por quaisquer reclamações, ações judiciais, indenizações ou prejuízos decorrentes de violação de tais direitos.
+
+5.3. Caso a CONTRATADA utilize ferramentas, bibliotecas, frameworks, componentes, templates, módulos ou códigos de terceiros (inclusive open source) na execução dos serviços, deverá informar previamente e por escrito à CONTRATANTE, especificando as licenças aplicáveis e obtendo aprovação expressa antes da utilização.
+
+5.4. A CONTRATADA não poderá utilizar, reproduzir, divulgar, comercializar, licenciar ou explorar de qualquer forma os produtos, entregables, criações, desenvolvimentos, dados ou informações resultantes dos serviços prestados para outros clientes ou projetos, salvo autorização prévia, expressa e por escrito da CONTRATANTE.
+
+CLÁUSULA SEXTA - DO NÍVEL DE SERVIÇO (SLA) E GARANTIAS
+
+6.1. [OPCIONAL]: A CONTRATADA compromete-se a prestar os serviços observando os seguintes indicadores de nível de serviço (Service Level Agreement - SLA):
+
+a) Disponibilidade: [percentual]% do tempo;
+b) Tempo de resposta a solicitações: [número] horas úteis;
+c) Tempo de resolução de incidentes críticos: [número] horas;
+d) [outros indicadores relevantes].
+
+6.2. A CONTRATADA garante a qualidade técnica, funcionalidade e adequação ao propósito dos serviços prestados pelo período de [número] dias/meses contados da entrega final e aceite pela CONTRATANTE, obrigando-se a corrigir, sem ônus adicional, quaisquer defeitos, falhas, erros, bugs, inconsistências ou não conformidades identificados neste período.
+
+6.3. A garantia não cobre defeitos ou problemas decorrentes de uso inadequado, modificações não autorizadas pela CONTRATADA, caso fortuito, força maior ou intervenções de terceiros não credenciados.
+
+CLÁUSULA SÉTIMA - DO PREÇO E DAS CONDIÇÕES DE PAGAMENTO
+
+7.1. Pelo objeto deste contrato, a CONTRATANTE pagará à CONTRATADA o valor total de R$ [valor numérico],00 ([valor por extenso] reais), que será pago da seguinte forma:
+
+[OPÇÃO A - Pagamento único]: Em parcela única, mediante [boleto bancário/transferência bancária/PIX/cartão de crédito], no prazo de [número] dias corridos/úteis após a conclusão, entrega e aprovação formal dos serviços pela CONTRATANTE.
+
+[OPÇÃO B - Parcelamento]: Em [número] parcelas mensais, iguais e consecutivas de R$ [valor],00 ([valor por extenso] reais), vencendo a primeira no dia [dd/mm/aaaa] e as demais sempre no mesmo dia dos meses subsequentes.
+
+[OPÇÃO C - Por etapas/marcos]: Conforme cronograma de desembolso vinculado às entregas parciais especificadas no ANEXO I:
+- Etapa 1 ([descrição]): R$ [valor],00 - Vencimento: [data] ou após aprovação;
+- Etapa 2 ([descrição]): R$ [valor],00 - Vencimento: [data] ou após aprovação;
+- [...];
+- Saldo final: R$ [valor],00 - Vencimento: [data] ou após entrega e aceite final.
+
+7.2. No caso de atraso no pagamento superior a 10 (dez) dias corridos, será devida multa moratória de 2% (dois por cento) sobre o valor da parcela não adimplida, além de juros de mora de 1% (um por cento) ao mês, correção monetária pelo índice [IGP-M/FGV ou IPCA/IBGE] e honorários advocatícios de 20% (vinte por cento) sobre o valor total do débito atualizado, em caso de cobrança judicial ou extrajudicial.
+
+7.3. O atraso no pagamento superior a 30 (trinta) dias corridos faculta à CONTRATADA suspender imediatamente a prestação dos serviços, sem prejuízo do direito de rescindir o contrato e exigir o pagamento integral dos valores devidos, multas e perdas e danos.
+
+7.2 No caso de atraso no pagamento superior a 10 dias, será devida multa moratória no valor de  sobre a parcela não adimplida, além da atualização do valor pelo .
+7.3 Considera-se o cumprimento integral do contrato o momento em que todos os serviços especificados no ANEXO I tenham sido concluídos, mediante aprovação e revisão final da CONTRATANTE ou outra forma de entrega especificada no ANEXO I.
+CLÁUSULA OITAVA - DO DESCUMPRIMENTO E PENALIDADES
+
+8.1. O descumprimento de qualquer obrigação contratual por qualquer das partes implicará na rescisão imediata deste contrato, mediante notificação extrajudicial com prazo de 10 (dez) dias úteis para saná-lo (emenda), sendo que a parte inadimplente deverá arcar com multa compensatória equivalente a [percentual]% sobre o valor total do contrato, além de indenizar a parte inocente por todas as perdas e danos comprovados, lucros cessantes, dano moral (se aplicável), custas processuais e honorários advocatícios.
+
+8.2. Especificamente, a CONTRATADA não ficará isenta de suas responsabilidades referentes ao sigilo, confidencialidade, proteção de dados pessoais, proteção de propriedade intelectual e garantias, mesmo após a rescisão ou término do contrato, permanecendo estas obrigações válidas por prazo indeterminado.
+
+8.3. A violação de cláusulas de confidencialidade, sigilo, proteção de dados pessoais (LGPD) ou propriedade intelectual sujeitará a parte infratora ao pagamento de multa específica no valor de R$ [valor numérico],00 ([valor por extenso] reais) por cada violação identificada, sem prejuízo de reparação integral pelos danos materiais e morais causados, além de responsabilização civil e criminal nos termos da legislação vigente.
+
+CLÁUSULA NONA - DO PRAZO E VALIDADE
+9.1 A CONTRATADA deverá realizar os serviços dentro dos prazos determinados no cronograma previsto no ANEXO I, sendo sua responsabilidade comunicar a impossibilidade de cumprimento, bem como os motivos para tal e o novo prazo previsto, estando em sua competência a capacidade para tal avaliação.
+9.2 Este instrumento é válido por prazo indeterminado, vigendo até a finalização do serviço, ora contratado, ou encerramento do contrato, não ficando as partes isentas de seus compromissos éticos após invalidação do mesmo.
+CLÁUSULA DÉCIMA - DA RESCISÃO IMOTIVADA
+10.1 Poderá o presente instrumento ser rescindido por qualquer das partes, em qualquer momento, sem que haja qualquer tipo de motivo relevante, respeitando-se um período mínimo de  dias, devendo então somente ser finalizadas e pagas as etapas que já estiverem em andamento.
+
+CLÁUSULA DÉCIMA PRIMEIRA - DA OBSERVÂNCIA À LGPD
+11.1 O CONTRATANTE declara expresso CONSENTIMENTO que a CONTRATADA irá coletar, tratar e compartilhar os dados necessários ao cumprimento do contrato, nos termos do Art. 7º, inc. V da LGPD, os dados necessários para cumprimento de obrigações legais, nos termos do Art. 7º, inc. II da LGPD, bem como os dados, se necessários para proteção ao crédito, conforme autorizado pelo Art. 7º, inc. V da LGPD.
+11.2 Outros dados poderão ser coletados, conforme termo de consentimento específico.
+CLÁUSULA DÉCIMA SEGUNDA - DAS DISPOSIÇÕES GERAIS E AUSÊNCIA DE VÍNCULO EMPREGATÍCIO
+
+12.1. Fica expressamente pactuada a total e absoluta inex existência de vínculo empregatício, trabalhista, previdenciário ou de qualquer natureza entre as partes, seus sócios, administradores, funcionários, prepostos ou colaboradores, excluindo-se quaisquer obrigações previdenciárias, encargos sociais, trabalhistas, fiscais ou tributários decorrentes de relação de emprego, não havendo entre CONTRATADA e CONTRATANTE qualquer tipo de relação de subordinação, pessoalidade, habitualidade, exclusividade, onerosidade ou dependência econômica.
+
+12.2. A contratação da CONTRATADA, cumpridas todas as formalidades legais (inscrição no CNPJ, emissão de notas fiscais, autonomia na execução dos serviços, ausência de subordinação), com ou sem exclusividade, de forma contínua ou eventual, afasta expressamente a qualidade de empregado prevista no art. 3º da CLT (Consolidação das Leis do Trabalho - Decreto-Lei nº 5.452/1943), nos termos do art. 442-B da CLT, incluído pela Lei nº 13.467/2017 (Reforma Trabalhista).
+
+12.3. A CONTRATADA declara e garante que:
+
+a) É pessoa jurídica regularmente constituída, com objeto social compatível com os serviços contratados;
+b) Possui autonomia técnica, operacional, financeira e administrativa para execução dos serviços;
+c) Assume integralmente os riscos da atividade econômica;
+d) Não há subordinação jurídica, hierárquica ou disciplinar em relação à CONTRATANTE;
+e) A contratação não configura fraude trabalhista, pejotização abusiva ou burla à legislação trabalhista.
+
+12.4. A tolerância ou abstenção de qualquer das partes, em exigir o cumprimento de termo ou condição aqui ajustada, ou em exercer prerrogativa, direito ou faculdade contratual ou legal, não será considerada como desistência, renúncia, novação, transação ou perda de direito, nem representará alteração contratual, podendo a parte prejudicada exigir o cumprimento a qualquer tempo, no tocante ao termo ou condição cujo descumprimento foi tolerado.
+
+12.5. Caso qualquer cláusula, disposição, termo ou condição deste contrato venha a ser declarada nula, inválida, ineficaz ou inexequível por decisão judicial transit transitada em julgado ou por órgão administrativo competente, as demais cláusulas, disposições, termos e condições permanecerão em pleno vigor e efeito, devendo as partes, em boa-fé, negociar substituição que preserve, na medida do possível, a intenção econômica original.
+
+12.6. Qualquer alteração, modificação, aditamento, supressão ou complementação deste contrato somente terá validade e eficácia se formalizada por escrito, mediante Termo Aditivo ou Apostila assinados por ambas as partes e suas testemunhas.
+
+12.7. Este contrato vincula e obriga as partes signatárias, seus herdeiros, sucessores a qualquer título, cessionários e/ou adquirentes, a qualquer título.
+
+12.8. A CONTRATADA não poderá ceder, transferir, subcontratar (no todo ou em parte) ou dar em garantia os direitos e obrigações decorrentes deste contrato sem prévia e expressa autorização por escrito da CONTRATANTE, sob pena de rescisão imediata e aplicação das penalidades contratuais.
+
+12.9. As partes declaram que atuam com boa-fé, lealdade, transparência e cooperação mútua, conforme princípios estabelecidos nos arts. 113, 187, 422 e 765 do Código Civil Brasileiro (Lei nº 10.406/2002).
+
+CLÁUSULA DÉCIMA TERCEIRA - DO FORO E LEI APLICÁVEL
+
+13.1. Este contrato é regido pelas leis da República Federativa do Brasil, especialmente pelo Código Civil Brasileiro (Lei nº 10.406/2002), Código de Defesa do Consumidor (Lei nº 8.078/90, quando aplicável), Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018), Lei de Propriedade Industrial (Lei nº 9.279/96), Lei de Direitos Autorais (Lei nº 9.610/98), Consolidação das Leis do Trabalho (Decreto-Lei nº 5.452/1943) e demais legislações pertinentes.
+
+13.2. Para dirimir quaisquer controvérsias, dúvidas, conflitos ou litígios oriundos do presente contrato ou de sua interpretação, execução, rescisão ou término, as partes elegem, com exclusão de qualquer outro, por mais privilegiado que seja, o foro da Comarca de [cidade], Estado de [UF].
+
+13.3. [OPCIONAL - CLÁUSULA ARBITRAL]: As partes poderão optar, de comum acordo e mediante manifestação expressa por escrito, pela resolução de conflitos por meio de arbitragem, nos termos da Lei nº 9.307/96 (Lei de Arbitragem), a ser administrada pela Câmara de Arbitragem [nome], com sede em [cidade], segundo seu Regulamento de Arbitragem, por árbitro único ou painel de [número] árbitros, aplicando-se a legislação brasileira vigente.
+
+13.4. Em caso de litígio judicial ou arbitral, a parte vencida arcará integralmente com todas as custas processuais, despesas judiciais, extrajudiciais, perícias, emolumentos, taxas, honorários advocatícios de sucumbência (nos percentuais estabelecidos pelos arts. 85 e 86 do CPC), além das multas, penalidades e reparações contratuais.
+
+E, por estarem assim justas, contratadas, acordadas, cientes e plenamente de acordo com todas as cláusulas, condições, obrigações, direitos, responsabilidades e penalidades do presente CONTRATO DE PRESTAÇÃO DE SERVIÇOS, as partes assinam este instrumento em 03 (três) vias de igual teor, forma e conteúdo, para um só efeito jurídico, na presença de 02 (duas) testemunhas abaixo identificadas e qualificadas.
+
+[Cidade], [UF], [dia] de [mês] de [ano].
+
+_________________________________________
+CONTRATADA
+[Razão Social]
+CNPJ nº [número]
+Representante Legal: [nome completo]
+CPF nº [número]
+
+_________________________________________
+CONTRATANTE
+[Razão Social ou Nome Completo]
+[CNPJ/CPF nº [número]]
+Representante Legal: [nome completo, se PJ]
+CPF nº [número]
+
+TESTEMUNHAS:
+
+_________________________________________
+Nome: [nome completo da testemunha]
+RG nº: [número] [órgão expedidor]/[UF]
+CPF nº: [número]
+
+_________________________________________
+Nome: [nome completo da testemunha]
+RG nº: [número] [órgão expedidor]/[UF]
+CPF nº: [número]
+
+---
+
+ANEXOS INTEGRANTES DESTE CONTRATO:
+
+ANEXO I - ESCOPO DETALHADO DE SERVIÇOS, ESPECIFICAÇÕES TÉCNICAS, CRONOGRAMA DE EXECUÇÃO, MARCOS (MILESTONES), ENTREGAS PARCIAIS (DELIVERABLES), PRAZOS, CRITÉRIOS DE ACEITE E CRONOGRAMA DE DESEMBOLSO
+
+[A ser preenchido pelas partes conforme necessidade do projeto específico]

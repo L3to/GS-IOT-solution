@@ -1,0 +1,423 @@
+CONTRATO DE CORRETAGEM IMOBILIÁRIA PARA INTERMEDIAÇÃO DE VENDA
+
+
+Pelo presente instrumento particular de CONTRATO DE CORRETAGEM IMOBILIÁRIA, as partes abaixo qualificadas têm entre si justo e contratado o que segue, obrigando-se por si e seus sucessores, nos termos dos artigos 722 a 729 do Código Civil (Lei 10.406/2002), Lei nº 6.530/1978 (que regulamenta a profissão de Corretor de Imóveis) e demais disposições legais aplicáveis:
+
+
+I. DAS PARTES CONTRATANTES
+
+1.1. CONTRATANTE (PROPRIETÁRIO/PROMITENTE VENDEDOR):
+Nome/Razão Social: [NOME/RAZÃO SOCIAL COMPLETA]
+Nacionalidade: [NACIONALIDADE], Estado Civil: [ESTADO CIVIL], Profissão: [PROFISSÃO]
+RG nº [NÚMERO], Órgão Expedidor: [ÓRGÃO/UF], CPF/CNPJ nº [NÚMERO]
+Endereço: [ENDEREÇO COMPLETO - Rua/Av., nº, Complemento, Bairro, Cidade, UF, CEP]
+E-mail: [E-MAIL], Telefone: [TELEFONE]
+
+[SE CASADO] Cônjuge: [NOME COMPLETO DO CÔNJUGE]
+Nacionalidade: [NACIONALIDADE], Estado Civil: Casado(a) com o(a) contratante
+RG nº [NÚMERO], Órgão Expedidor: [ÓRGÃO/UF], CPF nº [NÚMERO]
+Regime de Bens: [COMUNHÃO UNIVERSAL/PARCIAL/SEPARAÇÃO TOTAL/PARTICIPAÇÃO FINAL DOS AQUESTOS]
+
+[SE PESSOA JURÍDICA: Inscrita no CNPJ sob nº [NÚMERO], com sede em [ENDEREÇO], neste ato representada por seu [CARGO], Sr.(a) [NOME], [qualificação completa]]
+
+1.2. CORRETOR DE IMÓVEIS (INTERMEDIÁRIO):
+Nome/Razão Social: [NOME COMPLETO OU RAZÃO SOCIAL DA IMOBILIÁRIA]
+Nacionalidade: [NACIONALIDADE], Estado Civil: [ESTADO CIVIL], Profissão: CORRETOR(A) DE IMÓVEIS
+RG nº [NÚMERO], CPF/CNPJ nº [NÚMERO]
+CRECI nº [NÚMERO]-[UF] (Conselho Regional de Corretores de Imóveis)
+Endereço Profissional: [ENDEREÇO COMPLETO DO ESCRITÓRIO/IMOBILIÁRIA]
+E-mail: [E-MAIL], Telefone: [TELEFONE]
+Website: [WEBSITE, se houver]
+
+[SE IMOBILIÁRIA] Inscrita no CRECI-PJ sob nº [NÚMERO], CNPJ nº [NÚMERO], neste ato representada por seu [CARGO], Sr.(a) [NOME], Corretor(a) de Imóveis, CRECI nº [NÚMERO]
+
+
+II. DO OBJETO DO CONTRATO - IMÓVEL A SER VENDIDO
+
+2.1. Descrição do Imóvel: O CONTRATANTE, na qualidade de proprietário/promitente vendedor, contrata os serviços profissionais de corretagem do CORRETOR para intermediar, promover, negociar e viabilizar a VENDA do seguinte imóvel:
+
+TIPO: [RESIDENCIAL/COMERCIAL/INDUSTRIAL/RURAL/TERRENO]
+DESCRIÇÃO: [Apartamento/Casa/Loja/Sala Comercial/Galpão/Fazenda/Terreno/etc.]
+
+ENDEREÇO COMPLETO:
+Logradouro: [RUA/AVENIDA], nº [NÚMERO], [COMPLEMENTO: apto, bloco, andar, etc.]
+Bairro: [BAIRRO], Cidade: [CIDADE], Estado: [UF], CEP: [CEP]
+
+CARACTERÍSTICAS DO IMÓVEL:
+- Área Total/Privativa: [METRAGEM] m²
+- [SE APTO] Número de Quartos: [NÚMERO], Suítes: [NÚMERO], Vagas de Garagem: [NÚMERO]
+- [SE CASA] Número de Cômodos: [NÚMERO], Área Construída: [METRAGEM] m², Área do Terreno: [METRAGEM] m²
+- [SE COMERCIAL] Metragem: [METRAGEM] m², Uso: [ESPECIFICAR]
+- [SE RURAL] Área Total: [HECTARES/ALQUEIRES], Benfeitorias: [DESCREVER]
+- Equipamentos e Benfeitorias: [LISTAR: ar-condicionado, móveis planejados, piscina, churrasqueira, etc.]
+- Estado de Conservação: [NOVO/SEMINOVO/A REFORMAR/BOM ESTADO/ETC.]
+
+DADOS REGISTRÁRIOS:
+Matrícula: nº [NÚMERO] do [CARTÓRIO DE REGISTRO DE IMÓVEIS], [CIDADE/UF]
+Cadastro IPTU: nº [NÚMERO]
+[SE CONDOMÍNIO] Nome do Condomínio: [NOME], CNPJ: [NÚMERO]
+
+2.2. Situação Jurídica: O CONTRATANTE declara que:
+a) É proprietário e legítimo possuidor do imóvel, com plenos poderes para aliená-lo;
+b) [ALTERNATIVA 1] O imóvel encontra-se livre e desembaraçado de quaisquer ônus, gravames, hipotecas, penhoras, alienações fiduciárias ou restrições judiciais/extrajudiciais;
+   [ALTERNATIVA 2] O imóvel encontra-se gravado com: [ESPECIFICAR ÔNUS: hipoteca, alienação fiduciária, penhora, usufruto, etc.], que será quitado(a) no ato da venda;
+c) Não existem dívidas de IPTU, taxas condominiais ou outras despesas em atraso, ou, se existirem, serão de responsabilidade do vendedor até a data da venda;
+d) O imóvel não está objeto de ações judiciais, inventários, arrolamentos ou qualquer litígio pendente;
+e) [SE CASADO] Seu cônjuge está ciente e anuente com a presente contratação e futura venda do imóvel, conforme outorga uxória/marital anexa (se aplicável, conforme art. 1.647, I, do Código Civil).
+
+
+III. DO PREÇO E CONDIÇÕES DE VENDA
+
+3.1. Preço de Venda: O CONTRATANTE autoriza o CORRETOR a intermediar a venda do imóvel pelo preço mínimo de:
+
+R$ [VALOR NUMÉRICO] ([VALOR POR EXTENSO])
+
+[OPÇÕES DE AJUSTE]
+[OPÇÃO A - PREÇO FIXO] Este preço é FIXO e IRREDUTÍVEL, não podendo o CORRETOR negociar valores inferiores sem expressa autorização por escrito do CONTRATANTE.
+
+[OPÇÃO B - FAIXA DE NEGOCIAÇÃO] O CORRETOR está autorizado a negociar o preço na faixa entre R$ [VALOR MÍNIMO] e R$ [VALOR MÁXIMO], devendo submeter propostas inferiores ao valor mínimo à prévia aprovação do CONTRATANTE.
+
+[OPÇÃO C - PREÇO SUJEITO À NEGOCIAÇÃO] O preço é inicial e sujeito à negociação, devendo o CORRETOR apresentar todas as propostas formais ao CONTRATANTE, independentemente do valor oferecido.
+
+3.2. Condições de Pagamento: O CONTRATANTE aceita as seguintes modalidades de pagamento pelo comprador:
+
+[MARCAR AS OPÇÕES ACEITAS]
+☐ À vista, em dinheiro ou transferência bancária
+☐ À vista, mediante financiamento bancário (CEF, bancos privados)
+☐ Parcelado diretamente com o vendedor: entrada de R$ [VALOR] + [NÚMERO] parcelas de R$ [VALOR]
+☐ Permuta por outro imóvel de igual ou maior valor (especificar características aceitas): [DESCREVER]
+☐ Utilização de FGTS pelo comprador
+☐ Consórcio contemplado
+☐ Outras formas: [ESPECIFICAR]
+
+3.3. Documentação e Regularização: O CONTRATANTE obriga-se a fornecer ao CORRETOR toda a documentação necessária para a negociação e efetivação da venda, incluindo:
+a) Matrícula atualizada do imóvel (emitida há no máximo 30 dias);
+b) Certidões negativas de débitos municipais (IPTU, taxas);
+c) Certidão de ônus reais (negativa ou positiva com especificação);
+d) Certidão negativa de débitos condominiais (se aplicável);
+e) Escritura de aquisição ou Contrato de Compra e Venda registrado;
+f) Projeto aprovado pela Prefeitura e Habite-se (se aplicável);
+g) Documentos pessoais do(s) proprietário(s) e cônjuge(s);
+h) Certidões pessoais (cível, criminal, trabalhista) dos vendedores;
+i) Carnê ou guia de IPTU atualizada;
+j) [SE APTO] Convenção de condomínio e regimento interno;
+k) Laudos técnicos, se exigíveis (vistoria, avaliação).
+
+
+IV. DAS OBRIGAÇÕES DO CORRETOR DE IMÓVEIS
+
+4.1. Natureza dos Serviços: O CORRETOR, no uso de suas atribuições profissionais regulamentadas pela Lei nº 6.530/1978 e inscrição no CRECI, obriga-se a prestar, de forma autônoma e profissional, os seguintes serviços de intermediação imobiliária:
+
+a) PROSPECÇÃO E DIVULGAÇÃO: Promover ampla divulgação do imóvel através de:
+   - Anúncios em portais imobiliários online (Imovelweb, OLX, ZAP Imóveis, Viva Real, etc.);
+   - Redes sociais e marketing digital;
+   - Placas de venda no imóvel (se autorizado);
+   - Mailing de clientes cadastrados na imobiliária;
+   - Divulgação para corretores parceiros e cooperação com outras imobiliárias.
+
+b) ATENDIMENTO A INTERESSADOS: Recepcionar, qualificar e atender potenciais compradores, prestando todas as informações necessárias sobre o imóvel, condições de venda, documentação, características do bairro e entorno.
+
+c) AGENDAMENTO E REALIZAÇÃO DE VISITAS: Agendar e acompanhar visitas de interessados ao imóvel, zelando pela segurança e integridade do bem, preferencialmente em horários compatíveis com o CONTRATANTE.
+
+d) ANÁLISE DE PROPOSTAS: Receber, analisar e apresentar ao CONTRATANTE todas as propostas formais de compra, acompanhadas de documentação do proponente e comprovação de capacidade financeira.
+
+e) NEGOCIAÇÃO: Auxiliar na negociação de valores, condições de pagamento, prazos e demais cláusulas entre vendedor e comprador, buscando o melhor resultado para ambas as partes.
+
+f) ASSESSORIA DOCUMENTAL: Orientar o CONTRATANTE sobre a documentação necessária, indicar profissionais especializados (despachantes, advogados, avaliadores) e acompanhar a regularização documental.
+
+g) ASSESSORIA FINANCEIRA: Orientar o comprador sobre linhas de financiamento disponíveis, encaminhá-lo a instituições financeiras parceiras e acompanhar o processo de aprovação de crédito imobiliário.
+
+h) ELABORAÇÃO DE CONTRATO: Providenciar a elaboração de Proposta de Compra, Contrato Particular de Promessa de Compra e Venda ou Contrato de Compra e Venda, com assistência jurídica se necessário.
+
+i) ACOMPANHAMENTO ATÉ A CONCLUSÃO: Acompanhar todo o processo até a lavratura da escritura pública, registro no Cartório de Imóveis e transferência de posse ao comprador.
+
+j) PRESTAÇÃO DE INFORMAÇÕES: Informar o CONTRATANTE, periodicamente, sobre o andamento das atividades, número de visitas realizadas, propostas recebidas e feedbacks dos interessados.
+
+4.2. Diligência Profissional: O CORRETOR deverá dispensar toda diligência, atenção e cuidado na execução dos serviços ora contratados, prestando informações verdadeiras, completas e relevantes na apreciação da conveniência da realização do negócio, sob pena de responder por perdas e danos decorrentes de negligência, imprudência, imperícia ou má-fé, nos termos dos artigos 723 e 729 do Código Civil.
+
+4.3. Dever de Informação e Transparência: O CORRETOR obriga-se a:
+a) Informar com exatidão e clareza todas as características do imóvel;
+b) Apontar defeitos, vícios ou irregularidades de que tenha conhecimento;
+c) Esclarecer dúvidas sobre documentação, tributação e procedimentos;
+d) Não omitir informações relevantes que possam influenciar a decisão de compra;
+e) Agir com boa-fé, lealdade e transparência perante ambas as partes (vendedor e comprador).
+
+4.4. Responsabilidade por Informações: O CORRETOR responderá civil e criminalmente por informações falsas, omissão de vícios ou defeitos, indução a erro ou propaganda enganosa, conforme Código Civil, Código de Defesa do Consumidor (Lei 8.078/90) e legislação profissional.
+
+4.5. Vedações ao Corretor: É expressamente vedado ao CORRETOR:
+a) Assumir obrigações ou compromissos em nome do CONTRATANTE sem autorização expressa;
+b) Aceitar propostas ou assinar contratos em nome do CONTRATANTE;
+c) Receber valores do comprador (sinal, entrada, parcelas) sem autorização e sem repasse imediato ao CONTRATANTE;
+d) Negociar o imóvel por preço inferior ao mínimo estipulado sem prévia e expressa autorização;
+e) Praticar atos de concorrência desleal ou intermediar negócios para terceiros em prejuízo do CONTRATANTE;
+f) Divulgar informações confidenciais ou dados pessoais do CONTRATANTE sem autorização.
+
+
+V. DAS OBRIGAÇÕES DO CONTRATANTE
+
+5.1. Fornecimento de Informações: O CONTRATANTE obriga-se a fornecer ao CORRETOR todas as informações verdadeiras, completas e atualizadas sobre o imóvel, incluindo características, situação jurídica, débitos existentes, restrições de uso e quaisquer outros dados relevantes para a intermediação.
+
+5.2. Documentação: O CONTRATANTE obriga-se a disponibilizar, no prazo de [NÚMERO] dias, toda a documentação relacionada ao imóvel (conforme cláusula 3.3), em cópias autenticadas ou originais para conferência.
+
+5.3. Disponibilidade para Visitas: O CONTRATANTE obriga-se a manter o imóvel disponível para visitas de potenciais compradores, em horários previamente agendados pelo CORRETOR, assegurando acesso e boas condições de apresentação (limpeza, organização).
+
+5.4. Análise de Propostas: O CONTRATANTE compromete-se a analisar todas as propostas formais apresentadas pelo CORRETOR no prazo de [NÚMERO] dias, aceitando, recusando ou contrariando fundamentadamente.
+
+5.5. Boa-Fé e Cooperação: O CONTRATANTE obriga-se a colaborar com o CORRETOR, fornecendo informações adicionais quando solicitado, autorizando despesas necessárias (quando previamente acordadas) e mantendo postura respeitosa e profissional.
+
+5.6. Comunicação de Negociações Diretas: Caso o CONTRATANTE receba propostas diretas de interessados (sem intermediação do CORRETOR), deverá comunicá-las imediatamente ao CORRETOR, a fim de preservar os direitos deste sobre eventual comissão.
+
+5.7. Exclusividade (se aplicável): [SE CONTRATO COM EXCLUSIVIDADE] Durante o prazo de exclusividade estipulado na cláusula 6.1, o CONTRATANTE compromete-se a NÃO contratar outros corretores ou imobiliárias, NÃO divulgar o imóvel por conta própria e NÃO negociar diretamente com interessados, sob pena de pagamento integral da comissão ao CORRETOR.
+
+
+VI. DO PRAZO E DA VIGÊNCIA
+
+6.1. Prazo de Vigência: O presente contrato terá vigência de [NÚMERO] ([EXTENSO]) [DIAS/MESES], com início em [DATA DE INÍCIO] e término em [DATA DE TÉRMINO].
+
+6.2. Modalidade do Contrato:
+
+[OPÇÃO A - CONTRATO COM EXCLUSIVIDADE]
+6.2.1. O presente contrato é celebrado em regime de EXCLUSIVIDADE, ficando o CORRETOR como ÚNICO INTERMEDIÁRIO autorizado a promover a venda do imóvel durante o prazo de vigência.
+
+6.2.2. Durante o período de exclusividade, o CONTRATANTE não poderá:
+a) Contratar outros corretores ou imobiliárias para intermediar a venda do mesmo imóvel;
+b) Divulgar o imóvel diretamente por meios próprios (portais online, redes sociais, jornais);
+c) Negociar diretamente com interessados sem a participação do CORRETOR;
+d) Celebrar contrato de corretagem com terceiros para o mesmo imóvel.
+
+6.2.3. Caso o CONTRATANTE viole a exclusividade, deverá pagar ao CORRETOR a comissão integral prevista na cláusula 7.1, a título de indenização, sem prejuízo de perdas e danos.
+
+6.2.4. Se a venda for concretizada durante o prazo de exclusividade, mesmo que por intermediação direta do CONTRATANTE ou de terceiros, a comissão será devida integralmente ao CORRETOR.
+
+[OPÇÃO B - CONTRATO SEM EXCLUSIVIDADE (SIMPLES)]
+6.2.1. O presente contrato é celebrado em regime NÃO EXCLUSIVO (SIMPLES), podendo o CONTRATANTE:
+a) Contratar outros corretores ou imobiliárias simultaneamente;
+b) Divulgar o imóvel por meios próprios;
+c) Negociar diretamente com interessados.
+
+6.2.2. A comissão do CORRETOR somente será devida se a venda for concretizada por sua intermediação efetiva, ou seja, se o comprador foi apresentado pelo CORRETOR ou teve conhecimento do imóvel através de divulgação realizada pelo CORRETOR.
+
+6.2.3. Caso a venda seja concretizada por intermediação de outro corretor ou diretamente pelo CONTRATANTE, sem participação do CORRETOR ora contratado, este não fará jus a qualquer comissão.
+
+6.3. Prorrogação: O contrato poderá ser prorrogado por igual período, mediante acordo expresso entre as partes, formalizado por escrito com antecedência mínima de [NÚMERO] dias do término do prazo original.
+
+6.4. Prazo de Proteção (Tail Period): Caso a venda se concretize em até [30/60/90] dias após o término da vigência deste contrato, com comprador apresentado ou contatado pelo CORRETOR durante a vigência, a comissão será devida integralmente ao CORRETOR, desde que este comprove documentalmente a apresentação do cliente durante o período contratual.
+
+
+VII. DA COMISSÃO E FORMA DE PAGAMENTO
+
+7.1. Valor da Comissão: O CORRETOR fará jus, a título de remuneração pelos serviços profissionais de corretagem, a uma comissão correspondente a:
+
+[OPÇÃO A - PERCENTUAL SOBRE O VALOR DE VENDA]
+[PERCENTUAL]% ([PERCENTUAL POR EXTENSO POR CENTO]) do valor efetivamente negociado e pago na venda do imóvel.
+
+[OPÇÃO B - VALOR FIXO]
+R$ [VALOR NUMÉRICO] ([VALOR POR EXTENSO]), independentemente do valor final de venda.
+
+[OPÇÃO C - PERCENTUAL MÍNIMO E MÁXIMO]
+[PERCENTUAL MÍNIMO]% sobre vendas até R$ [VALOR], e [PERCENTUAL MAIOR]% sobre o valor excedente.
+
+7.2. Fato Gerador da Comissão: A comissão será devida ao CORRETOR quando ocorrer o APERFEIÇOAMENTO DO NEGÓCIO, ou seja, quando:
+a) For celebrado Contrato Particular de Promessa de Compra e Venda entre as partes; OU
+b) For assinada Proposta de Compra irrevogável e irretratável aceita pelo vendedor; OU
+c) For lavrada Escritura Pública de Compra e Venda perante o Cartório de Notas.
+
+7.3. Momento do Pagamento: A comissão será paga ao CORRETOR:
+
+[OPÇÃO A - NO ATO DO SINAL]
+Por ocasião do recebimento do sinal (arras) pelo CONTRATANTE, ou, se não houver sinal, no ato da assinatura do Contrato Particular de Promessa de Compra e Venda.
+
+[OPÇÃO B - NO ATO DA ESCRITURA]
+No ato da lavratura da Escritura Pública de Compra e Venda perante o Tabelião de Notas.
+
+[OPÇÃO C - NO RECEBIMENTO INTEGRAL DO PREÇO]
+Quando o CONTRATANTE receber a totalidade do preço de venda, seja à vista ou na última parcela (se venda parcelada).
+
+[OPÇÃO D - PROPORCIONAL AOS RECEBIMENTOS]
+Proporcionalmente aos valores recebidos pelo CONTRATANTE: [PERCENTUAL]% da comissão será pago no sinal/entrada, e o restante proporcionalmente aos recebimentos das parcelas.
+
+7.4. Responsável pelo Pagamento: A comissão será paga exclusivamente pelo CONTRATANTE (vendedor), não podendo ser transferida ao comprador, salvo acordo expresso entre as partes (vendedor e comprador) para divisão ou assunção pelo comprador.
+
+7.5. Forma de Pagamento: O pagamento da comissão será realizado mediante:
+[MARCAR OPÇÃO]
+☐ Transferência bancária (PIX/TED) para conta de titularidade do CORRETOR: [BANCO], Agência [NÚMERO], Conta [NÚMERO]
+☐ Cheque nominal ao CORRETOR
+☐ Dinheiro (com recibo)
+☐ Desconto direto no valor recebido pelo vendedor (o CORRETOR recebe sua parte e repassa o líquido ao vendedor)
+
+7.6. Comissão Devida em Outras Hipóteses: A comissão será devida integralmente ao CORRETOR, ainda que:
+a) Haja arrependimento ou desistência de qualquer das partes (comprador ou vendedor) após a formalização da proposta aceita ou contrato preliminar, conforme artigo 725 do Código Civil;
+b) Ocorra recusa arbitrária ou injustificada do CONTRATANTE em concluir o negócio após aprovação de proposta compatível com os termos deste contrato;
+c) O negócio seja frustrado por inadimplemento ou irregularidade documental imputável ao CONTRATANTE;
+d) [SE CONTRATO COM EXCLUSIVIDADE] A venda seja concretizada durante o prazo de exclusividade por outro corretor ou diretamente pelo CONTRATANTE.
+
+7.7. Exceção ao Pagamento: A comissão NÃO será devida se:
+a) A venda não se concretizar por impossibilidade jurídica do imóvel (ônus ocultos, restrições judiciais, vícios insanáveis) não informados previamente ao CORRETOR;
+b) O negócio for frustrado por culpa exclusiva do CORRETOR (negligência, informações falsas, falta de diligência comprovada);
+c) [SE CONTRATO SEM EXCLUSIVIDADE] A venda for concretizada por intermediação de terceiros ou diretamente pelo CONTRATANTE, sem participação do CORRETOR.
+
+7.8. Divisão de Comissão (Cooperação com Outros Corretores): Caso o CORRETOR trabalhe em cooperação com outro corretor (corretor do comprador), a divisão da comissão entre eles será de responsabilidade exclusiva dos corretores envolvidos, não cabendo ao CONTRATANTE qualquer responsabilidade ou ônus adicional. O percentual de comissão previsto neste contrato permanece inalterado.
+
+
+VIII. DAS DESPESAS E CUSTOS
+
+8.1. Despesas do Corretor: Todas as despesas ordinárias para o bom êxito da intermediação ficarão a cargo exclusivo do CORRETOR, incluindo:
+a) Custos de divulgação e marketing (anúncios online, redes sociais, materiais gráficos);
+b) Combustível e deslocamentos para visitas;
+c) Comunicações telefônicas, internet, e-mails;
+d) Placas de venda (se autorizadas);
+e) Materiais de escritório e administrativos.
+
+Não caberá ao CONTRATANTE qualquer reembolso a tal título.
+
+8.2. Despesas do Contratante: Serão de responsabilidade exclusiva do CONTRATANTE as seguintes despesas:
+a) Emissão de documentos do imóvel (certidões, matrículas atualizadas);
+b) Quitação de débitos de IPTU, condomínio, taxas municipais;
+c) Regularização documental (averbações, retificações de área);
+d) Laudos técnicos exigidos (vistoria, avaliação, perícia);
+e) Honorários advocatícios para elaboração de contratos (salvo acordo em contrário);
+f) Despesas cartorárias com escritura pública e registro (conforme negociação com o comprador, usualmente divididas).
+
+8.3. Despesas Extraordinárias: Despesas extraordinárias não previstas neste contrato (ex: campanhas publicitárias especiais, produção de vídeo profissional, home staging) somente serão realizadas pelo CORRETOR mediante prévia e expressa autorização por escrito do CONTRATANTE, com definição de valores e forma de pagamento/reembolso.
+
+
+IX. DA SUBSTITUIÇÃO E COOPERAÇÃO
+
+9.1. Substituição do Corretor: É permitido ao CORRETOR fazer-se substituir por outro corretor devidamente habilitado perante o CRECI, ficando solidariamente responsável com seu substituto por todos os atos praticados durante a prestação dos serviços, nos termos do artigo 728 do Código Civil.
+
+9.2. Cooperação com Outros Corretores: O CORRETOR poderá trabalhar em cooperação com outros corretores de imóveis e imobiliárias (sistema de cooperação/MLS - Multiple Listing Service), compartilhando informações sobre o imóvel e dividindo a comissão entre os profissionais envolvidos, sem qualquer ônus adicional ao CONTRATANTE.
+
+9.3. Responsabilidade Solidária: Se o CORRETOR trabalhar em conjunto com outro corretor, será solidariamente responsável por todos os atos de corretagem relativos ao negócio, inclusive pela divisão de comissão, não podendo exigir do CONTRATANTE pagamento superior ao percentual previsto na cláusula 7.1.
+
+
+X. DA RESCISÃO E EXTINÇÃO DO CONTRATO
+
+10.1. Extinção Natural: O presente contrato extinguir-se-á naturalmente:
+a) Com a conclusão do negócio (venda efetivada) e pagamento da comissão;
+b) Pelo decurso do prazo de vigência sem prorrogação;
+c) Pelo distrato amigável, mediante acordo escrito entre as partes.
+
+10.2. Rescisão Imotivada com Aviso Prévio: Qualquer das partes poderá rescindir o contrato imotivadamente, mediante notificação prévia por escrito (carta registrada ou e-mail com confirmação) com antecedência mínima de [15/30] dias, observadas as seguintes condições:
+
+a) Se a rescisão ocorrer por iniciativa do CONTRATANTE:
+   - [SE COM EXCLUSIVIDADE] Deverá pagar [50%/100%] da comissão prevista a título de indenização, salvo se comprovar justa causa;
+   - [SE SEM EXCLUSIVIDADE] Não haverá qualquer indenização, mas o CORRETOR fará jus à comissão se negócios já iniciados forem concluídos posteriormente (prazo de proteção).
+
+b) Se a rescisão ocorrer por iniciativa do CORRETOR:
+   - Não haverá qualquer indenização devida pelo CONTRATANTE;
+   - O CORRETOR perderá o direito à comissão sobre negócios não concluídos até a data da rescisão.
+
+10.3. Rescisão por Justa Causa: O contrato poderá ser rescindido de pleno direito, independentemente de notificação ou indenização, nas seguintes hipóteses:
+
+a) Rescisão pelo CONTRATANTE, por justa causa imputável ao CORRETOR:
+   - Negligência grave, desídia ou falta de diligência na prestação dos serviços;
+   - Prestação de informações falsas, omissão de vícios ou propaganda enganosa;
+   - Violação de confidencialidade ou uso indevido de informações do CONTRATANTE;
+   - Prática de atos que prejudiquem a imagem do imóvel ou do CONTRATANTE;
+   - Cassação ou suspensão do registro profissional no CRECI.
+
+b) Rescisão pelo CORRETOR, por justa causa imputável ao CONTRATANTE:
+   - Prestação de informações falsas sobre o imóvel ou sua situação jurídica;
+   - Recusa injustificada em fornecer documentação ou permitir visitas;
+   - Negociação direta com interessados apresentados pelo CORRETOR (em contratos com exclusividade);
+   - Inadimplemento no pagamento da comissão devida;
+   - Violação da cláusula de exclusividade.
+
+10.4. Efeitos da Rescisão: Rescindido o contrato por qualquer motivo:
+a) O CORRETOR deverá cessar imediatamente a divulgação do imóvel e retirar todos os anúncios veiculados;
+b) O CORRETOR deverá entregar ao CONTRATANTE relatório completo das atividades realizadas (visitas, propostas, interessados);
+c) Negociações já iniciadas e formalizadas antes da rescisão prosseguirão sob responsabilidade do CORRETOR, que fará jus à comissão se concluídas;
+d) A rescisão não desobriga as partes das obrigações já constituídas até a data do término.
+
+10.5. Morte ou Incapacidade: O contrato será extinto automaticamente em caso de:
+a) Falecimento do CORRETOR (pessoa física);
+b) Extinção da pessoa jurídica (imobiliária);
+c) Falecimento do CONTRATANTE, salvo se os herdeiros optarem por dar continuidade ao contrato.
+
+
+XI. DA PROTEÇÃO DE DADOS PESSOAIS (LGPD)
+
+11.1. Tratamento de Dados Pessoais: As partes declaram conhecer e comprometem-se a observar rigorosamente as disposições da Lei nº 13.709/2018 (Lei Geral de Proteção de Dados - LGPD) no tratamento de dados pessoais compartilhados em razão deste contrato.
+
+11.2. Finalidade do Tratamento: Os dados pessoais do CONTRATANTE (nome, RG, CPF, endereço, telefone, e-mail) serão utilizados pelo CORRETOR exclusivamente para:
+a) Execução dos serviços de corretagem;
+b) Divulgação do imóvel (sem exposição desnecessária de dados do proprietário);
+c) Comunicação com o CONTRATANTE;
+d) Cumprimento de obrigações legais (contratuais, fiscais).
+
+11.3. Vedações: É expressamente vedado ao CORRETOR:
+a) Compartilhar, comercializar ou ceder dados do CONTRATANTE a terceiros sem autorização;
+b) Utilizar dados para finalidades diversas da execução deste contrato;
+c) Manter dados armazenados após o término do contrato, exceto pelo prazo legal obrigatório.
+
+11.4. Segurança da Informação: O CORRETOR compromete-se a adotar medidas de segurança técnicas e administrativas para proteção dos dados contra acessos não autorizados, vazamentos, perdas ou destruição.
+
+11.5. Direitos do Titular: O CONTRATANTE poderá, a qualquer tempo:
+a) Solicitar confirmação sobre a existência de tratamento de seus dados;
+b) Acessar, corrigir ou atualizar seus dados;
+c) Solicitar a exclusão de dados após o término do contrato (ressalvado o prazo legal de guarda);
+d) Revogar consentimento para tratamento de dados não obrigatórios.
+
+
+XII. DISPOSIÇÕES GERAIS E FINAIS
+
+12.1. Fundamento Legal: O presente contrato rege-se pelas disposições dos artigos 722 a 729 do Código Civil (Lei 10.406/2002), Lei nº 6.530/1978 (regulamentação da profissão de Corretor de Imóveis), Lei nº 8.078/1990 (Código de Defesa do Consumidor, quando aplicável) e demais legislações pertinentes.
+
+12.2. Natureza Jurídica: O presente contrato caracteriza PRESTAÇÃO DE SERVIÇOS PROFISSIONAIS AUTÔNOMOS de corretagem, não gerando qualquer vínculo empregatício, societário ou de representação comercial entre as partes.
+
+12.3. Confidencialidade: As partes comprometem-se a manter sigilo sobre informações confidenciais trocadas em razão deste contrato (dados pessoais, financeiros, estratégias de negociação), sob pena de indenização por perdas e danos.
+
+12.4. Alterações Contratuais: Qualquer alteração, aditamento ou modificação deste contrato somente será válida se formalizada por escrito mediante termo aditivo assinado por ambas as partes.
+
+12.5. Tolerância: A tolerância de qualquer das partes quanto ao descumprimento de cláusulas contratuais não importará em novação, remissão de dívida ou renúncia de direitos, constituindo mera liberalidade.
+
+12.6. Nulidade Parcial: A eventual nulidade, invalidade ou ineficácia de qualquer cláusula ou condição deste contrato não prejudicará a validade e eficácia das demais disposições, que permanecerão em pleno vigor.
+
+12.7. Comunicações: Todas as notificações, comunicações e avisos entre as partes deverão ser feitas por escrito e encaminhadas aos endereços e e-mails indicados na qualificação das partes, considerando-se válidas:
+a) As enviadas por carta registrada com aviso de recebimento (AR);
+b) As enviadas por e-mail com confirmação de leitura;
+c) As entregues pessoalmente mediante protocolo.
+
+12.8. Irrevogabilidade e Irretratabilidade: O presente contrato é celebrado em caráter irrevogável e irretratável durante sua vigência, obrigando as partes ao fiel cumprimento de todas as suas cláusulas e condições, ressalvadas as hipóteses de rescisão previstas na cláusula X.
+
+12.9. Foro: As partes elegem o foro da Comarca de [CIDADE/UF] para dirimir quaisquer controvérsias oriundas do presente contrato, com renúncia expressa a qualquer outro, por mais privilegiado que seja.
+
+
+E por estarem assim justas e contratadas, as partes assinam o presente instrumento em 02 (duas) vias de igual teor e forma, juntamente com as testemunhas abaixo, para que produza os seus jurídicos e legais efeitos.
+
+
+[LOCAL E DATA], [DIA] de [MÊS] de [ANO].
+
+
+_________________________________________
+[NOME COMPLETO DO CONTRATANTE]
+CONTRATANTE (PROPRIETÁRIO)
+CPF/CNPJ nº [NÚMERO]
+
+
+[SE CASADO]
+_________________________________________
+[NOME COMPLETO DO CÔNJUGE]
+CÔNJUGE ANUENTE
+CPF nº [NÚMERO]
+
+
+_________________________________________
+[NOME COMPLETO DO CORRETOR OU RAZÃO SOCIAL DA IMOBILIÁRIA]
+CORRETOR DE IMÓVEIS
+CRECI nº [NÚMERO]-[UF]
+CPF/CNPJ nº [NÚMERO]
+
+
+TESTEMUNHAS:
+
+1. _________________________________________
+Nome: [NOME COMPLETO]
+CPF nº [NÚMERO]
+RG nº [NÚMERO]
+
+
+2. _________________________________________
+Nome: [NOME COMPLETO]
+CPF nº [NÚMERO]
+RG nº [NÚMERO]

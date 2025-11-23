@@ -1,0 +1,264 @@
+CONTRATO DE DESENVOLVIMENTO DE SOFTWARE
+
+CONTRATANTE: [Razão Social], pessoa jurídica de direito privado, inscrita no CNPJ sob o nº [número], com sede à Rua [endereço completo], nº [número], Bairro [bairro], Cidade [cidade], Estado [UF], CEP [CEP], Inscrição Estadual nº [número ou "Isenta"], endereço eletrônico [e-mail], telefone [número], doravante denominada CONTRATANTE, neste ato representada na forma de seus atos constitutivos por [nome completo], [nacionalidade], [estado civil], [profissão], portador do RG nº [número] [órgão expedidor]/[UF], inscrito no CPF sob o nº [número];
+
+CONTRATADA: [Razão Social], pessoa jurídica de direito privado, inscrita no CNPJ sob o nº [número], com sede à Rua [endereço completo], nº [número], Bairro [bairro], Cidade [cidade], Estado [UF], CEP [CEP], Inscrição Estadual nº [número ou "Isenta"], endereço eletrônico [e-mail], telefone [número], doravante denominada CONTRATADA, neste ato representada na forma de seus atos constitutivos por [nome completo], [nacionalidade], [estado civil], [profissão], portador do RG nº [número] [órgão expedidor]/[UF], inscrito no CPF sob o nº [número].
+
+Têm entre si justo e contratado o presente CONTRATO DE DESENVOLVIMENTO DE SOFTWARE, que se regerá pelas seguintes cláusulas e condições:
+
+CLÁUSULA PRIMEIRA - DO OBJETO
+
+1.1. O presente contrato tem por objeto o desenvolvimento, pela CONTRATADA, de software customizado, sob medida e sob encomenda, para uso específico e exclusivo da CONTRATANTE, denominado "[NOME DO SOFTWARE/SISTEMA]", conforme especificações técnicas, funcionalidades, requisitos, arquitetura, tecnologias e cronograma detalhados no ANEXO I - ESPECIFICAÇÃO TÉCNICA E ESCOPO DO PROJETO, que é parte integrante e indissociável deste contrato.
+
+1.2. O software objeto deste contrato compreende:
+a) Análise de requisitos, levantamento de necessidades, modelagem de processos e definição de especificações funcionais e técnicas;
+b) Arquitetura de software, definição de tecnologias, linguagens de programação, frameworks, banco de dados, infraestrutura e integrações;
+c) Desenvolvimento de código-fonte, programação de funcionalidades, módulos, telas, relatórios, dashboards e interfaces;
+d) Implementação de banco de dados, modelagem de dados, criação de tabelas, índices, procedures, triggers e consultas SQL;
+e) Integração com sistemas legados, APIs de terceiros, plataformas externas, gateways de pagamento, ERPs, CRMs e demais aplicações;
+f) Testes unitários, testes de integração, testes de carga, testes de segurança, testes de usabilidade e validação de qualidade (QA);
+g) Implantação do sistema, instalação, configuração, migração de dados, homologação e go-live;
+h) Documentação técnica, manual do usuário, manual de instalação, diagrams de arquitetura, documentação de APIs e código comentado;
+i) Treinamento de usuários, capacitação de equipe técnica, suporte na fase de implantação e transferência de conhecimento;
+j) [Especificar outros entregáveis: aplicativo mobile iOS/Android, painel administrativo web, API RESTful, microsserviços, chatbot, etc.].
+
+1.3. As tecnologias, linguagens, frameworks e infraestrutura utilizadas no desenvolvimento serão:
+- Linguagens de programação: [Java, Python, C#, JavaScript, TypeScript, PHP, Ruby, Go, etc.]
+- Frameworks: [Spring Boot, Django, .NET Core, Node.js, React, Angular, Vue.js, Laravel, Rails, etc.]
+- Banco de dados: [PostgreSQL, MySQL, SQL Server, Oracle, MongoDB, Redis, etc.]
+- Infraestrutura e hospedagem: [AWS, Azure, Google Cloud Platform, DigitalOcean, Heroku, servidor dedicado, on-premise, etc.]
+- Versionamento de código: [Git, GitHub, GitLab, Bitbucket, etc.]
+- Metodologia de desenvolvimento: [Scrum, Kanban, Cascata, XP, DevOps, etc.]
+
+CLÁUSULA SEGUNDA - DO ESCOPO, FUNCIONALIDADES E REQUISITOS
+
+2.1. O software a ser desenvolvido possui as seguintes funcionalidades principais:
+- [Descrever funcionalidades: módulo de cadastro de clientes, gestão de pedidos, controle de estoque, emissão de notas fiscais, relatórios gerenciais, dashboard analítico, integração com gateway de pagamento, sistema de login e autenticação, gestão de permissões e perfis de usuário, módulo financeiro, CRM, etc.]
+
+2.2. O escopo detalhado do projeto, incluindo user stories, casos de uso, diagramas UML, wireframes, protótipos, mockups, requisitos funcionais e não funcionais, encontra-se especificado no ANEXO I - ESPECIFICAÇÃO TÉCNICA E ESCOPO DO PROJETO.
+
+2.3. Requisitos não funcionais:
+a) Performance: O sistema deverá suportar [número] usuários simultâneos, com tempo de resposta inferior a [número] segundos para [percentual]% das requisições;
+b) Disponibilidade: SLA (Service Level Agreement) de [percentual, ex: 99,5%] de uptime mensal, com janelas de manutenção programadas [especificar];
+c) Segurança: Implementação de criptografia SSL/TLS, autenticação multifator (MFA), controle de acesso baseado em papéis (RBAC), proteção contra SQL Injection, XSS, CSRF, conformidade com OWASP Top 10;
+d) Escalabilidade: Arquitetura preparada para crescimento horizontal e vertical, suportando aumento de usuários, transações e volume de dados;
+e) Usabilidade: Interface intuitiva, responsiva (mobile-friendly), acessível (WCAG 2.1), compatível com navegadores modernos (Chrome, Firefox, Safari, Edge);
+f) Manutenibilidade: Código limpo, bem documentado, seguindo boas práticas (SOLID, Design Patterns), com cobertura de testes automatizados de no mínimo [percentual]%.
+
+2.4. Alterações de escopo (change requests) poderão ser solicitadas pela CONTRATANTE mediante:
+a) Formalização por escrito (e-mail ou termo aditivo), descrevendo detalhadamente a alteração desejada;
+b) Análise de impacto pela CONTRATADA: prazo adicional necessário, custo adicional, riscos, dependências;
+c) Aprovação formal pela CONTRATANTE do aditivo contratual com os novos prazos, custos e condições;
+d) Alterações de escopo que impactem prazo ou custo em mais de [percentual]% exigirão assinatura de termo aditivo.
+
+CLÁUSULA TERCEIRA - DO CRONOGRAMA E PRAZO DE DESENVOLVIMENTO
+
+3.1. O desenvolvimento do software seguirá o cronograma de [número] meses, com início em [dd/mm/aaaa] e conclusão prevista para [dd/mm/aaaa], dividido nas seguintes etapas (sprints/fases):
+
+ETAPA 1 - ANÁLISE E PLANEJAMENTO ([dd/mm/aaaa] a [dd/mm/aaaa]):
+- Levantamento de requisitos, entrevistas com stakeholders, workshops de descoberta;
+- Documentação de requisitos funcionais e técnicos;
+- Criação de personas, jornadas de usuário, wireframes e protótipos;
+- Definição de arquitetura de software, tecnologias e infraestrutura;
+- Planejamento de sprints, backlog de produto, estimativas de esforço.
+
+ETAPA 2 - DESENVOLVIMENTO DO BACKEND ([dd/mm/aaaa] a [dd/mm/aaaa]):
+- Modelagem e implementação de banco de dados;
+- Desenvolvimento de APIs RESTful, microsserviços e lógica de negócio;
+- Implementação de autenticação, autorização e segurança;
+- Integração com sistemas legados e APIs de terceiros;
+- Testes unitários e de integração.
+
+ETAPA 3 - DESENVOLVIMENTO DO FRONTEND ([dd/mm/aaaa] a [dd/mm/aaaa]):
+- Desenvolvimento de interfaces de usuário (UI), telas, formulários, dashboards;
+- Implementação de design responsivo (mobile, tablet, desktop);
+- Integração do frontend com APIs do backend;
+- Testes de usabilidade, validação de UX, ajustes de interface.
+
+ETAPA 4 - TESTES E QUALIDADE ([dd/mm/aaaa] a [dd/mm/aaaa]):
+- Testes funcionais, testes de regressão, testes de carga e performance;
+- Testes de segurança, vulnerabilidades, penetration testing;
+- Homologação pela CONTRATANTE, validação de requisitos, aceite de funcionalidades;
+- Correção de bugs, ajustes e refinamentos.
+
+ETAPA 5 - IMPLANTAÇÃO E GO-LIVE ([dd/mm/aaaa] a [dd/mm/aaaa]):
+- Instalação do software em ambiente de produção, configuração de infraestrutura;
+- Migração de dados legados, importação de bases, ETL;
+- Treinamento de usuários finais e equipe técnica;
+- Monitoramento pós-implantação, suporte intensivo, resolução de incidentes;
+- Entrega de documentação técnica, manuais e código-fonte.
+
+3.2. Os prazos acima poderão ser prorrogados mediante:
+a) Atrasos na entrega de informações, documentos, acessos a sistemas, aprovações ou feedbacks por parte da CONTRATANTE;
+b) Alterações de escopo aprovadas pelas partes, conforme cláusula 2.4;
+c) Casos fortuitos ou de força maior (desastres naturais, pandemias, greves, blecautes, etc.);
+d) Indisponibilidade de ambientes, servidores, infraestrutura ou recursos técnicos sob responsabilidade da CONTRATANTE.
+
+3.3. A CONTRATANTE deverá designar um Product Owner ou gerente de projeto responsável por:
+a) Prover informações, requisitos, documentos, especificações e esclarecimentos necessários ao desenvolvimento;
+b) Participar de reuniões de planejamento, dailys, reviews, retrospectivas e demos;
+c) Aprovar entregas, validar funcionalidades, reportar bugs e solicitar ajustes;
+d) Tomar decisões sobre prioridades, backlog, roadmap e aceite de entregas;
+e) Fornecer feedbacks tempestivos (no máximo [número] dias úteis) sobre entregas e solicitações da CONTRATADA.
+
+CLÁUSULA QUARTA - DAS OBRIGAÇÕES DA CONTRATADA
+
+4.1. A CONTRATADA obriga-se a:
+a) Desenvolver o software com qualidade, profissionalismo, seguindo boas práticas de engenharia de software (Clean Code, SOLID, Design Patterns), normas técnicas e metodologias ágeis;
+b) Alocar equipe técnica qualificada: desenvolvedores, arquitetos de software, designers UX/UI, analistas de qualidade (QA), gerente de projeto (Scrum Master/PM);
+c) Realizar reuniões periódicas com a CONTRATANTE: [diárias (daily standup), semanais (sprint review, planning), quinzenais, mensais], para acompanhamento do progresso, alinhamentos, demos e feedbacks;
+d) Manter sigilo absoluto sobre informações confidenciais, dados sensíveis, regras de negócio, estratégias, arquitetura de sistemas, bases de dados, códigos-fonte e demais informações da CONTRATANTE, conforme Lei nº 13.709/2018 (LGPD) e Lei nº 9.279/1996 (Lei de Propriedade Industrial);
+e) Implementar medidas de segurança da informação: criptografia de dados sensíveis, controle de acesso, logs de auditoria, backup automatizado, proteção contra vulnerabilidades (OWASP Top 10), conformidade com LGPD;
+f) Versionar o código-fonte em repositório Git privado, com commits organizados, branches de desenvolvimento, homologação e produção, conforme GitFlow ou metodologia acordada;
+g) Documentar o software: código comentado, documentação de APIs (Swagger/OpenAPI), diagramas de arquitetura (UML, C4 Model), manual do usuário, manual técnico, guia de instalação e deploy;
+h) Realizar testes automatizados: testes unitários (cobertura mínima de [percentual]%), testes de integração, testes end-to-end (E2E), testes de carga/performance;
+i) Prestar suporte técnico durante a fase de implantação ([número] dias/meses após go-live), incluindo correção de bugs críticos, ajustes emergenciais e esclarecimentos técnicos;
+j) Treinar [número] usuários e/ou administradores do sistema, mediante [número] sessões de treinamento de [número] horas cada, presenciais ou remotas;
+k) Entregar o código-fonte completo, banco de dados, documentação técnica e todos os artefatos do projeto ao final do desenvolvimento, conforme cláusula 5.1;
+l) Manter regularidade fiscal, tributária, previdenciária e trabalhista, emitindo Notas Fiscais de Serviços Eletrônicas (NFS-e) para cada pagamento recebido.
+
+4.2. A CONTRATADA NÃO se responsabiliza por:
+a) Problemas relacionados a hardware, redes, sistemas operacionais, navegadores desatualizados, servidores, infraestrutura e ambiente sob responsabilidade da CONTRATANTE ou de terceiros;
+b) Danos decorrentes de mau uso do sistema, alimentação errônea de dados, falta de treinamento adequado dos usuários, configurações incorretas realizadas pela CONTRATANTE;
+c) Perda de dados causada por inexistência de backups atualizados, falhas de hardware, ataques cibernéticos não previstos ou desastres naturais, salvo comprovação de culpa da CONTRATADA;
+d) Indisponibilidade do sistema causada por provedores de hospedagem, serviços de nuvem (AWS, Azure, Google Cloud), DNS, CDN, ISPs ou outros serviços de terceiros;
+e) Alterações na legislação, normas regulatórias, tributos ou requisitos legais que exijam adaptações do sistema após a entrega final, salvo contratação de manutenção evolutiva adicional.
+
+CLÁUSULA QUINTA - DOS DIREITOS DE PROPRIEDADE INTELECTUAL
+
+5.1. Os direitos patrimoniais de autor sobre o código-fonte, banco de dados, documentação técnica, arquitetura, algoritmos, interfaces, design e demais criações intelectuais desenvolvidas no âmbito deste contrato serão transferidos à CONTRATANTE após o pagamento integral do preço ajustado, conforme art. 4º, III da Lei nº 9.609/1998 (Lei de Software) e arts. 28 a 45 da Lei nº 9.610/1998 (Lei de Direitos Autorais).
+
+5.2. A CONTRATADA cederá à CONTRATANTE, em caráter definitivo, irrevogável, irretratável, total e exclusivo, todos os direitos patrimoniais sobre o software desenvolvido, incluindo:
+a) Direito de usar, executar, instalar e operar o software em quantos dispositivos, servidores, ambientes e usuários forem necessários;
+b) Direito de modificar, adaptar, customizar, atualizar, corrigir bugs, adicionar funcionalidades e evoluir o software;
+c) Direito de reproduzir, copiar, distribuir, sublicenciar e comercializar o software, no todo ou em parte;
+d) Direito de criar obras derivadas, módulos adicionais, integrações, plugins e extensões baseadas no software;
+e) Direito de transferir, vender, doar ou licenciar o software a terceiros, sem necessidade de autorização ou pagamento de royalties à CONTRATADA.
+
+5.3. A CONTRATADA conserva os direitos morais de autor sobre o software, conforme art. 24 da Lei nº 9.610/1998, podendo:
+a) Reivindicar a autoria do software, desde que não identifique informações confidenciais da CONTRATANTE;
+b) Incluir o projeto em seu portfólio, cases de sucesso, website e materiais de marketing, mediante autorização prévia da CONTRATANTE e preservação de informações sensíveis;
+c) Utilizar, em projetos futuros para outros clientes, bibliotecas, componentes, frameworks, metodologias, técnicas e conhecimentos genéricos adquiridos durante o desenvolvimento, desde que não constituam segredo industrial ou informação confidencial da CONTRATANTE.
+
+5.4. Caso o software utilize bibliotecas, frameworks, APIs, componentes de terceiros ou softwares open source (Apache, MIT, GPL, BSD, etc.), a CONTRATADA deverá:
+a) Informar à CONTRATANTE sobre todas as dependências de terceiros utilizadas, suas licenças e restrições de uso;
+b) Garantir que as licenças de softwares de terceiros permitem o uso comercial, modificação e distribuição conforme necessidades da CONTRATANTE;
+c) Evitar o uso de bibliotecas com licenças restritivas (GPL, AGPL) que possam obrigar a abertura do código-fonte do software desenvolvido, salvo expressa autorização da CONTRATANTE;
+d) Responsabilizar-se por eventuais violações de direitos autorais, licenças de software de terceiros ou patentes, indenizando a CONTRATANTE por perdas e danos decorrentes.
+
+CLÁUSULA SEXTA - DO PREÇO E FORMA DE PAGAMENTO
+
+6.1. Pelo desenvolvimento do software objeto deste contrato, a CONTRATANTE pagará à CONTRATADA o valor total de R$ [valor por extenso] (R$ [valor em números]), conforme modelo de precificação: [preço fixo fechado / time and materials / dedicação de equipe / modelo híbrido].
+
+6.2. O pagamento será realizado da seguinte forma:
+a) [Modelo de preço fixo fechado]: Pagamento em [número] parcelas vinculadas a entregas (milestones), conforme cronograma:
+   - Parcela 1: R$ [valor] no início do projeto (assinatura do contrato);
+   - Parcela 2: R$ [valor] na conclusão da Etapa 1 (Análise e Planejamento);
+   - Parcela 3: R$ [valor] na conclusão da Etapa 2 (Desenvolvimento do Backend);
+   - Parcela 4: R$ [valor] na conclusão da Etapa 3 (Desenvolvimento do Frontend);
+   - Parcela 5: R$ [valor] na homologação e aceite final (go-live).
+
+b) [Modelo Time and Materials]: Pagamento mensal de R$ [valor] por hora trabalhada, calculado conforme timesheet aprovado pela CONTRATANTE, com fechamento no [número]º dia útil do mês e pagamento até o [número]º dia útil do mês subsequente;
+
+c) [Modelo de dedicação de equipe]: Pagamento mensal de R$ [valor] pela alocação de equipe dedicada de [número] profissionais (desenvolvedores, QA, designer, PM), independentemente de entregáveis, com pagamento até o dia [número] de cada mês.
+
+6.3. Cada parcela será paga mediante:
+a) Apresentação de relatório de progresso, evidências de entrega (demos, prints, vídeos, código versionado no repositório Git) e aprovação formal pela CONTRATANTE;
+b) Emissão de Nota Fiscal de Serviços Eletrônica (NFS-e) pela CONTRATADA, devidamente preenchida, com descrição dos serviços executados;
+c) Pagamento em até [número] dias úteis após aprovação da entrega e recebimento da NFS-e, mediante [PIX/transferência bancária/boleto bancário/cheque].
+
+6.4. O atraso no pagamento superior a [número] dias acarretará:
+a) Juros de mora de 1% (um por cento) ao mês, calculados pro rata die;
+b) Multa moratória de 2% (dois por cento) sobre o valor em atraso;
+c) Correção monetária pelo IPCA/IGPM desde o vencimento até o efetivo pagamento;
+d) Suspensão dos serviços de desenvolvimento até a regularização do débito;
+e) Direito de rescisão contratual pela CONTRATADA, com cobrança proporcional dos serviços executados, multa compensatória e perdas e danos.
+
+6.5. Despesas adicionais não previstas no escopo original (viagens, hospedagem, transporte, licenças de software pagas, infraestrutura adicional, contratação de serviços de terceiros específicos solicitados pela CONTRATANTE) serão cobradas à parte, mediante orçamento prévio e aprovação formal da CONTRATANTE.
+
+CLÁUSULA SÉTIMA - DA MANUTENÇÃO E SUPORTE PÓS-IMPLANTAÇÃO
+
+7.1. A CONTRATADA prestará suporte técnico GRATUITO (período de garantia) por [número] dias/meses contados do go-live, incluindo:
+a) Correção de bugs, erros de programação, falhas de funcionamento e inconsistências identificadas no período;
+b) Esclarecimentos técnicos, orientações de uso, suporte aos usuários e administradores do sistema;
+c) Ajustes de configuração, parametrização e pequenas adaptações necessárias à operação do sistema;
+d) Atendimento por [e-mail, telefone, WhatsApp, sistema de tickets, videochamada], em horário comercial [especificar: das 9h às 18h, dias úteis], com SLA de resposta de [número] horas/dias úteis para chamados [críticos/normais/baixos].
+
+7.2. Após o período de garantia, a CONTRATANTE poderá contratar plano de manutenção e suporte continuado, mediante:
+a) Pagamento mensal de R$ [valor] por [manutenção corretiva (correção de bugs) / manutenção evolutiva (novas funcionalidades) / suporte técnico ilimitado / manutenção full (corretiva + evolutiva + suporte)];
+b) SLA (Service Level Agreement) de atendimento: [percentual]% dos chamados críticos atendidos em até [número] horas, [percentual]% dos chamados normais em até [número] dias úteis;
+c) [Número] horas mensais de desenvolvimento evolutivo incluídas, para implementação de novas funcionalidades, relatórios, integrações, melhorias de performance, etc.;
+d) Prazo de vigência do contrato de manutenção: [número] meses, renovável automaticamente, salvo manifestação contrária de qualquer das partes com [número] dias de antecedência.
+
+7.3. Manutenções evolutivas (novas funcionalidades, módulos, integrações, grandes refatorações) não incluídas no plano de manutenção serão orçadas separadamente, mediante proposta técnica e comercial da CONTRATADA e aprovação da CONTRATANTE.
+
+CLÁUSULA OITAVA - DA CONFIDENCIALIDADE E PROTEÇÃO DE DADOS
+
+8.1. As partes obrigam-se a manter sigilo absoluto sobre todas as informações confidenciais, dados pessoais, dados sensíveis, segredos industriais, regras de negócio, estratégias comerciais, bases de dados, códigos-fonte, documentação técnica e demais informações proprietárias trocadas durante a vigência deste contrato, conforme Lei nº 13.709/2018 (LGPD) e Lei nº 9.279/1996 (Lei de Propriedade Industrial).
+
+8.2. A CONTRATADA atuará como OPERADORA de dados pessoais, tratando dados exclusivamente conforme instruções da CONTRATANTE (CONTROLADORA), nos termos do art. 42 da LGPD, obrigando-se a:
+a) Tratar dados pessoais exclusivamente para as finalidades contratuais, conforme base legal aplicável (execução de contrato, legítimo interesse, consentimento, etc.);
+b) Implementar medidas técnicas e administrativas de segurança da informação: criptografia de dados em trânsito (TLS/SSL) e em repouso (AES-256), controle de acesso (RBAC), logs de auditoria, firewall, antivírus, backup automatizado, monitoramento de intrusões;
+c) Não compartilhar, vender, alugar, sublicenciar ou transferir dados pessoais a terceiros, salvo subcontratados previamente aprovados pela CONTRATANTE (ex: provedores de hospedagem, serviços de nuvem);
+d) Notificar a CONTRATANTE no prazo de [número] horas sobre incidentes de segurança, vazamentos de dados, acessos não autorizados ou violações da LGPD;
+e) Auxiliar a CONTRATANTE no atendimento a requisições de titulares de dados (acesso, correção, exclusão, portabilidade, oposição), conforme art. 18 da LGPD;
+f) Excluir ou devolver todos os dados pessoais ao término do contrato, mediante solicitação da CONTRATANTE, ressalvadas hipóteses de conservação legal (art. 16 da LGPD);
+g) Permitir auditorias, inspeções e fiscalizações pela CONTRATANTE ou por autoridades de proteção de dados (ANPD), fornecendo relatórios, evidências e documentação de conformidade.
+
+8.3. A quebra do dever de confidencialidade ou violação da LGPD acarretará responsabilização civil, administrativa e criminal da parte infratora, com indenização por perdas e danos materiais e morais, multa contratual de R$ [valor] e sujei protegção às sanções previstas no art. 52 da LGPD (multa de até 2% do faturamento, limitada a R$ 50 milhões por infração).
+
+CLÁUSULA NONA - DA RESCISÃO E PENALIDADES
+
+9.1. O presente contrato poderá ser rescindido nas seguintes hipóteses:
+a) Por mútuo acordo entre as partes (distrato), mediante termo escrito;
+b) Por denúncia unilateral, mediante notificação prévia de [número] dias, com pagamento proporcional dos serviços executados;
+c) Por descumprimento de obrigações contratuais essenciais (inadimplemento, atrasos reiterados, qualidade insatisfatória, quebra de confidencialidade);
+d) Por falência, recuperação judicial, insolvência ou encerramento das atividades de qualquer das partes;
+e) Por impossibilidade superveniente de cumprimento do contrato (força maior, caso fortuito, desastres naturais, pandemias).
+
+9.2. Em caso de rescisão por culpa da CONTRATANTE (inadimplemento, falta de fornecimento de informações, cancelamento injustificado), aplicar-se-á multa compensatória de [percentual]% sobre o saldo contratual remanescente, devida à CONTRATADA, sem prejuízo de pagamento proporcional dos serviços executados até a rescisão.
+
+9.3. Em caso de rescisão por culpa da CONTRATADA (atrasos injustificados superiores a [número] dias, qualidade insatisfatória, descumprimento de obrigações, quebra de confidencialidade), aplicar-se-á multa compensatória de [percentual]% sobre o valor total do contrato, devida à CONTRATANTE, sem prejuízo de devolução de valores pagos e indenização por perdas e danos, lucros cessantes e danos morais.
+
+CLÁUSULA DÉCIMA - DAS DISPOSIÇÕES GERAIS
+
+10.1. O presente contrato é regido pela Lei nº 9.609/1998 (Lei de Software), Lei nº 9.610/1998 (Lei de Direitos Autorais), Lei nº 13.709/2018 (Lei Geral de Proteção de Dados - LGPD), Código Civil (Lei nº 10.406/2002), Código de Defesa do Consumidor (Lei nº 8.078/1990, se aplicável) e demais legislações pertinentes.
+
+10.2. A CONTRATADA atua como prestadora de serviços autônoma, não havendo vínculo empregatício, societário ou de representação comercial entre as partes, conforme art. 5º da Lei nº 13.467/2017 e art. 966 do Código Civil.
+
+10.3. Qualquer alteração, aditamento ou modificação deste contrato somente será válida se formalizada por escrito e assinada por ambas as partes.
+
+10.4. As partes elegem o foro da Comarca de [cidade]/[UF] para dirimir quaisquer questões decorrentes deste contrato, com renúncia expressa a qualquer outro, por mais privilegiado que seja.
+
+E, por estarem assim justos e contratados, assinam o presente instrumento em 2 (duas) vias de igual teor e forma, na presença de duas testemunhas.
+
+[Cidade]/[UF], [dia] de [mês] de [ano].
+
+_______________________________
+CONTRATANTE
+[Razão Social]
+[Nome do representante legal]
+[Cargo]
+
+_______________________________
+CONTRATADA
+[Razão Social]
+[Nome do representante legal]
+[Cargo]
+
+TESTEMUNHAS:
+
+1. _______________________________
+Nome: [nome completo]
+CPF: [número]
+RG: [número]
+
+2. _______________________________
+Nome: [nome completo]
+CPF: [número]
+RG: [número]
+
+---
+
+ANEXO I - ESPECIFICAÇÃO TÉCNICA E ESCOPO DO PROJETO
+[Detalhar requisitos funcionais, casos de uso, user stories, diagramas UML, wireframes, protótipos, tecnologias, arquitetura, cronograma detalhado, critérios de aceite]

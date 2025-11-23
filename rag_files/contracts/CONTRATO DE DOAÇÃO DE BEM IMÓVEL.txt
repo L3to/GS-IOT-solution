@@ -1,0 +1,207 @@
+CONTRATO DE DOAÇÃO DE BEM IMÓVEL
+
+DOADOR: [nome completo], [nacionalidade], [estado civil], [profissão], portador da cédula de identidade RG nº [número] [órgão expedidor]/[UF], inscrito no CPF sob o nº [número], endereço eletrônico [e-mail], telefone [número], residente e domiciliado à Rua [endereço completo], nº [número], Bairro [bairro], município de [cidade]/[UF], CEP [CEP], doravante denominado DOADOR.
+
+[Se casado, incluir]: e seu cônjuge [nome completo do cônjuge], [nacionalidade], [profissão], portador da cédula de identidade RG nº [número] [órgão expedidor]/[UF], inscrito no CPF sob o nº [número].
+
+DONATÁRIO: [nome completo], [nacionalidade], [estado civil], [profissão], portador da cédula de identidade RG nº [número] [órgão expedidor]/[UF], inscrito no CPF sob o nº [número], endereço eletrônico [e-mail], telefone [número], residente e domiciliado à Rua [endereço completo], nº [número], Bairro [bairro], município de [cidade]/[UF], CEP [CEP], doravante denominado DONATÁRIO.
+
+[Se casado, incluir]: e seu cônjuge [nome completo do cônjuge], [nacionalidade], [profissão], portador da cédula de identidade RG nº [número] [órgão expedidor]/[UF], inscrito no CPF sob o nº [número].
+
+Têm entre si justo e contratado o presente CONTRATO DE DOAÇÃO DE BEM IMÓVEL, regido pelos artigos 538 a 564 do Código Civil Brasileiro (Lei nº 10.406/2002), mediante as cláusulas e condições a seguir estabelecidas:
+
+CLÁUSULA PRIMEIRA - DO OBJETO DA DOAÇÃO
+
+1.1. O DOADOR, por mera liberalidade, sem qualquer contraprestação ou obrigação do DONATÁRIO, DOA de forma [pura e simples / com encargo / modal / remuneratória / contemplativa] ao DONATÁRIO, que ACEITA, o imóvel a seguir descrito e caracterizado:
+
+TIPO DO IMÓVEL: [Terreno urbano/rural, Casa, Apartamento, Sala comercial, Galpão, Chácara, etc.]
+
+ENDEREÇO COMPLETO: Rua [logradouro completo], nº [número], [Complemento: apto, bloco, etc.], Bairro [bairro], município de [cidade], Estado [UF], CEP [CEP].
+
+ÁREA TOTAL: [número] m² (metros quadrados) [especificar: área construída, área do terreno, área privativa, área comum, etc.].
+
+MATRÍCULA: Imóvel devidamente registrado no Cartório de Registro de Imóveis da Comarca de [cidade]/[UF], sob a matrícula nº [número do registro], Livro [número], Folha [número].
+
+CONFRONTAÇÕES E DIVISAS: [Descrever confrontações conforme matrícula do imóvel: frente para [logradouro], lateral direita com [descrição], lateral esquerda com [descrição], fundos com [descrição]].
+
+CADASTRO MUNICIPAL: Imóvel cadastrado na Prefeitura Municipal de [cidade]/[UF] sob o nº [inscrição municipal/cadastro imobiliário].
+
+BENFEITORIAS: O imóvel possui as seguintes benfeitorias: [descrever: casa de alvenaria com [número] dormitórios, [número] banheiros, sala, cozinha, garagem, quintal, muros, portão, etc. / terreno sem benfeitorias / apartamento mobiliado, etc.].
+
+1.2. O imóvel objeto desta doação encontra-se [livre e desembaraçado de quaisquer ônus, gravames, hipotecas, penhoras, arrestos, sequestros, servidões, usufrutos, restrições judiciais ou administrativas / com as seguintes restrições e ônus: [especificar: hipoteca em favor de [credor], penhora nos autos do processo nº [número], etc.]].
+
+1.3. O imóvel é doado no estado em que se encontra, com todos os seus pertences, acessórios, benfeitorias, instalações, direitos e obrigações a ele inerentes, conforme laudo de vistoria [anexo / dispensado por acordo entre as partes].
+
+CLÁUSULA SEGUNDA - DA NATUREZA DA DOAÇÃO
+
+2.1. [ESCOLHER UMA DAS MODALIDADES ABAIXO]:
+
+[MODALIDADE 1 - DOAÇÃO PURA E SIMPLES]:
+A presente doação é realizada de forma pura, simples e irrevogável, por mera liberalidade do DOADOR, sem qualquer condição, encargo, restrição ou ônus ao DONATÁRIO, nos termos do art. 538 do Código Civil, transferindo-se imediatamente a plena propriedade, posse e domínio do imóvel ao DONATÁRIO.
+
+[MODALIDADE 2 - DOAÇÃO COM ENCARGO (MODAL)]:
+A presente doação é realizada com o seguinte encargo (obrigação) imposto ao DONATÁRIO:
+- [Especificar encargo: ex: "O DONATÁRIO deverá permitir que o DOADOR resida no imóvel até o fim de sua vida", "O DONATÁRIO deverá construir uma escola no imóvel no prazo de 2 anos", "O DONATÁRIO deverá pagar pensão mensal de R$ [valor] ao DOADOR", "O DONATÁRIO não poderá vender o imóvel pelo prazo de 10 anos", etc.].
+- O descumprimento do encargo ensejará a revogação da doação, conforme art. 555 do Código Civil, devendo o DONATÁRIO restituir o imóvel ao DOADOR, sem direito a retenção por benfeitorias ou indenização por perdas e danos.
+
+[MODALIDADE 3 - DOAÇÃO REMUNERATÓRIA]:
+A presente doação é realizada em remuneração (recompensa/reconhecimento) pelos serviços prestados pelo DONATÁRIO ao DOADOR, consistentes em: [descrever serviços: cuidados pessoais, assistência médica, amparo material, apoio emocional durante anos, etc.], nos termos do art. 540 do Código Civil. Embora a doação seja remuneratória, não se confunde com pagamento de serviços, constituindo ato de liberalidade e gratidão.
+
+[MODALIDADE 4 - DOAÇÃO CONTEMPLATIVA]:
+A presente doação é realizada em contemplação (homenagem/consideração) aos méritos pessoais do DONATÁRIO, em razão de [especificar motivos: grau de parentesco, amizade, afeição, gratidão, reconhecimento, etc.], nos termos dos arts. 538 e seguintes do Código Civil.
+
+[MODALIDADE 5 - DOAÇÃO COM CLÁUSULA DE REVERSÃO]:
+A presente doação é realizada com cláusula de reversão, pela qual, se o DONATÁRIO falecer antes do DOADOR, o imóvel retornará automaticamente ao patrimônio do DOADOR ou de seus herdeiros, conforme art. 547 do Código Civil, sem que isso configure rescisão ou direito a indenização aos herdeiros do DONATÁRIO.
+
+[MODALIDADE 6 - DOAÇÃO COM RESERVA DE USUFRUTO]:
+A presente doação transfere a nua-propriedade do imóvel ao DONATÁRIO, reservando o DOADOR o direito real de usufruto vitalício, conforme arts. 1390 e seguintes do Código Civil, pelo qual o DOADOR manterá o uso, gozo, posse, fruição e administração do imóvel até seu falecimento, quando então se consolidará a plena propriedade em favor do DONATÁRIO. Durante o usufruto, o DOADOR poderá residir, alugar, ceder gratuitamente ou explorar economicamente o imóvel, arcando com impostos, taxas, condomínio e despesas ordinárias de conservação.
+
+CLÁUSULA TERCEIRA - DA ACEITAÇÃO
+
+3.1. O DONATÁRIO ACEITA expressamente a presente doação, declarando estar ciente de todas as cláusulas, condições, encargos [se aplicável] e características do imóvel doado, manifestando sua concordância irrestrita com os termos deste contrato.
+
+3.2. A aceitação da doação poderá ser [expressa, conforme manifestação neste ato / tácita, presumida pelo silêncio do DONATÁRIO / feita posteriormente, mediante termo de aceitação anexo], nos termos do art. 539 do Código Civil.
+
+3.3. O DONATÁRIO declara ter vistoriado o imóvel, verificado sua documentação, estado de conservação, eventuais restrições, débitos e vícios aparentes, aceitando-o nas condições em que se encontra, sem direito a reclamações ou indenizações futuras por vícios ocultos [ressalvada a responsabilidade por evicção, se aplicável].
+
+CLÁUSULA QUARTA - DA TRANSFERÊNCIA DE PROPRIEDADE E REGISTRO
+
+4.1. A presente doação transfere imediatamente a propriedade, posse, domínio e todos os direitos reais sobre o imóvel ao DONATÁRIO [salvo se houver reserva de usufruto, cláusula de reversão ou condição suspensiva].
+
+4.2. O DONATÁRIO deverá providenciar, no prazo de até [número] dias contados da assinatura deste instrumento, o registro da doação junto ao Cartório de Registro de Imóveis competente, para fins de publicidade, oponibilidade a terceiros e plena eficácia jurídica, conforme art. 1.245 do Código Civil e Lei nº 6.015/1973 (Lei de Registros Públicos).
+
+4.3. As despesas relacionadas ao registro da doação (emolumentos cartorários, taxas, ITBI se aplicável, certidões, laudos, autenticações, reconhecimentos de firma, honorários de despachante, etc.) correrão por conta do [DONATÁRIO / DOADOR / rateadas meio a meio entre as partes].
+
+4.4. O DOADOR compromete-se a fornecer ao DONATÁRIO, nesta data ou até [número] dias úteis após:
+a) Certidão de matrícula atualizada do imóvel;
+b) Certidão negativa de débitos de IPTU e taxas municipais;
+c) Certidão negativa de débitos condominiais [se imóvel em condomínio];
+d) Certidões negativas de ônus reais, ações reais e pessoais reipersecutórias, protestos, distribuições cíveis e criminais;
+e) [Se aplicável] Autorização do cônjuge para doação, com firma reconhecida (regime de comunhão de bens);
+f) [Se aplicável] Escritura pública de aquisição anterior ou título de propriedade;
+g) Demais documentos necessários ao registro da doação.
+
+CLÁUSULA QUINTA - DAS DECLARAÇÕES DO DOADOR
+
+5.1. O DOADOR declara e garante, sob as penas da lei, que:
+a) É legítimo proprietário e possuidor do imóvel doado, tendo plenos poderes para aliená-lo por doação;
+b) O imóvel está livre e desembaraçado de quaisquer ônus, gravames, hipotecas, penhoras, restrições judiciais ou administrativas, exceto aqueles expressamente mencionados neste contrato;
+c) O imóvel não possui débitos de IPTU, taxas municipais, condomínio ou quaisquer outras obrigações vencidas até a data desta doação;
+d) O imóvel não está envolvido em processos judiciais, litígios, ações de usucapião, reivindicatórias, demarcatórias, divisórias ou quaisquer demandas que possam afetar sua propriedade;
+e) O imóvel possui toda a documentação regular, encontrando-se devidamente registrado no Cartório de Registro de Imóveis competente;
+f) [Se aplicável] Obteve anuência de seu cônjuge para realização da doação, conforme regime de bens do casamento;
+g) [Se aplicável] A doação não prejudica a legítima de herdeiros necessários (cônjuge, descendentes, ascendentes), nos termos do art. 549 do Código Civil, ou foi realizada mediante autorização expressa dos herdeiros, conforme termo anexo.
+
+5.2. Caso qualquer das declarações acima se mostre falsa, incorreta ou incompleta, o DOADOR responderá civil e criminalmente pelos danos causados ao DONATÁRIO, incluindo indenização por perdas e danos, evicção, lucros cessantes, danos morais, despesas com registro, tributos, custas processuais e honorários advocatícios.
+
+CLÁUSULA SEXTA - DOS ENCARGOS E OBRIGAÇÕES DO DONATÁRIO [SE APLICÁVEL]
+
+6.1. [Se houver encargo/cláusula modal]: O DONATÁRIO obriga-se a cumprir fielmente o seguinte encargo imposto por esta doação:
+- [Descrever detalhadamente o encargo: prazos, condições, forma de cumprimento, fiscalização, etc.].
+
+6.2. O cumprimento do encargo poderá ser exigido pelo DOADOR ou por seus herdeiros, e, em caso de interesse público ou coletivo, pelo Ministério Público, conforme art. 553 do Código Civil.
+
+6.3. O descumprimento injustificado do encargo, total ou parcial, ensejará:
+a) Revogação da doação, com restituição do imóvel ao DOADOR, conforme art. 555 do Código Civil;
+b) Obrigação de indenizar o DOADOR por perdas e danos, lucros cessantes e danos morais;
+c) Perda de todas as benfeitorias realizadas no imóvel, sem direito a retenção ou indenização;
+d) Cobrança de multa contratual de R$ [valor] por descumprimento.
+
+6.4. [Se doação com reserva de usufruto]: O DONATÁRIO, na qualidade de nu-proprietário, obriga-se a:
+a) Respeitar o direito de usufruto vitalício do DOADOR, abstendo-se de qualquer ato que prejudique ou restrinja seu uso e gozo do imóvel;
+b) Não alienar, gravar, hipotecar ou onerar o imóvel sem anuência expressa do usufrutuário (DOADOR);
+c) Arcar com impostos extraordinários, despesas de conservação extraordinária e seguros do imóvel [ou conforme pactuado entre as partes];
+d) Aguardar o falecimento do DOADOR para consolidação da plena propriedade.
+
+CLÁUSULA SÉTIMA - DAS OBRIGAÇÕES TRIBUTÁRIAS
+
+7.1. Compete ao DONATÁRIO o pagamento do Imposto sobre Transmissão Causa Mortis e Doação (ITCMD), de competência estadual, calculado sobre o valor venal do imóvel, conforme alíquota estabelecida pela legislação do Estado de [UF], no prazo legal [geralmente 30 a 60 dias da doação], conforme art. 155, I da Constituição Federal.
+
+7.2. [Se aplicável]: Caso o imóvel esteja localizado em município diverso do domicílio do DOADOR, poderá haver incidência de Imposto sobre Transmissão de Bens Imóveis (ITBI), conforme legislação municipal específica, de responsabilidade do [DONATÁRIO / DOADOR / conforme acordo].
+
+7.3. O IPTU (Imposto Predial e Territorial Urbano) e demais taxas municipais (iluminação pública, coleta de lixo, etc.) relativos ao imóvel serão de responsabilidade do [DOADOR até a data da doação e do DONATÁRIO a partir desta data / DONATÁRIO integralmente a partir da assinatura deste contrato / DOADOR enquanto perdurar o usufruto, se aplicável].
+
+7.4. [Se imóvel em condomínio]: As despesas condominiais (taxa de condomínio, fundo de reserva, rateios extraordinários, etc.) serão de responsabilidade do [DOADOR até a data da doação e do DONATÁRIO a partir desta data / DONATÁRIO integralmente / DOADOR enquanto usufrutuário].
+
+CLÁUSULA OITAVA - DA IRREVOGABILIDADE E EXCEÇÕES
+
+8.1. A presente doação é realizada em caráter IRREVOGÁVEL E IRRETRATÁVEL, não podendo o DOADOR revogar, rescindir ou anular a doação, salvo nas hipóteses legais expressamente previstas no Código Civil:
+a) Inexecução ou descumprimento de encargo (art. 555 do Código Civil);
+b) Ingratidão do DONATÁRIO (art. 557 do Código Civil);
+c) Nascimento de filho do DOADOR após a doação, se este desconhecia ou ignorava a existência do filho (art. 557 do Código Civil).
+
+8.2. Considera-se ingratidão do DONATÁRIO, autorizadora de revogação da doação:
+a) Se o DONATÁRIO atentou contra a vida do DOADOR;
+b) Se o DONATÁRIO cometeu crime de calúnia, difamação ou injúria contra o DOADOR;
+c) Se o DONATÁRIO, podendo ministrá-los, recusou ao DOADOR os alimentos de que este necessitava.
+
+8.3. A ação de revogação por ingratidão deverá ser proposta pelo DOADOR no prazo de 1 (um) ano contado do conhecimento do fato que a autorizar, ou da data da doação, conforme art. 559 do Código Civil.
+
+8.4. [Se aplicável - doação entre cônjuges]: A doação entre cônjuges poderá ser revogada por ingratidão ou em razão de separação judicial ou divórcio, conforme arts. 1.659 e 1.661 do Código Civil.
+
+CLÁUSULA NONA - DA RESPONSABILIDADE POR EVICÇÃO
+
+9.1. [Opção 1 - Com responsabilidade por evicção]: O DOADOR responde pela evicção do imóvel doado, obrigando-se a indenizar o DONATÁRIO caso este venha a ser privado total ou parcialmente da propriedade do imóvel em razão de sentença judicial que reconheça direito anterior de terceiro, vício no título de propriedade, ou por qualquer outra causa que lhe seja imputável, conforme arts. 447 a 457 do Código Civil. A indenização compreenderá o valor atual do imóvel, perdas e danos, lucros cessantes, despesas com registro, tributos, benfeitorias e honorários advocatícios.
+
+9.2. [Opção 2 - Sem responsabilidade por evicção]: As partes convencionam expressamente que o DOADOR NÃO responderá pela evicção, nos termos do art. 548 do Código Civil, assumindo o DONATÁRIO integralmente os riscos de eventual perda total ou parcial da propriedade do imóvel por direito de terceiro, vício no título, ação reivindicatória, usucapião ou qualquer outra causa, sem direito a qualquer indenização ou restituição de valores.
+
+CLÁUSULA DÉCIMA - DA COLAÇÃO E LEGÍTIMA [SE DOAÇÃO ENTRE PAIS E FILHOS]
+
+10.1. [Se aplicável]: A presente doação deverá ser conferida (colacionada) na partilha dos bens do DOADOR, por ocasião de sua sucessão (inventário), conforme art. 2.002 do Código Civil, para fins de igualdade entre herdeiros necessários, sendo considerada como adiantamento de legítima.
+
+10.2. [Alternativa - Dispensa de colação]: As partes convencionam expressamente a DISPENSA DE COLAÇÃO da presente doação, nos termos do art. 2.005 do Código Civil, desde que não ultrapasse a parte disponível do patrimônio do DOADOR (50% dos bens), não prejudicando a legítima dos demais herdeiros necessários (cônjuge, descendentes, ascendentes).
+
+10.3. Caso a doação exceda a parte disponível ou prejudique a legítima de herdeiros necessários, estes poderão exigir judicialmente a redução das disposições testamentárias ou doações, conforme art. 549 do Código Civil, restituindo-se ao monte o excedente.
+
+CLÁUSULA DÉCIMA PRIMEIRA - DAS DISPOSIÇÕES GERAIS
+
+11.1. O presente contrato é regido pelas disposições dos artigos 538 a 564 do Código Civil Brasileiro (Lei nº 10.406/2002), pela Lei de Registros Públicos (Lei nº 6.015/1973), pela legislação tributária aplicável (Constituição Federal, Código Tributário Nacional, legislação estadual e municipal) e demais normas pertinentes.
+
+11.2. A presente doação deverá ser formalizada por ESCRITURA PÚBLICA, lavrada em Cartório de Notas competente, conforme art. 108 do Código Civil e art. 215 do Código Civil, sendo este instrumento particular um PRÉ-CONTRATO ou COMPROMISSO DE DOAÇÃO, que deverá ser convertido em escritura pública para fins de registro no Cartório de Registro de Imóveis e produção de plenos efeitos legais.
+
+11.3. [Alternativa, se dispensada a escritura pública por valor do imóvel inferior a 30 salários mínimos]: Tendo em vista que o valor do imóvel doado é inferior a 30 (trinta) salários mínimos, as partes optam por formalizar a doação por instrumento particular, conforme facultado pelo art. 108 do Código Civil, com firmas reconhecidas e testemunhas, para fins de registro no Cartório de Registro de Imóveis.
+
+11.4. Fazem parte integrante e indissociável deste contrato:
+- ANEXO I: Certidão de matrícula atualizada do imóvel;
+- ANEXO II: Laudo de vistoria do imóvel [se aplicável];
+- ANEXO III: Certidões negativas de débitos, ônus e restrições;
+- ANEXO IV: Autorização/anuência do cônjuge [se aplicável];
+- ANEXO V: Termo de aceitação da doação [se aceitação posterior].
+
+11.5. As partes elegem o foro da Comarca de [cidade]/[UF], local do imóvel, para dirimir quaisquer questões decorrentes do presente contrato, com renúncia expressa a qualquer outro, por mais privilegiado que seja.
+
+E, por estarem assim justos e contratados, assinam o presente instrumento em 3 (três) vias de igual teor e forma, na presença de duas testemunhas.
+
+[Cidade]/[UF], [dia] de [mês] de [ano].
+
+_______________________________
+DOADOR
+[Nome completo]
+CPF: [número]
+
+_______________________________
+CÔNJUGE DO DOADOR [se aplicável]
+[Nome completo]
+CPF: [número]
+
+_______________________________
+DONATÁRIO
+[Nome completo]
+CPF: [número]
+
+_______________________________
+CÔNJUGE DO DONATÁRIO [se aplicável]
+[Nome completo]
+CPF: [número]
+
+TESTEMUNHAS:
+
+1. _______________________________
+Nome: [nome completo]
+CPF: [número]
+RG: [número]
+
+2. _______________________________
+Nome: [nome completo]
+CPF: [número]
+RG: [número]

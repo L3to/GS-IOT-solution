@@ -1,0 +1,220 @@
+CONTRATO DE SOCIEDADE EMPRESÁRIA LIMITADA
+
+SÓCIOS FUNDADORES:
+
+SÓCIO 1: [nome completo], [nacionalidade], [estado civil], [profissão], portador da cédula de identidade RG nº [número] [órgão expedidor]/[UF], inscrito no CPF sob o nº [número], endereço eletrônico [e-mail], telefone [número], residente e domiciliado à Rua [endereço completo], nº [número], Bairro [bairro], município de [cidade]/[UF], CEP [CEP], doravante denominado SÓCIO 1;
+
+SÓCIO 2: [nome completo], [nacionalidade], [estado civil], [profissão], portador da cédula de identidade RG nº [número] [órgão expedidor]/[UF], inscrito no CPF sob o nº [número], endereço eletrônico [e-mail], telefone [número], residente e domiciliado à Rua [endereço completo], nº [número], Bairro [bairro], município de [cidade]/[UF], CEP [CEP], doravante denominado SÓCIO 2;
+
+[Incluir demais sócios, se aplicável]
+
+Resolvem os sócios acima qualificados constituir uma SOCIEDADE EMPRESÁRIA LIMITADA, regida pelo Código Civil Brasileiro (Lei nº 10.406/2002), artigos 1.052 a 1.087, e legislação complementar aplicável, mediante as cláusulas e condições a seguir estabelecidas:
+
+CLÁUSULA PRIMEIRA - DA DENOMINAÇÃO, SEDE E OBJETO SOCIAL
+
+1.1. A sociedade girará sob a denominação social de [RAZÃO SOCIAL] LTDA., com sede e domicílio à Rua [endereço completo], nº [número], Bairro [bairro], município de [cidade], Estado [UF], CEP [CEP].
+
+1.2. A sociedade poderá, a qualquer tempo e mediante alteração contratual, abrir, fechar ou transferir filiais, sucursais, agências, escritórios, depósitos ou estabelecimentos em qualquer ponto do território nacional ou no exterior, conforme deliberação dos sócios.
+
+1.3. A sociedade tem por objeto social:
+a) [Descrever atividade principal: ex: comércio varejista de produtos eletrônicos, prestação de serviços de consultoria empresarial, desenvolvimento de software, fabricação de alimentos, construção civil, etc.];
+b) [Descrever atividades secundárias complementares];
+c) [Outras atividades correlatas ou complementares permitidas por lei].
+
+1.4. As atividades empresariais serão desenvolvidas em conformidade com a legislação vigente, normas regulamentadoras, alvarás, licenças, autorizações, registros e demais exigências dos órgãos competentes (Prefeitura, Vigilância Sanitária, Corpo de Bombeiros, ANVISA, INMETRO, Ministério da Agricultura, etc.).
+
+CLÁUSULA SEGUNDA - DO PRAZO DE DURAÇÃO
+
+2.1. O prazo de duração da sociedade é [indeterminado / determinado, pelo período de [número] anos, com início em [dd/mm/aaaa] e término em [dd/mm/aaaa]], podendo ser prorrogado mediante deliberação dos sócios.
+
+CLÁUSULA TERCEIRA - DO CAPITAL SOCIAL E QUOTAS
+
+3.1. O capital social da sociedade é de R$ [valor por extenso] (R$ [valor em números]), dividido em [número] quotas de valor nominal de R$ [valor] cada uma, totalmente subscrito e integralizado pelos sócios da seguinte forma:
+
+SÓCIO 1: [nome completo]
+- [número] quotas, no valor total de R$ [valor], correspondente a [percentual]% do capital social.
+- Integralização: [em dinheiro / em bens móveis/imóveis / em serviços / mista], conforme Termo de Integralização anexo.
+
+SÓCIO 2: [nome completo]
+- [número] quotas, no valor total de R$ [valor], correspondente a [percentual]% do capital social.
+- Integralização: [em dinheiro / em bens móveis/imóveis / em serviços / mista], conforme Termo de Integralização anexo.
+
+[Incluir demais sócios, se aplicável]
+
+3.2. A integralização do capital social deverá ser realizada:
+a) [Se em dinheiro]: Mediante depósito em conta bancária da sociedade, no ato da assinatura deste contrato ou em até [número] dias úteis após, conforme recibo de integralização;
+b) [Se em bens]: Mediante laudo de avaliação realizado por perito independente ou contador habilitado, com descrição detalhada dos bens, valores, estado de conservação e documentação de transferência de propriedade, conforme art. 1.055, §1º do Código Civil;
+c) [Se em serviços]: Mediante prestação de serviços técnicos, profissionais ou intelectuais, avaliados conforme mercado e formalizados em contrato específico, observando as restrições legais previstas no art. 1.055, §2º do Código Civil.
+
+3.3. Cada quota social confere ao seu titular o direito a voto nas deliberações sociais, proporcional ao número de quotas que possuir, bem como direito aos lucros e dividendos distribuídos pela sociedade.
+
+3.4. A cessão ou transferência de quotas a terceiros não sócios somente poderá ser realizada mediante prévia aprovação de [todos os sócios / sócios representando no mínimo [percentual]% do capital social], conforme art. 1.057 do Código Civil, assegurando-se aos sócios remanescentes o direito de preferência na aquisição.
+
+3.5. O ingresso de novos sócios ou o aumento do capital social dependerá de alteração contratual aprovada por [unanimidade / maioria qualificada de [percentual]% do capital social], conforme art. 1.071 do Código Civil.
+
+CLÁUSULA QUARTA - DA ADMINISTRAÇÃO E REPRESENTAÇÃO
+
+4.1. A administração da sociedade caberá a [um ou mais sócios / administrador não sócio], com os poderes e atribuições de gestão e representação da sociedade, podendo praticar todos os atos necessários ao seu funcionamento, exceto aqueles vedados por lei ou por este contrato.
+
+4.2. São nomeados ADMINISTRADORES da sociedade:
+- [Nome completo do Sócio 1 ou Administrador], [qualificação completa], com poderes [individuais / em conjunto / conforme especificado];
+- [Nome completo do Sócio 2 ou Administrador], [qualificação completa], com poderes [individuais / em conjunto / conforme especificado].
+
+4.3. Os administradores terão os seguintes poderes e atribuições:
+a) Representar a sociedade ativa e passivamente, em juízo ou fora dele, perante terceiros, órgãos públicos, repartições, autoridades, cartórios, bancos e instituições financeiras;
+b) Praticar todos os atos de gestão ordinária necessários ao funcionamento da sociedade: contratar, demitir, administrar pessoal, abrir contas bancárias, emitir e endossar cheques, assinar contratos, notas fiscais, documentos fiscais e contábeis;
+c) Movimentar contas bancárias, aplicações financeiras, investimentos, realizar operações de crédito, financiamentos, empréstimos, leasing, desde que [individualmente até o limite de R$ [valor] / em conjunto / com autorização prévia dos sócios];
+d) Comprar, vender, permutar, locar bens móveis e imóveis, celebrar contratos comerciais, desde que [individualmente / em conjunto / com autorização prévia dos sócios para valores superiores a R$ [valor]];
+e) Confessar, desistir, transigir, firmar compromissos arbitrais, dar e receber quitação, desde que [individualmente / em conjunto / com autorização prévia dos sócios].
+
+4.4. Ficam expressamente vedados aos administradores, sob pena de responsabilização pessoal e ilimitada, os seguintes atos:
+a) Prestar fiança, aval, endosso ou qualquer garantia em favor de terceiros, salvo em benefício da própria sociedade;
+b) Alienar, hipotecar, dar em garantia ou onerar bens imóveis da sociedade sem prévia autorização de [todos os sócios / maioria qualificada de [percentual]% do capital social];
+c) Constituir ônus reais, gravames ou garantias sobre o patrimônio da sociedade, exceto no curso normal dos negócios;
+d) Realizar operações estranhas ao objeto social ou contrárias aos interesses da sociedade;
+e) Desviar recursos, ativos ou oportunidades de negócio da sociedade em benefício próprio ou de terceiros;
+f) Contratar com a sociedade, em proveito próprio ou de terceiros, salvo mediante aprovação prévia dos demais sócios, conforme art. 1.017 do Código Civil.
+
+4.5. Os administradores respondem solidária e ilimitadamente perante a sociedade e terceiros pelos atos praticados com dolo, culpa, negligência, imprudência, imperícia, violação da lei ou do contrato social, desvio de finalidade, conflito de interesses, abuso de poder ou excesso de mandato, conforme arts. 1.016 e 1.080 do Código Civil.
+
+4.6. A remuneração dos administradores será fixada anualmente pelos sócios em Assembleia Geral, podendo consistir em pró-labore mensal de R$ [valor], participação nos lucros de [percentual]%, bônus por desempenho ou outras formas de remuneração acordadas.
+
+CLÁUSULA QUINTA - DOS DIREITOS E DEVERES DOS SÓCIOS
+
+5.1. São direitos dos sócios:
+a) Participar dos lucros e dividendos distribuídos pela sociedade, na proporção de suas quotas;
+b) Participar das deliberações sociais, exercendo o direito de voto proporcional às quotas que possuir;
+c) Fiscalizar a gestão da sociedade, consultando livros, documentos, demonstrações financeiras, contratos e demais registros contábeis;
+d) Retirar-se da sociedade mediante exercício do direito de retirada ou recesso, conforme arts. 1.029 e 1.077 do Código Civil, com apuração de haveres;
+e) Preferência na aquisição de quotas em caso de cessão a terceiros ou aumento de capital.
+
+5.2. São deveres dos sócios:
+a) Integralizar totalmente suas quotas nas condições e prazos estabelecidos;
+b) Responder pelas obrigações sociais na proporção de suas quotas, até o limite do capital social não integralizado, conforme art. 1.052 do Código Civil (responsabilidade limitada);
+c) Responder solidariamente pela integralização do capital social, conforme art. 1.052, parágrafo único do Código Civil;
+d) Não praticar atos de concorrência desleal, competição com a sociedade ou desvio de clientela, oportunidades de negócio ou recursos da sociedade;
+e) Manter sigilo sobre informações confidenciais, estratégias comerciais, segredos industriais, dados de clientes, processos, tecnologias e demais informações privilegiadas da sociedade;
+f) Agir com lealdade, boa-fé, transparência e no melhor interesse da sociedade, abstendo-se de atos lesivos, conflito de interesses ou enriquecimento ilícito;
+g) Cumprir as deliberações sociais, cláusulas contratuais, normas internas, políticas e regulamentos da sociedade.
+
+CLÁUSULA SEXTA - DAS DELIBERAÇÕES SOCIAIS
+
+6.1. As deliberações dos sócios serão tomadas em Assembleia Geral ou Reunião de Sócios, convocada mediante [edital publicado / carta registrada / e-mail com confirmação de recebimento], com antecedência mínima de [número] dias.
+
+6.2. As deliberações sociais serão tomadas por maioria de votos, calculados conforme a proporção de quotas de cada sócio, salvo nos casos em que este contrato ou a lei exigir unanimidade ou maioria qualificada.
+
+6.3. Dependem de aprovação de [todos os sócios (unanimidade) / sócios representando no mínimo [percentual, ex: 75%] do capital social]:
+a) Alteração do contrato social (mudança de nome, objeto, sede, prazo de duração);
+b) Aumento ou redução do capital social;
+c) Fusão, cisão, incorporação ou transformação da sociedade;
+d) Dissolução da sociedade;
+e) Nomeação ou destituição de administradores não sócios;
+f) Alienação, hipoteca ou oneração de bens imóveis da sociedade;
+g) Aprovação de contas e demonstrações financeiras anuais;
+h) Distribuição de lucros e dividendos.
+
+6.4. As deliberações sociais serão registradas em ata lavrada em Livro de Atas de Assembleias e Reuniões de Sócios, assinada por todos os presentes, devendo ser arquivada na Junta Comercial quando exigido por lei.
+
+CLÁUSULA SÉTIMA - DOS LUCROS, DIVIDENDOS E DISTRIBUIÇÃO DE RESULTADOS
+
+7.1. Os lucros líquidos apurados ao final de cada exercício social (encerramento em [dd/mm de cada ano]) serão distribuídos aos sócios na proporção de suas quotas, após:
+a) Dedução de prejuízos acumulados de exercícios anteriores;
+b) Constituição de reserva legal de 5% (cinco por cento) dos lucros líquidos, até o limite de 20% do capital social, conforme art. 1.193 do Código Civil e Lei nº 6.404/1976 (Lei das S.A., aplicável subsidiariamente);
+c) Constituição de reservas estatutárias, de contingências, para investimentos ou outras reservas deliberadas pelos sócios;
+d) Pagamento de tributos (IRPJ, CSLL) e demais obrigações fiscais.
+
+7.2. A distribuição de lucros será realizada [periodicidade: anual / semestral / trimestral / mensal], mediante deliberação dos sócios em Assembleia Geral, observando a disponibilidade de caixa e as necessidades de capital de giro da sociedade.
+
+7.3. Alternativamente, os sócios poderão deliberar pela retenção total ou parcial dos lucros para reinvestimento na sociedade, expansão, aquisição de ativos, pagamento de dívidas ou formação de reservas.
+
+7.4. Fica vedada a distribuição de lucros quando:
+a) Houver prejuízos acumulados de exercícios anteriores;
+b) A distribuição comprometer a solvência, liquidez ou capacidade de pagamento das obrigações da sociedade;
+c) O capital social não estiver totalmente integralizado, conforme art. 1.059 do Código Civil.
+
+7.5. Os sócios poderão realizar retiradas mensais a título de distribuição antecipada de lucros (pro labore ou retirada de lucros), desde que respaldadas por resultados positivos e aprovadas em deliberação social.
+
+CLÁUSULA OITAVA - DO EXERCÍCIO SOCIAL E DEMONSTRAÇÕES FINANCEIRAS
+
+8.1. O exercício social da sociedade terá início em [dd/mm] e término em [dd/mm] de cada ano, devendo ao final de cada exercício serem levantadas as seguintes demonstrações financeiras:
+a) Balanço Patrimonial;
+b) Demonstração do Resultado do Exercício (DRE);
+c) Demonstração de Lucros ou Prejuízos Acumulados (DLPA);
+d) Demonstração dos Fluxos de Caixa (DFC) [se aplicável];
+e) Notas Explicativas.
+
+8.2. As demonstrações financeiras deverão ser elaboradas em conformidade com as normas contábeis vigentes (NBC TG, CPC, IFRS), assinadas pelo contador responsável (CRC ativo), submetidas à aprovação dos sócios em Assembleia Geral no prazo de até [número] meses após o encerramento do exercício.
+
+8.3. Os sócios terão direito de fiscalizar, a qualquer tempo, os livros contábeis, fiscais, contratos, extratos bancários, balancetes, relatórios gerenciais e demais documentos da sociedade, mediante solicitação por escrito ao administrador.
+
+CLÁUSULA NONA - DA RETIRADA, EXCLUSÃO E FALECIMENTO DE SÓCIO
+
+9.1. O sócio poderá retirar-se da sociedade mediante:
+a) Denúncia unilateral (direito de retirada), notificando os demais sócios com antecedência mínima de [número] dias, com apuração de haveres, conforme art. 1.029 do Código Civil;
+b) Acordo entre os sócios (distrato), mediante alteração contratual;
+c) Recesso em caso de modificação do contrato social, fusão, cisão ou incorporação, conforme art. 1.077 do Código Civil.
+
+9.2. O sócio poderá ser excluído da sociedade nas seguintes hipóteses:
+a) Por justa causa, conforme art. 1.085 do Código Civil: falta grave, violação contratual, atos de improbidade, incapacidade superveniente, concorrência desleal, prejuízo ao interesse social;
+b) Por deliberação de sócios representando no mínimo [percentual, ex: 75%] do capital social, mediante reunião ou assembleia especialmente convocada para este fim, com defesa prévia do sócio excluendo;
+c) Judicialmente, mediante ação de exclusão de sócio proposta pelos demais sócios, com fundamento nos arts. 1.030 e 1.085 do Código Civil.
+
+9.3. Em caso de falecimento de sócio:
+a) [Opção 1 - Dissolução parcial]: A sociedade continuará com os sócios remanescentes, liquidando-se as quotas do sócio falecido mediante apuração de haveres e pagamento aos herdeiros/sucessores, conforme art. 1.028 do Código Civil;
+b) [Opção 2 - Ingresso de herdeiros]: Os herdeiros ou sucessores do sócio falecido poderão ingressar na sociedade, assumindo as quotas do de cujus, desde que aprovados por [todos os sócios / maioria qualificada de [percentual]%], mediante alteração contratual.
+
+9.4. A apuração de haveres do sócio retirante, excluído ou falecido será realizada com base no valor patrimonial da sociedade apurado em balanço especial levantado na data do evento, deduzidos os prejuízos, dívidas e contingências, calculando-se o valor proporcional às quotas do sócio, conforme art. 1.031 do Código Civil.
+
+9.5. O pagamento dos haveres será efetuado em até [número] parcelas mensais, com início em [número] dias após a apuração, com atualização monetária [e juros de [percentual]% ao mês / sem juros], mediante [depósito bancário / boletos / cheques].
+
+CLÁUSULA DÉCIMA - DA DISSOLUÇÃO E LIQUIDAÇÃO
+
+10.1. A sociedade se dissolverá nas seguintes hipóteses:
+a) Término do prazo de duração [se prazo determinado];
+b) Consenso unânime dos sócios;
+c) Deliberação de sócios representando no mínimo [percentual]% do capital social;
+d) Falência, insolvência ou impossibilidade de realização do objeto social;
+e) Unipessoalidade não recomposta no prazo de 180 dias, conforme art. 1.033, IV do Código Civil;
+f) Por decisão judicial, em ação de dissolução proposta por qualquer sócio.
+
+10.2. Dissolvida a sociedade, proceder-se-á à liquidação, mediante nomeação de liquidante [sócio / terceiro de confiança dos sócios], que representará a sociedade, realizará o ativo, pagará o passivo e, havendo saldo remanescente (acervo líquido), distribuirá aos sócios na proporção de suas quotas, conforme arts. 1.102 a 1.112 do Código Civil.
+
+10.3. Encerrada a liquidação, o liquidante convocará os sócios para assembleia final, prestará contas, apresentará o balanço final de liquidação, e, aprovado pelos sócios, providenciará o arquivamento da extinção da sociedade na Junta Comercial e baixa no CNPJ junto à Receita Federal.
+
+CLÁUSULA DÉCIMA PRIMEIRA - DAS DISPOSIÇÕES GERAIS
+
+11.1. O presente contrato social é regido pelo Código Civil Brasileiro (Lei nº 10.406/2002), artigos 1.052 a 1.087, pela Lei das Sociedades Anônimas (Lei nº 6.404/1976) aplicável subsidiariamente, pela Lei de Registro de Empresas (Lei nº 8.934/1994) e demais legislações aplicáveis.
+
+11.2. Os sócios obrigam-se a cumprir fielmente todas as cláusulas e condições deste contrato social, respondendo solidariamente pela integralização do capital social e pelas obrigações sociais até o limite do capital não integralizado.
+
+11.3. Qualquer alteração deste contrato social deverá ser formalizada mediante instrumento de alteração contratual, aprovado pelos sócios conforme quórum estabelecido, arquivado na Junta Comercial e registrado no CNPJ.
+
+11.4. Fica eleito o foro da Comarca de [cidade]/[UF], sede da sociedade, para dirimir quaisquer dúvidas ou controvérsias decorrentes deste contrato social, com renúncia expressa a qualquer outro, por mais privilegiado que seja.
+
+E, por estarem assim justos e contratados, assinam o presente instrumento em [número] vias de igual teor e forma, na presença de duas testemunhas.
+
+[Cidade]/[UF], [dia] de [mês] de [ano].
+
+_______________________________
+SÓCIO 1
+[Nome completo]
+CPF: [número]
+
+_______________________________
+SÓCIO 2
+[Nome completo]
+CPF: [número]
+
+[Incluir assinaturas de demais sócios, se aplicável]
+
+TESTEMUNHAS:
+
+1. _______________________________
+Nome: [nome completo]
+CPF: [número]
+RG: [número]
+
+2. _______________________________
+Nome: [nome completo]
+CPF: [número]
+RG: [número]
