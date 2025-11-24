@@ -1,5 +1,10 @@
 # ContratAI - Assistente Jurídico Inteligente
 
+## Integrantes
+- Francesco Monteiro di Benedetto - RM557313 - Github [FrancesoDiBenedetto](https://github.com/FrancescoDiBenedetto)
+- Luiz Felipe Campos Da Silva - RM 555591 - Github [L3to](https://github.com/L3to)
+- Samuel Patrick Yariwake - RM556461 - Github [samuelpy1](https://github.com/samuelpy1)
+
 > **FIAP - Global Solution 2024/2025**  
 > **Tema:** O Futuro do Trabalho  
 > **Curso:** Análise e Desenvolvimento de Sistemas
